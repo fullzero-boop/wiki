@@ -5,3 +5,9 @@
 - Создан репозиторий wiki
 - Настроен LightRAG с DeepSeek v4-pro + bge-m3
 - Установлен Ollama + bge-m3
+
+## [2026-06-09] setup | Initial wiki + LightRAG integration
+- Wiki repo created on GitHub (fullzero-boop/wiki)
+- Scripts deployed: ingest.py, wiki-sync.py, wiki-linker.py
+- LightRAG configured with DeepSeek v4-pro + bge-m3
+- Root partition expanded from 100G to 162G
