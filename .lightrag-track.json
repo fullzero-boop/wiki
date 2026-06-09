@@ -23,5 +23,10 @@
     "lightrag_doc_id": "doc-53afb353994599d05966e4bc0eb54654",
     "title": "Tsilya",
     "ingested_at": "2026-06-09T20:45:46.510143"
+  },
+  "Belfort.md": {
+    "lightrag_doc_id": "doc-c8c3ab51635f05194e2b6fd40ce38ec3",
+    "title": "Belfort",
+    "ingested_at": "2026-06-09T20:47:43.023620"
   }
 }

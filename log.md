@@ -18,3 +18,5 @@
 ## [2026-06-09] ingest | Sinabon
 ## [2026-06-09] ingest | Tsilya
 ## [2026-06-09] ingest | Paladin
+## [2026-06-09] ingest | Belfort
+## [2026-06-09] ingest | Belfort
