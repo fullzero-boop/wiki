@@ -3,6 +3,7 @@
 Добро пожаловать в мою Wiki.
 
 ## Структура
+- [[Projects]]
 - [[Gost]]
 - [[Hermes]]
 - [[Belfort]]
