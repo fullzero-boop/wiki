@@ -33,5 +33,10 @@
     "lightrag_doc_id": "doc-846e9f6a8712612e86e088a4190d8181",
     "title": "Hermes",
     "ingested_at": "2026-06-09T20:49:24.486755"
+  },
+  "Gost.md": {
+    "lightrag_doc_id": "doc-0230ad5248201d5e60fe9f2f644602fa",
+    "title": "Gost",
+    "ingested_at": "2026-06-09T20:50:21.028644"
   }
 }
