@@ -3,5 +3,10 @@
     "lightrag_doc_id": "doc-bb3071084e8b90b2895736e52b0fe512",
     "title": "Bishop Agent",
     "ingested_at": "2026-06-09T19:50:51.603922"
+  },
+  "Jarvis.md": {
+    "lightrag_doc_id": "doc-7c0e81e1471f8da2dcdcaef7bfcd6c23",
+    "title": "Jarvis",
+    "ingested_at": "2026-06-09T20:43:04.343314"
   }
 }

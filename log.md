@@ -13,3 +13,4 @@
 - Root partition expanded from 100G to 162G
 
 ## [2026-06-09] ingest | Bishop Agent
+## [2026-06-09] ingest | Jarvis
