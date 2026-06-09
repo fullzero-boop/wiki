@@ -32,3 +32,17 @@
 - Hermes уже имел доступ
 
 Теперь каждый агент может запрашивать LightRAG API для поиска по wiki.
+
+## 10.06.2026 — Shared Memory API для всех агентов
+
+Развернул Shared Memory API — единая память для всех агентов:
+- **API:** HTTP на порту 18889
+- **Путь:** http://172.22.0.1:18889 (из контейнеров), localhost:18889 (с хоста)
+- **Файл:** /data/shared-memory/SHARED_MEMORY.md
+- **Сервис:** systemd shared-memory.service (автостарт)
+- **Endpoints:**
+  - POST /write — запись {"agent":"X","task":"...","result":"...","facts":"..."}
+  - GET /read?lines=N — чтение последних N записей
+  - GET /health — проверка
+
+Все 8 агентов получили секцию "Shared Memory" в SOUL.md. Каждый пишет туда результаты задач.
