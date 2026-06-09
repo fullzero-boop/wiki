@@ -3,6 +3,7 @@
 Добро пожаловать в мою Wiki.
 
 ## Структура
+- [[Sinabon]]
 - [[Shadow]]
 - [[Jarvis]]
 - [[Bishop Agent]]
