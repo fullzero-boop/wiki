@@ -25,3 +25,10 @@
 ## [2026-06-09] ingest | Projects
 ## [2026-06-09] ingest | Infrastructure
 ## [2026-06-09] ingest | Infrastructure
+## 10.06.2026 — Wiki подключена всем агентам
+
+Добавил секцию "База знаний (Wiki + LightRAG)" в SOUL.md для всех агентов:
+- jarvis, sinabon, tsilya, paladin, shadow, belfort, gost
+- Hermes уже имел доступ
+
+Теперь каждый агент может запрашивать LightRAG API для поиска по wiki.
