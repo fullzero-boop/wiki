@@ -3,6 +3,7 @@
 Добро пожаловать в мою Wiki.
 
 ## Структура
+- [[Paladin]]
 - [[Tsilya]]
 - [[Sinabon]]
 - [[Shadow]]
