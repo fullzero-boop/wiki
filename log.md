@@ -23,3 +23,5 @@
 ## [2026-06-09] ingest | Hermes
 ## [2026-06-09] ingest | Gost
 ## [2026-06-09] ingest | Projects
+## [2026-06-09] ingest | Infrastructure
+## [2026-06-09] ingest | Infrastructure

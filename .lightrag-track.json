@@ -43,5 +43,10 @@
     "lightrag_doc_id": "doc-d9317030bb2f78a27da6f1d0580fa11c",
     "title": "Projects",
     "ingested_at": "2026-06-09T20:51:43.496317"
+  },
+  "Infrastructure.md": {
+    "lightrag_doc_id": "doc-84869bbf6a635552c5b75f846c169ae6",
+    "title": "Infrastructure",
+    "ingested_at": "2026-06-09T20:53:22.383386"
   }
 }
