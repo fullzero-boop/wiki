@@ -28,5 +28,10 @@
     "lightrag_doc_id": "doc-c8c3ab51635f05194e2b6fd40ce38ec3",
     "title": "Belfort",
     "ingested_at": "2026-06-09T20:48:13.119222"
+  },
+  "Hermes.md": {
+    "lightrag_doc_id": "doc-846e9f6a8712612e86e088a4190d8181",
+    "title": "Hermes",
+    "ingested_at": "2026-06-09T20:49:24.486755"
   }
 }

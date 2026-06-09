@@ -3,6 +3,7 @@
 Добро пожаловать в мою Wiki.
 
 ## Структура
+- [[Hermes]]
 - [[Belfort]]
 - [[Paladin]]
 - [[Tsilya]]
