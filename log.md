@@ -11,3 +11,5 @@
 - Scripts deployed: ingest.py, wiki-sync.py, wiki-linker.py
 - LightRAG configured with DeepSeek v4-pro + bge-m3
 - Root partition expanded from 100G to 162G
+
+## [2026-06-09] ingest | Bishop Agent
