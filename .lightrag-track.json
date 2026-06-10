@@ -58,5 +58,10 @@
     "lightrag_doc_id": "doc-e252f018baccca20d804ca217cf87d27",
     "title": "Tsilya",
     "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Hermes-report.md": {
+    "lightrag_doc_id": "doc-78349645a3e304315057f1be35ecea0e",
+    "title": "Hermes-report",
+    "ingested_at": "2026-06-10T05:00:00"
   }
 }
