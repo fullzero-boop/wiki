@@ -1,3 +1,9 @@
-# Paladin Agent
+# Paladin
 
-Paladin - контент-креатор. Telegram: @Paladin3_bot. Модель: DeepSeek v4-pro. Роль: создание контента, дополняет [[Jarvis]]. Член контент-команды [[Jarvis]]. Координируется через [[Shadow]]. Работает в контейнере paladin (hermes-final:latest).
+**Роль:** Контент-креатор
+**Telegram:** @Paladin3_bot
+**Модель:** DeepSeek v4-pro
+
+Член контент-команды [[Jarvis]]. Работает с [[Sinabon]] и [[Tsilya]].
+
+[[Hermes]] консультирует по контент-стратегии и воронкам. Координируется через [[Shadow]].

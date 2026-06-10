@@ -1,3 +1,10 @@
-# Jarvis Agent
+# Jarvis
 
-Jarvis - AI-контент-креатор, лидер контент-команды. Telegram: @Casper135Bot. Модель: DeepSeek v4-pro. Роль: создание контента, управление командой [[Sinabon]]/[[Tsilya]]/[[Paladin]]. Координируется через [[Shadow]]. Работает в Docker-контейнере jarvis (hermes-final:latest) на сервере 100.107.127.17.
+**Роль:** AI-контент-креатор, лидер контент-команды
+**Telegram:** @Casper135Bot
+**Модель:** DeepSeek v4-pro
+
+Управляет командой [[Sinabon]], [[Tsilya]], [[Paladin]]. Координируется через [[Shadow]]. Работает с [[Hermes]] над маркетинговыми воронками и контент-планом.
+
+**Сервер:** evgeniy-5, Docker, LightRAG, DeepSeek v4-pro.
+**Wiki:** ведёт заметки в Obsidian, синхронизирует через Git.

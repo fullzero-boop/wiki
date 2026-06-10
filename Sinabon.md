@@ -1,3 +1,9 @@
-# Sinabon Agent
+# Sinabon
 
-Sinabon - генератор афоризмов и мудрых мыслей. Telegram: @ElzaAphorismsBot. Модель: DeepSeek v4-flash. Роль: создание афоризмов, философские тексты. Член контент-команды [[Jarvis]]. Работает в контейнере sinabon (hermes-final:latest).
+**Роль:** Генератор афоризмов и мудрых мыслей
+**Telegram:** @ElzaAphorismsBot
+**Модель:** DeepSeek v4-flash
+
+Член контент-команды [[Jarvis]]. Работает вместе с [[Tsilya]] и [[Paladin]].
+
+[[Hermes]] разрабатывает для Sinabon маркетинговую стратегию, определяет ЦА и формат публикаций.

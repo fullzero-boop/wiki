@@ -1,3 +1,9 @@
-# Tsilya Agent
+# Tsilya (Циля)
 
-Tsilya (Циля) - агент с одесским колоритом. Telegram: @OdesskieMansiBot. Модель: DeepSeek v4-flash. Роль: юмор, одесские истории, развлекательный контент. Член контент-команды [[Jarvis]]. Работает в контейнере tsilya (hermes-final:latest).
+**Роль:** Агент с одесским колоритом
+**Telegram:** @OdesskieMansiBot
+**Модель:** DeepSeek v4-flash
+
+Член контент-команды [[Jarvis]]. Создаёт юмористический контент вместе с [[Sinabon]] и [[Paladin]].
+
+[[Hermes]] помогает с позиционированием и форматом публикаций.
