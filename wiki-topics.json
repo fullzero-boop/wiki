@@ -1,13 +1,16 @@
 {
-  "general": [
-    "general",
-    "misc",
-    "other",
-    "разное",
-    "общее"
+  "agents": [
+    "agent", "агент", "telegram", "бот", "bot", "deepseek",
+    "belfort", "bishop", "gost", "hermes", "jarvis",
+    "paladin", "shadow", "sinabon", "tsilya", "циля"
   ],
-  "": [
-    "инфраструктура",
-    "сервера"
+  "infrastructure": [
+    "infrastructure", "инфраструктура", "сервер", "server",
+    "docker", "tailscale", "proxy", "прокси", "redis",
+    "backup", "бекап", "wireguard"
+  ],
+  "projects": [
+    "project", "проект", "проекты", "albion", "protonmail",
+    "saas", "client", "biz", "бизнес"
   ]
 }
