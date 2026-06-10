@@ -10,7 +10,7 @@ LIGHTRAG_DIR = "/data/lightrag/project"
 TOPICS_FILE = WIKI_DIR / "wiki-topics.json"
 TRACK_FILE = WIKI_DIR / ".lightrag-track.json"
 
-DEEPSEEK_KEY = "sk-a89d8ca7c3b5490c8545a6b58993e47c"
+DEEPSEEK_KEY = "sk-6bb449bc23ae485d902eb57932d2dcf4"
 DEEPSEEK_MODEL = "deepseek-v4-pro"
 
 DEFAULT_TOPICS = {
@@ -193,20 +193,21 @@ def sync_all():
     """Re-ingest all wiki .md files into LightRAG (content update only)."""
     import time
     track = load_track()
-    for md_file in sorted(WIKI_DIR.glob("*.md")):
+    for md_file in sorted(WIKI_DIR.rglob("*.md")):
+        rel_path = str(md_file.relative_to(WIKI_DIR))
         name = md_file.name
         if name in ("index.md", "log.md", ".lightrag-track.json"):
             continue
         content = md_file.read_text()
         title = md_file.stem
-        print(f"  Syncing: {name}")
+        print(f"  Syncing: {rel_path}")
 
-        if name in track:
-            old_id = track[name]["lightrag_doc_id"]
+        if rel_path in track:
+            old_id = track[rel_path]["lightrag_doc_id"]
             print(f"    Updating doc_id={old_id[:16]}")
 
-        asyncio.run(insert_lightrag(content, title, name))
-        print(f"    Done: {name}")
+        asyncio.run(insert_lightrag(content, title, rel_path))
+        print(f"    Done: {rel_path}")
         time.sleep(1)
 
 def main():
