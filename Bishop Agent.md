@@ -1,3 +1,3 @@
 # Bishop Agent
 
-Bishop - страховочный AI-агент на OpenClaw. Работает на MacBook Air, имеет прямой SSH-доступ к серверу 100.107.127.17. Задачи: мониторинг, восстановление агентов, управление памятью и Wiki.
+Bishop - цифровой страж и страховочный агент. Модель: DeepSeek. Роль: мониторинг и восстановление [[Shadow]], [[Jarvis]], [[Gost]], [[Hermes]], [[Belfort]], [[Paladin]], [[Sinabon]], [[Tsilya]]. Прямой доступ к серверу через Tailscale и WireGuard.
