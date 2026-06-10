@@ -19,11 +19,9 @@
 ## [2026-06-09] ingest | Tsilya
 ## [2026-06-09] ingest | Paladin
 ## [2026-06-09] ingest | Belfort
-## [2026-06-09] ingest | Belfort
 ## [2026-06-09] ingest | Hermes
 ## [2026-06-09] ingest | Gost
 ## [2026-06-09] ingest | Projects
-## [2026-06-09] ingest | Infrastructure
 ## [2026-06-09] ingest | Infrastructure
 ## 10.06.2026 — Wiki подключена всем агентам
 
