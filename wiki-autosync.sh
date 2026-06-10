@@ -17,7 +17,7 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] === Wiki Auto-Sync ==="
 
 # 1. Git pull (fetch latest from GitHub)
 echo "--- Git pull ---"
-git pull origin master 2>&1 || echo "WARN: git pull failed (will retry next cycle)"
+git pull origin main 2>&1 || echo "WARN: git pull failed (will retry next cycle)"
 
 # 2. Check for deleted files
 echo "--- Check deleted files ---"
@@ -142,7 +142,7 @@ echo "--- Git commit ---"
 git add .lightrag-track.json log.md 2>/dev/null
 if ! git diff --cached --quiet; then
     git commit -m "auto-sync: wiki ↔ LightRAG synced at $(date '+%Y-%m-%d %H:%M')" --quiet
-    git push origin master 2>&1 || echo "WARN: git push failed"
+    git push origin main 2>&1 || echo "WARN: git push failed"
     echo "  Committed and pushed"
 else
     echo "  No changes to commit"
