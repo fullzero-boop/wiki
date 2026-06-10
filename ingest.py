@@ -178,7 +178,8 @@ def create_wiki_page(title, content, source_url=""):
     page_dir.mkdir(parents=True, exist_ok=True)
     page_path = page_dir / f"{title}.md"
     if page_path.exists():
-        page_path.write_text(page_path.read_text() + f"\n\n---\n\n{content}")
+        print(f"  WARN: {page_path.name} exists, overwriting")
+        page_path.write_text(f"# {title}\n\n{content}\n")
     else:
         page_path.write_text(f"# {title}\n\n{content}\n")
     if source_url:
@@ -187,11 +188,38 @@ def create_wiki_page(title, content, source_url=""):
     return page_path
 
 
+
+def sync_all():
+    """Re-ingest all wiki .md files into LightRAG (content update only)."""
+    import time
+    track = load_track()
+    for md_file in sorted(WIKI_DIR.glob("*.md")):
+        name = md_file.name
+        if name in ("index.md", "log.md", ".lightrag-track.json"):
+            continue
+        content = md_file.read_text()
+        title = md_file.stem
+        print(f"  Syncing: {name}")
+
+        if name in track:
+            old_id = track[name]["lightrag_doc_id"]
+            print(f"    Updating doc_id={old_id[:16]}")
+
+        asyncio.run(insert_lightrag(content, title, name))
+        print(f"    Done: {name}")
+        time.sleep(1)
+
 def main():
+    if len(sys.argv) >= 2 and sys.argv[1] == "--sync":
+        print("Syncing all wiki files to LightRAG...")
+        sync_all()
+        return
+
     if len(sys.argv) < 2:
         print("Usage: ingest.py <title>")
         print("       ingest.py --file <path> <title>")
         print("       ingest.py --url <url> <title>")
+        print("       ingest.py --sync")
         sys.exit(1)
 
     args = sys.argv[1:]

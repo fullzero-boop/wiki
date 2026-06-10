@@ -163,6 +163,9 @@
   },
   "active": "3e05abf6747e6dd3",
   "lastOpenFiles": [
+    "agent-notes/hermes-system-report.md",
+    "Wiki.md",
+    "raw/2026-06-10-wiki.md",
     "Инфраструктура сервера.md",
     "raw/2026-06-10-инфраструктура-сервера.md",
     "raw",
@@ -189,9 +192,6 @@
     "Infrastructure.md",
     "Projects.md",
     "Gost.md",
-    "Hermes.md",
-    "Belfort.md",
-    "Paladin.md",
-    "Tsilya.md"
+    "Hermes.md"
   ]
 }
