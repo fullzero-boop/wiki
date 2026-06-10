@@ -1,67 +1,67 @@
 {
-  "Belfort.md": {
+  "index.md": {
+    "lightrag_doc_id": "doc-9a3953041a4157de817a9e305b1812fb",
+    "title": "Wiki",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "agents/Belfort.md": {
     "lightrag_doc_id": "doc-78264bcf9df56263f632c695dcdf7006",
     "title": "Belfort",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Bishop.md": {
+  "agents/Bishop.md": {
     "lightrag_doc_id": "doc-5c9c831a33dc0059ca919b9d339f2dcb",
     "title": "Bishop",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Gost.md": {
+  "agents/Gost.md": {
     "lightrag_doc_id": "doc-4b188a9ed184ef4a2911cd8b546a7fce",
     "title": "Gost",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Hermes.md": {
+  "agents/Hermes.md": {
     "lightrag_doc_id": "doc-d2d845918ed7cd08e57993ddf1f4a2e8",
     "title": "Hermes",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Infrastructure.md": {
+  "infrastructure/Infrastructure.md": {
     "lightrag_doc_id": "doc-f9d0c1968cbad53ea263d7f5839f9911",
     "title": "Infrastructure",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Jarvis.md": {
+  "agents/Jarvis.md": {
     "lightrag_doc_id": "doc-33843b6f3fde7019998abecca925e94e",
     "title": "Jarvis",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Paladin.md": {
+  "agents/Paladin.md": {
     "lightrag_doc_id": "doc-1e03b289a2a7db3dcbb6e103ddd23544",
     "title": "Paladin",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Projects.md": {
+  "projects/Projects.md": {
     "lightrag_doc_id": "doc-52d7eb163a8e546c6b20d586d93ffeda",
     "title": "Projects",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Shadow.md": {
+  "agents/Shadow.md": {
     "lightrag_doc_id": "doc-a1e45d60f9fc929965b3ce781b0b9b4d",
     "title": "Shadow",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Sinabon.md": {
+  "agents/Sinabon.md": {
     "lightrag_doc_id": "doc-4bdfb09c922935e1e008ec5d3d031d81",
     "title": "Sinabon",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Tsilya.md": {
+  "agents/Tsilya.md": {
     "lightrag_doc_id": "doc-e252f018baccca20d804ca217cf87d27",
     "title": "Tsilya",
     "ingested_at": "2026-06-10T05:00:00"
   },
-  "Проверка связи.md": {
+  "agents/Проверка связи.md": {
     "lightrag_doc_id": "doc-f9b73b6cb548fdb3feba7f01abee9348",
     "title": "Проверка связи",
-    "ingested_at": "2026-06-10T05:00:00"
-  },
-  "index.md": {
-    "lightrag_doc_id": "doc-9a3953041a4157de817a9e305b1812fb",
-    "title": "Wiki",
     "ingested_at": "2026-06-10T05:00:00"
   }
 }
