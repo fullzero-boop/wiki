@@ -1,62 +1,62 @@
 {
-  "Jarvis.md": {
-    "lightrag_doc_id": "doc-7c0e81e1471f8da2dcdcaef7bfcd6c23",
-    "title": "Jarvis",
-    "ingested_at": "2026-06-09T20:43:04.343314"
-  },
-  "Shadow.md": {
-    "lightrag_doc_id": "doc-615b25d2f49190a5eacf2b20c587f818",
-    "title": "Shadow",
-    "ingested_at": "2026-06-09T20:43:56.713734"
-  },
-  "Sinabon.md": {
-    "lightrag_doc_id": "doc-7ba8ed9a8dfa40c6e63b39a495cdbd89",
-    "title": "Sinabon",
-    "ingested_at": "2026-06-09T20:44:37.853256"
-  },
-  "Tsilya.md": {
-    "lightrag_doc_id": "doc-53afb353994599d05966e4bc0eb54654",
-    "title": "Tsilya",
-    "ingested_at": "2026-06-09T20:45:46.510143"
-  },
   "Belfort.md": {
-    "lightrag_doc_id": "doc-c8c3ab51635f05194e2b6fd40ce38ec3",
+    "lightrag_doc_id": "doc-78264bcf9df56263f632c695dcdf7006",
     "title": "Belfort",
-    "ingested_at": "2026-06-09T20:48:13.119222"
-  },
-  "Hermes.md": {
-    "lightrag_doc_id": "doc-846e9f6a8712612e86e088a4190d8181",
-    "title": "Hermes",
-    "ingested_at": "2026-06-09T20:49:24.486755"
-  },
-  "Gost.md": {
-    "lightrag_doc_id": "doc-0230ad5248201d5e60fe9f2f644602fa",
-    "title": "Gost",
-    "ingested_at": "2026-06-09T20:50:21.028644"
-  },
-  "Projects.md": {
-    "lightrag_doc_id": "doc-d9317030bb2f78a27da6f1d0580fa11c",
-    "title": "Projects",
-    "ingested_at": "2026-06-09T20:51:43.496317"
-  },
-  "Infrastructure.md": {
-    "lightrag_doc_id": "doc-84869bbf6a635552c5b75f846c169ae6",
-    "title": "Infrastructure",
-    "ingested_at": "2026-06-09T20:54:40.947223"
-  },
-  "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0441\u0432\u044f\u0437\u0438.md": {
-    "lightrag_doc_id": "doc-6ce6aa1c3640fe4f37a63351e2ab5b81",
-    "title": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0441\u0432\u044f\u0437\u0438",
-    "ingested_at": "2026-06-10T04:28:17.859253"
-  },
-  "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435: \u043a\u0440\u043e\u0441\u0441-\u0441\u0441\u044b\u043b\u043a\u0438 \u0430\u0433\u0435\u043d\u0442\u043e\u0432.md": {
-    "lightrag_doc_id": "doc-03e1c4d0bb7cf7b855343a7f68470bb4",
-    "title": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435: \u043a\u0440\u043e\u0441\u0441-\u0441\u0441\u044b\u043b\u043a\u0438 \u0430\u0433\u0435\u043d\u0442\u043e\u0432",
-    "ingested_at": "2026-06-10T04:36:54.147669"
+    "ingested_at": "2026-06-10T05:00:00"
   },
   "Bishop.md": {
-    "lightrag_doc_id": "doc-bb3071084e8b90b2895736e52b0fe512",
+    "lightrag_doc_id": "doc-5c9c831a33dc0059ca919b9d339f2dcb",
     "title": "Bishop",
-    "ingested_at": "2026-06-09T19:50:51.603922"
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Gost.md": {
+    "lightrag_doc_id": "doc-4b188a9ed184ef4a2911cd8b546a7fce",
+    "title": "Gost",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Hermes.md": {
+    "lightrag_doc_id": "doc-d2d845918ed7cd08e57993ddf1f4a2e8",
+    "title": "Hermes",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Infrastructure.md": {
+    "lightrag_doc_id": "doc-f9d0c1968cbad53ea263d7f5839f9911",
+    "title": "Infrastructure",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Jarvis.md": {
+    "lightrag_doc_id": "doc-33843b6f3fde7019998abecca925e94e",
+    "title": "Jarvis",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Paladin.md": {
+    "lightrag_doc_id": "doc-1e03b289a2a7db3dcbb6e103ddd23544",
+    "title": "Paladin",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Projects.md": {
+    "lightrag_doc_id": "doc-52d7eb163a8e546c6b20d586d93ffeda",
+    "title": "Projects",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Shadow.md": {
+    "lightrag_doc_id": "doc-a1e45d60f9fc929965b3ce781b0b9b4d",
+    "title": "Shadow",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Sinabon.md": {
+    "lightrag_doc_id": "doc-4bdfb09c922935e1e008ec5d3d031d81",
+    "title": "Sinabon",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Tsilya.md": {
+    "lightrag_doc_id": "doc-e252f018baccca20d804ca217cf87d27",
+    "title": "Tsilya",
+    "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Проверка связи.md": {
+    "lightrag_doc_id": "doc-f9b73b6cb548fdb3feba7f01abee9348",
+    "title": "Проверка связи",
+    "ingested_at": "2026-06-10T05:00:00"
   }
 }
