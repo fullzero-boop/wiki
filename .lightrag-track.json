@@ -1,1 +1,77 @@
-{}
+{
+  "Hermes-report.md": {
+    "title": "Hermes-report",
+    "lightrag_doc_id": "doc-78349645a3e304315057f1be35ecea0e",
+    "name": "Hermes-report.md"
+  },
+  "agents/Belfort.md": {
+    "title": "Belfort",
+    "lightrag_doc_id": "doc-78264bcf9df56263f632c695dcdf7006",
+    "name": "Belfort.md"
+  },
+  "agents/Bishop.md": {
+    "title": "Bishop",
+    "lightrag_doc_id": "doc-5c9c831a33dc0059ca919b9d339f2dcb",
+    "name": "Bishop.md"
+  },
+  "agents/Gost.md": {
+    "title": "Gost",
+    "lightrag_doc_id": "doc-4b188a9ed184ef4a2911cd8b546a7fce",
+    "name": "Gost.md"
+  },
+  "agents/Hermes.md": {
+    "title": "Hermes",
+    "lightrag_doc_id": "doc-d2d845918ed7cd08e57993ddf1f4a2e8",
+    "name": "Hermes.md"
+  },
+  "agents/Jarvis.md": {
+    "title": "Jarvis",
+    "lightrag_doc_id": "doc-33843b6f3fde7019998abecca925e94e",
+    "name": "Jarvis.md"
+  },
+  "agents/Paladin.md": {
+    "title": "Paladin",
+    "lightrag_doc_id": "doc-1e03b289a2a7db3dcbb6e103ddd23544",
+    "name": "Paladin.md"
+  },
+  "agents/Shadow.md": {
+    "title": "Shadow",
+    "lightrag_doc_id": "doc-a1e45d60f9fc929965b3ce781b0b9b4d",
+    "name": "Shadow.md"
+  },
+  "agents/Sinabon.md": {
+    "title": "Sinabon",
+    "lightrag_doc_id": "doc-4bdfb09c922935e1e008ec5d3d031d81",
+    "name": "Sinabon.md"
+  },
+  "agents/Tsilya.md": {
+    "title": "Tsilya",
+    "lightrag_doc_id": "doc-e252f018baccca20d804ca217cf87d27",
+    "name": "Tsilya.md"
+  },
+  "index.md": {
+    "title": "index",
+    "lightrag_doc_id": "doc-54d5fb80704e8129e113a2c111b5c59b",
+    "name": "index.md"
+  },
+  "infrastructure/Infrastructure.md": {
+    "title": "Infrastructure",
+    "lightrag_doc_id": "doc-4f824e997e0c445b0797a4e599df721a",
+    "name": "Infrastructure.md"
+  },
+  "infrastructure/Memory-System.md": {
+    "title": "Memory-System",
+    "lightrag_doc_id": "doc-54f80f804dfa0d71963476e1666dcf34",
+    "name": "Memory-System.md"
+  },
+  "log.md": {
+    "title": "log",
+    "lightrag_doc_id": "doc-f95aa013e09353d0fc8e3618d6ed388a",
+    "name": "log.md"
+  },
+  "projects/Projects.md": {
+    "title": "Projects",
+    "lightrag_doc_id": "doc-a27fa223f12dfdebdbb1238a88819588",
+    "name": "Projects.md"
+  }
+}
