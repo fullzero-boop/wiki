@@ -58,10 +58,5 @@
     "lightrag_doc_id": "doc-e252f018baccca20d804ca217cf87d27",
     "title": "Tsilya",
     "ingested_at": "2026-06-10T05:00:00"
-  },
-  "agents/Проверка связи.md": {
-    "lightrag_doc_id": "doc-f9b73b6cb548fdb3feba7f01abee9348",
-    "title": "Проверка связи",
-    "ingested_at": "2026-06-10T05:00:00"
   }
 }
