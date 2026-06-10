@@ -58,5 +58,10 @@
     "lightrag_doc_id": "doc-f9b73b6cb548fdb3feba7f01abee9348",
     "title": "Проверка связи",
     "ingested_at": "2026-06-10T05:00:00"
+  },
+  "Инфраструктура сервера.md": {
+    "lightrag_doc_id": "doc-f9d0c1968cbad53ea263d7f5839f9911",
+    "title": "Инфраструктура сервера",
+    "ingested_at": "2026-06-10T05:18:09.970717"
   }
 }
