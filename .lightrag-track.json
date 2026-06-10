@@ -1,53 +1,53 @@
 {
   "Hermes-report.md": {
-    "title": "Hermes-report",
     "lightrag_doc_id": "doc-78349645a3e304315057f1be35ecea0e",
-    "name": "Hermes-report.md"
+    "title": "Hermes-report",
+    "ingested_at": "2026-06-10T07:00:04.591699"
   },
   "agents/Belfort.md": {
-    "title": "Belfort",
     "lightrag_doc_id": "doc-78264bcf9df56263f632c695dcdf7006",
-    "name": "Belfort.md"
+    "title": "Belfort",
+    "ingested_at": "2026-06-10T07:00:05.627297"
   },
   "agents/Bishop.md": {
-    "title": "Bishop",
     "lightrag_doc_id": "doc-5c9c831a33dc0059ca919b9d339f2dcb",
-    "name": "Bishop.md"
+    "title": "Bishop",
+    "ingested_at": "2026-06-10T07:00:06.652505"
   },
   "agents/Gost.md": {
-    "title": "Gost",
     "lightrag_doc_id": "doc-4b188a9ed184ef4a2911cd8b546a7fce",
-    "name": "Gost.md"
+    "title": "Gost",
+    "ingested_at": "2026-06-10T07:00:07.677515"
   },
   "agents/Hermes.md": {
-    "title": "Hermes",
     "lightrag_doc_id": "doc-d2d845918ed7cd08e57993ddf1f4a2e8",
-    "name": "Hermes.md"
+    "title": "Hermes",
+    "ingested_at": "2026-06-10T07:00:08.703284"
   },
   "agents/Jarvis.md": {
-    "title": "Jarvis",
     "lightrag_doc_id": "doc-33843b6f3fde7019998abecca925e94e",
-    "name": "Jarvis.md"
+    "title": "Jarvis",
+    "ingested_at": "2026-06-10T07:00:09.728862"
   },
   "agents/Paladin.md": {
-    "title": "Paladin",
     "lightrag_doc_id": "doc-1e03b289a2a7db3dcbb6e103ddd23544",
-    "name": "Paladin.md"
+    "title": "Paladin",
+    "ingested_at": "2026-06-10T07:00:10.763255"
   },
   "agents/Shadow.md": {
-    "title": "Shadow",
     "lightrag_doc_id": "doc-a1e45d60f9fc929965b3ce781b0b9b4d",
-    "name": "Shadow.md"
+    "title": "Shadow",
+    "ingested_at": "2026-06-10T07:00:11.792573"
   },
   "agents/Sinabon.md": {
-    "title": "Sinabon",
     "lightrag_doc_id": "doc-4bdfb09c922935e1e008ec5d3d031d81",
-    "name": "Sinabon.md"
+    "title": "Sinabon",
+    "ingested_at": "2026-06-10T07:00:12.825013"
   },
   "agents/Tsilya.md": {
-    "title": "Tsilya",
     "lightrag_doc_id": "doc-e252f018baccca20d804ca217cf87d27",
-    "name": "Tsilya.md"
+    "title": "Tsilya",
+    "ingested_at": "2026-06-10T07:00:13.852301"
   },
   "index.md": {
     "title": "index",
@@ -55,14 +55,14 @@
     "name": "index.md"
   },
   "infrastructure/Infrastructure.md": {
-    "title": "Infrastructure",
     "lightrag_doc_id": "doc-4f824e997e0c445b0797a4e599df721a",
-    "name": "Infrastructure.md"
+    "title": "Infrastructure",
+    "ingested_at": "2026-06-10T07:00:14.913357"
   },
   "infrastructure/Memory-System.md": {
-    "title": "Memory-System",
     "lightrag_doc_id": "doc-54f80f804dfa0d71963476e1666dcf34",
-    "name": "Memory-System.md"
+    "title": "Memory-System",
+    "ingested_at": "2026-06-10T07:00:15.939189"
   },
   "log.md": {
     "title": "log",
@@ -70,8 +70,8 @@
     "name": "log.md"
   },
   "projects/Projects.md": {
-    "title": "Projects",
     "lightrag_doc_id": "doc-a27fa223f12dfdebdbb1238a88819588",
-    "name": "Projects.md"
+    "title": "Projects",
+    "ingested_at": "2026-06-10T07:00:16.965402"
   }
 }
