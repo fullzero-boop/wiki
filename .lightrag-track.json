@@ -1,9 +1,4 @@
 {
-  "Bishop Agent.md": {
-    "lightrag_doc_id": "doc-bb3071084e8b90b2895736e52b0fe512",
-    "title": "Bishop Agent",
-    "ingested_at": "2026-06-09T19:50:51.603922"
-  },
   "Jarvis.md": {
     "lightrag_doc_id": "doc-7c0e81e1471f8da2dcdcaef7bfcd6c23",
     "title": "Jarvis",
@@ -49,14 +44,19 @@
     "title": "Infrastructure",
     "ingested_at": "2026-06-09T20:54:40.947223"
   },
-  "Проверка связи.md": {
+  "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0441\u0432\u044f\u0437\u0438.md": {
     "lightrag_doc_id": "doc-6ce6aa1c3640fe4f37a63351e2ab5b81",
-    "title": "Проверка связи",
+    "title": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0441\u0432\u044f\u0437\u0438",
     "ingested_at": "2026-06-10T04:28:17.859253"
   },
-  "Обновление: кросс-ссылки агентов.md": {
+  "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435: \u043a\u0440\u043e\u0441\u0441-\u0441\u0441\u044b\u043b\u043a\u0438 \u0430\u0433\u0435\u043d\u0442\u043e\u0432.md": {
     "lightrag_doc_id": "doc-03e1c4d0bb7cf7b855343a7f68470bb4",
-    "title": "Обновление: кросс-ссылки агентов",
+    "title": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435: \u043a\u0440\u043e\u0441\u0441-\u0441\u0441\u044b\u043b\u043a\u0438 \u0430\u0433\u0435\u043d\u0442\u043e\u0432",
     "ingested_at": "2026-06-10T04:36:54.147669"
+  },
+  "Bishop.md": {
+    "lightrag_doc_id": "doc-bb3071084e8b90b2895736e52b0fe512",
+    "title": "Bishop",
+    "ingested_at": "2026-06-09T19:50:51.603922"
   }
 }
