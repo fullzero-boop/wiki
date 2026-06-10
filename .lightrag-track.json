@@ -7,37 +7,37 @@
   "agents/Belfort.md": {
     "lightrag_doc_id": "doc-78264bcf9df56263f632c695dcdf7006",
     "title": "Belfort",
-    "ingested_at": "2026-06-10T05:31:56.852981"
+    "ingested_at": "2026-06-10T05:48:09.098876"
   },
   "agents/Bishop.md": {
     "lightrag_doc_id": "doc-5c9c831a33dc0059ca919b9d339f2dcb",
     "title": "Bishop",
-    "ingested_at": "2026-06-10T05:31:57.885225"
+    "ingested_at": "2026-06-10T05:48:10.116854"
   },
   "agents/Gost.md": {
     "lightrag_doc_id": "doc-4b188a9ed184ef4a2911cd8b546a7fce",
     "title": "Gost",
-    "ingested_at": "2026-06-10T05:31:58.900756"
+    "ingested_at": "2026-06-10T05:48:11.136394"
   },
   "agents/Hermes.md": {
     "lightrag_doc_id": "doc-d2d845918ed7cd08e57993ddf1f4a2e8",
     "title": "Hermes",
-    "ingested_at": "2026-06-10T05:31:59.917048"
+    "ingested_at": "2026-06-10T05:48:12.160991"
   },
   "infrastructure/Infrastructure.md": {
     "lightrag_doc_id": "doc-f9d0c1968cbad53ea263d7f5839f9911",
     "title": "Infrastructure",
-    "ingested_at": "2026-06-10T05:32:06.076914"
+    "ingested_at": "2026-06-10T05:48:18.318276"
   },
   "agents/Jarvis.md": {
     "lightrag_doc_id": "doc-33843b6f3fde7019998abecca925e94e",
     "title": "Jarvis",
-    "ingested_at": "2026-06-10T05:32:00.934825"
+    "ingested_at": "2026-06-10T05:48:13.182598"
   },
   "agents/Paladin.md": {
     "lightrag_doc_id": "doc-1e03b289a2a7db3dcbb6e103ddd23544",
     "title": "Paladin",
-    "ingested_at": "2026-06-10T05:32:01.953204"
+    "ingested_at": "2026-06-10T05:48:14.202919"
   },
   "projects/Projects.md": {
     "lightrag_doc_id": "doc-a27fa223f12dfdebdbb1238a88819588",
@@ -47,21 +47,21 @@
   "agents/Shadow.md": {
     "lightrag_doc_id": "doc-a1e45d60f9fc929965b3ce781b0b9b4d",
     "title": "Shadow",
-    "ingested_at": "2026-06-10T05:32:02.972615"
+    "ingested_at": "2026-06-10T05:48:15.219868"
   },
   "agents/Sinabon.md": {
     "lightrag_doc_id": "doc-4bdfb09c922935e1e008ec5d3d031d81",
     "title": "Sinabon",
-    "ingested_at": "2026-06-10T05:32:03.993370"
+    "ingested_at": "2026-06-10T05:48:16.275781"
   },
   "agents/Tsilya.md": {
     "lightrag_doc_id": "doc-e252f018baccca20d804ca217cf87d27",
     "title": "Tsilya",
-    "ingested_at": "2026-06-10T05:32:05.053334"
+    "ingested_at": "2026-06-10T05:48:17.294103"
   },
   "Hermes-report.md": {
     "lightrag_doc_id": "doc-78349645a3e304315057f1be35ecea0e",
     "title": "Hermes-report",
-    "ingested_at": "2026-06-10T05:31:55.833246"
+    "ingested_at": "2026-06-10T05:48:08.065930"
   }
 }
