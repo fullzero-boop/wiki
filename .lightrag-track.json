@@ -63,5 +63,10 @@
     "lightrag_doc_id": "doc-78349645a3e304315057f1be35ecea0e",
     "title": "Hermes-report",
     "ingested_at": "2026-06-10T05:48:08.065930"
+  },
+  "infrastructure/Memory-System.md": {
+    "lightrag_doc_id": "doc-54f80f804dfa0d71963476e1666dcf34",
+    "title": "Memory-System",
+    "ingested_at": "2026-06-10T05:52:00.909379"
   }
 }
