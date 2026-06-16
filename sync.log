@@ -212,3 +212,11 @@
 [2026-06-16 11:30:23] Syncing: tools/account-automation-toolkit.md (title=account-automation-toolkit)
 [2026-06-16 11:30:23]   OK: doc_id=insert_20260616_1130
 [2026-06-16 11:30:25] Sync complete: 51 files synced
+Traceback (most recent call last):
+  File "/data/lightrag/wiki/wiki-sync.py", line 88, in <module>
+    sync()
+    ~~~~^^
+  File "/data/lightrag/wiki/wiki-sync.py", line 32, in sync
+    deleted = [k for k in track if k not in existing]
+                          ^^^^^
+UnboundLocalError: cannot access local variable 'track' where it is not associated with a value
