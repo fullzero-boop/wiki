@@ -6,7 +6,7 @@ model_gateway.py — HTTP-прокси между агентом и DeepSeek + O
   1. Агент шлёт запрос на model_gateway
   2. Семантический кэш: похожий вопрос уже был? → ответ из кэша (0 токенов)
   3. Ollama fallback: "привет/да/ок/ну"? → Ollama qwen2.5:3b (бесплатно)
-  4. Роутер: простой → deepseek-chat, сложный → deepseek-reasoner
+  4. Роутер: ML-классификатор → deepseek-chat / deepseek-reasoner / ollama / hardcoded
   5. Ответ кэшируется
 
 Запуск:
@@ -25,6 +25,8 @@ import sqlite3
 import sys
 import hashlib
 import time
+import pickle
+import numpy as np
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.request import Request, urlopen
 from urllib.error import URLError
@@ -147,7 +149,51 @@ def ollama_completion(messages, model="qwen2.5:3b"):
         return None
 
 
-# --- Логика роутинга ---
+# --- ML Router ---
+
+class MLRouter:
+    """ML-based model router replacing keyword heuristics."""
+    def __init__(self, model_path="/root/wiki/agent-notes/router_model.pkl"):
+        self.model = None
+        self.vec = None
+        self.classes = None
+        if os.path.exists(model_path):
+            try:
+                with open(model_path, "rb") as f:
+                    data = pickle.load(f)
+                    self.vec = data["vectorizer"]
+                    self.model = data["classifier"]
+                    self.classes = data["classes"]
+                log.info("🤖 ML Router loaded (%d classes)", len(self.classes))
+            except Exception as e:
+                log.warning("ML Router load error: %s", e)
+
+    def predict(self, text: str) -> str:
+        """Возвращает метку: hardcoded | ollama | deepseek-chat | deepseek-reasoner"""
+        if self.model is None:
+            return self._fallback(text)
+        try:
+            X = self.vec.transform([text])
+            return self.model.predict(X)[0]
+        except Exception as e:
+            return self._fallback(text)
+
+    @staticmethod
+    def _fallback(prompt):
+        p = prompt.lower().strip()
+        if len(p) < 5 and p in ("привет","да","нет","ок","ну","ага","спасибо","пока"):
+            return "hardcoded"
+        if len(p) < 60:
+            return "ollama"
+        if any(w in p for w in ["напиши","код","программа","объясни","анализ","план","концепция"]):
+            return "deepseek-reasoner"
+        return "deepseek-chat"
+
+
+_router = MLRouter()
+
+
+# --- Логика роутинга (сохранены для fallback) ---
 
 HARD_PATTERNS = re.compile(
     r"(анализ|оптимизируй|оптимизация|рефакторинг|архитектур"
@@ -199,6 +245,7 @@ def route_model(messages) -> tuple:
     """
     Возвращает (model_name, strategy)
     strategy: "deepseek-chat", "deepseek-reasoner", "ollama", "hardcoded"
+    Использует ML-классификатор с keyword fallback.
     """
     text = ""
     for msg in reversed(messages):
@@ -217,32 +264,18 @@ def route_model(messages) -> tuple:
     if text_lower in HARDCODED_RESPONSES:
         return text_lower, "hardcoded"
 
-    # Ollama fallback — для коротких тривиальных фраз
-    if is_ollama_candidate(messages, text_lower) and not HARD_PATTERNS.search(text):
+    # ML-роутер
+    ml_label = _router.predict(text)
+
+    # Маппинг ML-меток в (model, strategy)
+    if ml_label == "hardcoded":
+        return text_lower, "hardcoded"
+    elif ml_label == "ollama":
         return "ollama", "qwen2.5:3b"
-
-    # Короткие сообщения (< 3 слов, < 15 символов) — почти всегда чат
-    # Но если короткое сообщение содержит сложное ключевое слово — всё равно reasoner
-    if len(text.split()) < 3 and len(text) < 15:
-        if not HARD_PATTERNS.search(text):
-            return "deepseek-chat", "deepseek-chat"
-
-    # Известные простые фразы — только целые слова
-    words = set(re.sub(r"[^\w\s]", "", text_lower).split())
-    for phrase in EASY_WORDS:
-        if phrase in words:
-            return "deepseek-chat", "deepseek-chat"
-
-    if HARD_PATTERNS.search(text):
+    elif ml_label == "deepseek-reasoner":
         return "deepseek-reasoner", "deepseek-reasoner"
-
-    if (text_lower.endswith("?") or text_lower.endswith("?")):
-        return ("deepseek-reasoner", "deepseek-reasoner") if len(text) > 80 else ("deepseek-chat", "deepseek-chat")
-
-    if len(text) > 200:
-        return "deepseek-reasoner", "deepseek-reasoner"
-
-    return "deepseek-chat", "deepseek-chat"
+    else:
+        return "deepseek-chat", "deepseek-chat"
 
 
 # --- HTTP Gateway ---
@@ -362,12 +395,12 @@ def main():
     if not DEEPSEEK_API_KEY:
         log.warning("⚠️ DEEPSEEK_API_KEY не задан — только Ollama и кэш!")
 
-    log.info("⚡ Model Gateway v2 (cache + Ollama fallback)")
+    log.info("⚡ Model Gateway v3 (ML Router)")
     log.info("   Port: %d", args.port)
     log.info("   Cache: %s (sim threshold: %.2f)", CACHE_DB, CACHE_SIMILARITY)
     log.info("   Ollama: %s → qwen2.5:3b", OLLAMA_BASE)
     log.info("   DeepSeek: %s", DEEPSEEK_BASE)
-    log.info("   Routes: hardcoded → ollama → chat → reasoner")
+    log.info("   Routes: hardcoded → ML router → ollama → chat → reasoner")
 
     HTTPServer(("0.0.0.0", args.port), RouterHandler).serve_forever()
 
