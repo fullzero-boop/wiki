@@ -220,3 +220,11 @@ Traceback (most recent call last):
     deleted = [k for k in track if k not in existing]
                           ^^^^^
 UnboundLocalError: cannot access local variable 'track' where it is not associated with a value
+Traceback (most recent call last):
+  File "/data/lightrag/wiki/wiki-sync.py", line 88, in <module>
+    sync()
+    ~~~~^^
+  File "/data/lightrag/wiki/wiki-sync.py", line 32, in sync
+    deleted = [k for k in track if k not in existing]
+                          ^^^^^
+UnboundLocalError: cannot access local variable 'track' where it is not associated with a value
