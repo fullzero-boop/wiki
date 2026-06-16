@@ -3,3 +3,4 @@
 *secret*
 *password*
 *.env
+__pycache__/
