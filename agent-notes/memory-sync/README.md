@@ -1,12 +1,12 @@
-# 🧠 Agent Memory Sync — 2026-06-16 17:25 UTC
+# 🧠 Agent Memory Sync — 2026-06-16 17:30 UTC
 
 Автоматическая синхронизация памяти агентов в общий wiki/Obsidian.
 
-Новых фактов с последнего синка: **0**
+Новых фактов с последнего синка: **1**
 
 ## Агенты
 
-- [Belfort](belfort.md) — 6 фактов
+- [Belfort](belfort.md) — 7 фактов
 - [Gost](gost.md) — 46 фактов
 - [Hermes](hermes.md) — 13 фактов
 - [Jarvis](jarvis.md) — 29 фактов
