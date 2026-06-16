@@ -2,12 +2,19 @@
 """Hermes GraphMemory — entity graph on ChromaDB.
 
 Hooks:
-  hermes_graph.py session_start   → loads graph for agent context
-  hermes_graph.py extract <text>  → extracts entities from LLM response
+  hermes_graph.py session_start   -> loads graph for agent context
+  hermes_graph.py extract <text>  -> extracts entities from LLM response
 """
 import os, sys, json, re, textwrap, hashlib, uuid, time
 
-# ── config ──────────────────────────────────────────────────────────────────
+# -- ensure PYTHONPATH includes our packages --
+_PP = os.environ.get("PYTHONPATH", "")
+_OUR_PATHS = ["/root/.hermes/python-packages", "/root/wiki/agent-notes"]
+for _p in _OUR_PATHS:
+    if _p not in _PP.split(":") and os.path.isdir(_p):
+        sys.path.insert(0, _p)
+
+# -- config --
 AGENT_NAME  = os.environ.get("AGENT_NAME", "unknown")
 CHROMA_DIR  = os.environ.get("HERMES_GRAPH_DIR", "/root/.hermes/graph_db")
 MODEL       = os.environ.get("LLM_MODEL", "deepseek-chat")
@@ -19,7 +26,7 @@ try:
 except ImportError as e:
     _import_err = str(e)
 
-# ── helpers ─────────────────────────────────────────────────────────────────
+# -- helpers --
 def _get_client():
     return chromadb.PersistentClient(
         path=CHROMA_DIR,
@@ -33,14 +40,14 @@ def _ensure_collections(cli):
     except Exception:
         e = cli.create_collection(
             name="entities",
-            metadata={"hnsw:space": "cosine", "description": f"{AGENT_NAME} entities"},
+            metadata={"hnsw:space": "cosine", "description": AGENT_NAME + " entities"},
         )
     try:
         r = cli.get_collection("relations")
     except Exception:
         r = cli.create_collection(
             name="relations",
-            metadata={"hnsw:space": "cosine", "description": f"{AGENT_NAME} relations"},
+            metadata={"hnsw:space": "cosine", "description": AGENT_NAME + " relations"},
         )
     return e, r
 
@@ -48,10 +55,10 @@ def _entity_id(name):
     return hashlib.md5(name.lower().strip().encode()).hexdigest()
 
 def _relation_id(subj, pred, obj):
-    raw = f"{subj}|{pred}|{obj}"
+    raw = subj + "|" + pred + "|" + obj
     return hashlib.md5(raw.lower().encode()).hexdigest()
 
-# ── entity extraction via LLM ───────────────────────────────────────────────
+# -- entity extraction via LLM --
 def _extract_entities_from_llm(text):
     """Use DeepSeek to extract entities + relations from text."""
     api_key = os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("OPENAI_API_KEY")
@@ -60,20 +67,19 @@ def _extract_entities_from_llm(text):
         return []
 
     import urllib.request
-    prompt = textwrap.dedent(f"""\
+    prompt = textwrap.dedent("""\
         Extract entities and relationships from the text below.
-        Return ONLY valid JSON array: [{{"subject": "...", "predicate": "...", "object": "..."}}]
-        Text: {text[:3000]}
-    """)
+        Return ONLY valid JSON array: [{"subject": "...", "predicate": "...", "object": "..."}]
+        Text: """ + text[:3000])
     body = json.dumps({
         "model": MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.1, "max_tokens": 1024,
     }).encode()
     req = urllib.request.Request(
-        f"{base}/chat/completions",
+        base + "/chat/completions",
         data=body,
-        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        headers={"Authorization": "Bearer " + api_key, "Content-Type": "application/json"},
         method="POST",
     )
     try:
@@ -85,19 +91,19 @@ def _extract_entities_from_llm(text):
         content = re.sub(r"\s*```$", "", content)
         return json.loads(content)
     except Exception as exc:
-        print(f"[graph] LLM extraction error: {exc}", file=sys.stderr)
+        print("[graph] LLM extraction error: " + str(exc), file=sys.stderr)
         return []
 
-# ── session_start hook ──────────────────────────────────────────────────────
+# -- session_start hook --
 def cmd_session_start():
     if _import_err:
-        print(f"[graph] chromadb unavailable: {_import_err}", file=sys.stderr)
+        print("[graph] chromadb unavailable: " + _import_err, file=sys.stderr)
         return
     cli = _get_client()
     col_entities, col_relations = _ensure_collections(cli)
     count_e = col_entities.count()
     count_r = col_relations.count()
-    print(f"🧠 [{AGENT_NAME}] GraphMemory: {count_e} entities, {count_r} relationships")
+    print("[" + AGENT_NAME + "] GraphMemory: " + str(count_e) + " entities, " + str(count_r) + " relationships")
 
     if count_e == 0:
         return  # nothing yet
@@ -108,9 +114,9 @@ def cmd_session_start():
         m.get("name", "") for m in (all_e.get("metadatas") or [])
     ))
     if names:
-        print(f"📊 Known entities: {', '.join(names[:15])}")
+        print("Known entities: " + ", ".join(names[:15]))
         if len(names) > 15:
-            print(f"   … and {len(names) - 15} more")
+            print("  ... and " + str(len(names) - 15) + " more")
 
     # Show top relations
     if count_r > 0:
@@ -118,16 +124,16 @@ def cmd_session_start():
         rels = []
         for midx, md in enumerate(all_r.get("metadatas") or []):
             if md:
-                rels.append(f"{md.get('subject','?')} → {md.get('predicate','?')} → {md.get('object','?')}")
+                rels.append(md.get("subject","?") + " -> " + md.get("predicate","?") + " -> " + md.get("object","?"))
         if rels:
-            print(f"🔗 Relations ({len(rels)}):")
+            print("Relations (" + str(len(rels)) + "):")
             for r in rels[:10]:
-                print(f"   {r}")
+                print("   " + r)
 
-# ── extract hook ────────────────────────────────────────────────────────────
+# -- extract hook --
 def cmd_extract(text=None):
     if _import_err:
-        print(f"[graph] chromadb unavailable: {_import_err}", file=sys.stderr)
+        print("[graph] chromadb unavailable: " + _import_err, file=sys.stderr)
         return
     if not text:
         text = os.environ.get("HERMES_RESPONSE", "")
@@ -156,11 +162,11 @@ def cmd_extract(text=None):
         try:
             col_r.upsert(
                 ids=[rel_id],
-                documents=[f"{subj} {pred} {obj}"],
+                documents=[subj + " " + pred + " " + obj],
                 metadatas=[{"subject": subj, "predicate": pred, "object": obj, "agent": AGENT_NAME}],
             )
         except Exception as exc:
-            print(f"[graph] relation upsert error: {exc}", file=sys.stderr)
+            print("[graph] relation upsert error: " + str(exc), file=sys.stderr)
 
     # upsert entities
     for eid, ename in entities_seen.items():
@@ -171,11 +177,11 @@ def cmd_extract(text=None):
                 metadatas=[{"name": ename, "agent": AGENT_NAME}],
             )
         except Exception as exc:
-            print(f"[graph] entity upsert error: {exc}", file=sys.stderr)
+            print("[graph] entity upsert error: " + str(exc), file=sys.stderr)
 
-    print(f"[graph] Extracted {len(triples)} relations, {len(entities_seen)} entities")
+    print("[graph] Extracted " + str(len(triples)) + " relations, " + str(len(entities_seen)) + " entities")
 
-# ── entrypoint ──────────────────────────────────────────────────────────────
+# -- entrypoint --
 if __name__ == "__main__":
     args = sys.argv[1:]
     if not args:
@@ -189,12 +195,5 @@ if __name__ == "__main__":
         text = " ".join(args[1:]) if len(args) > 1 else None
         cmd_extract(text)
     else:
-        print(f"Unknown command: {cmd}", file=sys.stderr)
+        print("Unknown command: " + cmd, file=sys.stderr)
         sys.exit(1)
-
-# ── ensure PYTHONPATH includes our packages ─────────────────────────────────
-_PP = os.environ.get("PYTHONPATH", "")
-_OUR_PATHS = ["/root/.hermes/python-packages", "/root/wiki/agent-notes"]
-for _p in _OUR_PATHS:
-    if _p not in _PP.split(":") and os.path.isdir(_p):
-        sys.path.insert(0, _p)
