@@ -74,8 +74,11 @@ def route_model(messages) -> str:
 
     text_lower = text.lower().strip()
 
-    if len(text) < 15:
-        return "deepseek-chat"
+    # Короткие сообщения (< 3 слов, < 15 символов) — почти всегда чат
+    # Но если короткое сообщение содержит сложное ключевое слово — всё равно reasoner
+    if len(text.split()) < 3 and len(text) < 15:
+        if not HARD_PATTERNS.search(text):
+            return "deepseek-chat"
 
     # Известные простые фразы — только целые слова
     words = set(re.sub(r"[^\w\s]", "", text_lower).split())
