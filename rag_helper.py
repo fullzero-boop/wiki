@@ -16,7 +16,9 @@ import json, os, hashlib, re, urllib.request, urllib.error, urllib.parse
 from pathlib import Path
 from typing import Optional, List, Dict
 
-WIKI_DIR = Path(os.environ.get("WIKI_DIR", "/root/wiki"))
+# Auto-detect host vs container
+_aw = "/data/lightrag/wiki" if os.path.isdir("/data/lightrag/wiki") else "/root/wiki"
+WIKI_DIR = Path(os.environ.get("WIKI_DIR", _aw))
 LIGHTRAG_URL = os.environ.get("LIGHTRAG_URL", "http://172.22.0.1:18888")
 LIGHTRAG_TIMEOUT = int(os.environ.get("LIGHTRAG_TIMEOUT", "60"))
 FAST_MODE = os.environ.get("RAG_FAST_ONLY", "0") == "1"
