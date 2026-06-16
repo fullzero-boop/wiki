@@ -1,53 +1,63 @@
 {
   "Hermes-report.md": {
-    "lightrag_doc_id": "doc-78349645a3e304315057f1be35ecea0e",
+    "hash": "5bcd1f0f8a7dfcfc2400f265716ab005",
     "title": "Hermes-report",
-    "ingested_at": "2026-06-10T07:00:04.591699"
+    "doc_id": "insert_20260616_112808_1c884fa1",
+    "synced_at": "2026-06-16 11:28:08"
   },
   "agents/Belfort.md": {
-    "lightrag_doc_id": "doc-78264bcf9df56263f632c695dcdf7006",
+    "hash": "6098e24476b81258ecc5e64a755cd24c",
     "title": "Belfort",
-    "ingested_at": "2026-06-10T07:00:05.627297"
+    "doc_id": "insert_20260616_112939_554f3985",
+    "synced_at": "2026-06-16 11:29:39"
   },
   "agents/Bishop.md": {
-    "lightrag_doc_id": "doc-5c9c831a33dc0059ca919b9d339f2dcb",
+    "hash": "67dbe8ef958c191c5522d2d12934f72c",
     "title": "Bishop",
-    "ingested_at": "2026-06-10T07:00:06.652505"
+    "doc_id": "insert_20260616_112941_3f59c84b",
+    "synced_at": "2026-06-16 11:29:41"
   },
   "agents/Gost.md": {
-    "lightrag_doc_id": "doc-4b188a9ed184ef4a2911cd8b546a7fce",
+    "hash": "c0528faf0175d41afff440e0c890f2ee",
     "title": "Gost",
-    "ingested_at": "2026-06-10T07:00:07.677515"
+    "doc_id": "insert_20260616_112943_512f7e34",
+    "synced_at": "2026-06-16 11:29:43"
   },
   "agents/Hermes.md": {
-    "lightrag_doc_id": "doc-d2d845918ed7cd08e57993ddf1f4a2e8",
+    "hash": "d413c38ed7fc9904dc4550c1e4beba2c",
     "title": "Hermes",
-    "ingested_at": "2026-06-10T07:00:08.703284"
+    "doc_id": "insert_20260616_112945_b61a38f5",
+    "synced_at": "2026-06-16 11:29:45"
   },
   "agents/Jarvis.md": {
-    "lightrag_doc_id": "doc-33843b6f3fde7019998abecca925e94e",
+    "hash": "ca732617e993ea885b4bd87e4c0a59f8",
     "title": "Jarvis",
-    "ingested_at": "2026-06-10T07:00:09.728862"
+    "doc_id": "insert_20260616_112947_a1930a02",
+    "synced_at": "2026-06-16 11:29:47"
   },
   "agents/Paladin.md": {
-    "lightrag_doc_id": "doc-1e03b289a2a7db3dcbb6e103ddd23544",
+    "hash": "fc464117c8856687c624b67a2df52348",
     "title": "Paladin",
-    "ingested_at": "2026-06-10T07:00:10.763255"
+    "doc_id": "insert_20260616_112949_d9b0fb86",
+    "synced_at": "2026-06-16 11:29:49"
   },
   "agents/Shadow.md": {
-    "lightrag_doc_id": "doc-a1e45d60f9fc929965b3ce781b0b9b4d",
+    "hash": "45503f14c5e2fb40444e0183782d53dd",
     "title": "Shadow",
-    "ingested_at": "2026-06-10T07:00:11.792573"
+    "doc_id": "insert_20260616_112951_b5aca350",
+    "synced_at": "2026-06-16 11:29:51"
   },
   "agents/Sinabon.md": {
-    "lightrag_doc_id": "doc-4bdfb09c922935e1e008ec5d3d031d81",
+    "hash": "541d8393a608eeaa33f3e502a7f25a6b",
     "title": "Sinabon",
-    "ingested_at": "2026-06-10T07:00:12.825013"
+    "doc_id": "insert_20260616_112953_7ae21b99",
+    "synced_at": "2026-06-16 11:29:53"
   },
   "agents/Tsilya.md": {
-    "lightrag_doc_id": "doc-e252f018baccca20d804ca217cf87d27",
+    "hash": "e58da9348272bc3a00a56e62a29bec9e",
     "title": "Tsilya",
-    "ingested_at": "2026-06-10T07:00:13.852301"
+    "doc_id": "insert_20260616_112955_342a31f9",
+    "synced_at": "2026-06-16 11:29:55"
   },
   "index.md": {
     "title": "index",
@@ -73,5 +83,191 @@
     "lightrag_doc_id": "doc-a27fa223f12dfdebdbb1238a88819588",
     "title": "Projects",
     "ingested_at": "2026-06-10T07:00:16.965402"
+  },
+  "Belfort.md": {
+    "hash": "77e89a16e706aadc608797342d31460f",
+    "title": "Belfort",
+    "doc_id": "insert_20260616_112734_e9e1762c",
+    "synced_at": "2026-06-16 11:28:06"
+  },
+  "agent-notes/belfort-final-report-2026-06-15.md": {
+    "hash": "e893593ed6c98b4108f80b65882e89c4",
+    "title": "belfort-final-report-2026-06-15",
+    "doc_id": "insert_20260616_112843_1c64009e",
+    "synced_at": "2026-06-16 11:28:43"
+  },
+  "agent-notes/belfort-infrastructure.md": {
+    "hash": "1f2843da57d0315ceefa5ec13deacae9",
+    "title": "belfort-infrastructure",
+    "doc_id": "insert_20260616_112845_64c37e93",
+    "synced_at": "2026-06-16 11:28:45"
+  },
+  "agent-notes/belfort-portfolio-2026-06-15.md": {
+    "hash": "40b90827938c508b9e4760758c42769c",
+    "title": "belfort-portfolio-2026-06-15",
+    "doc_id": "insert_20260616_112847_8b19eca8",
+    "synced_at": "2026-06-16 11:28:47"
+  },
+  "agent-notes/github-token.md": {
+    "hash": "62f0e95c5605fdcc7efd22cbb7202145",
+    "title": "github-token",
+    "doc_id": "insert_20260616_112849_f4578ed1",
+    "synced_at": "2026-06-16 11:28:49"
+  },
+  "agent-notes/hermes-strategy-belfort.md": {
+    "hash": "b74c63192172a922a52b227cd3bb88e0",
+    "title": "hermes-strategy-belfort",
+    "doc_id": "insert_20260616_112851_da3978b7",
+    "synced_at": "2026-06-16 11:28:51"
+  },
+  "agent-notes/hermes-strategy-bishop.md": {
+    "hash": "c02607447a975488ae5a21a423d88952",
+    "title": "hermes-strategy-bishop",
+    "doc_id": "insert_20260616_112853_6150277a",
+    "synced_at": "2026-06-16 11:28:53"
+  },
+  "agent-notes/hermes-strategy-gost.md": {
+    "hash": "77012c4f5601875844209fe02d6178b3",
+    "title": "hermes-strategy-gost",
+    "doc_id": "insert_20260616_112855_8d2686d3",
+    "synced_at": "2026-06-16 11:28:55"
+  },
+  "agent-notes/hermes-strategy-jarvis.md": {
+    "hash": "845fc6ab0e35237df315ff5efddc1076",
+    "title": "hermes-strategy-jarvis",
+    "doc_id": "insert_20260616_112857_501c1063",
+    "synced_at": "2026-06-16 11:28:57"
+  },
+  "agent-notes/hermes-strategy-paladin.md": {
+    "hash": "48314ad60d3f3d537fe37b74a47b312f",
+    "title": "hermes-strategy-paladin",
+    "doc_id": "insert_20260616_112859_edfb8b25",
+    "synced_at": "2026-06-16 11:28:59"
+  },
+  "agent-notes/hermes-strategy-shadow.md": {
+    "hash": "f317805ce0f163144116eb5928302deb",
+    "title": "hermes-strategy-shadow",
+    "doc_id": "insert_20260616_112901_c05b5e61",
+    "synced_at": "2026-06-16 11:29:01"
+  },
+  "agent-notes/hermes-strategy-sinabon.md": {
+    "hash": "a672cc3eecd1dd0f3b0c3ab9bebc0699",
+    "title": "hermes-strategy-sinabon",
+    "doc_id": "insert_20260616_112903_72b83b5d",
+    "synced_at": "2026-06-16 11:29:03"
+  },
+  "agent-notes/hermes-strategy-tsilya.md": {
+    "hash": "7a361f07b3c8a7c42e422439f84d736e",
+    "title": "hermes-strategy-tsilya",
+    "doc_id": "insert_20260616_112905_141bd000",
+    "synced_at": "2026-06-16 11:29:05"
+  },
+  "agent-notes/hermes-system-belfort.md": {
+    "hash": "0f39a33a2d9c94054edf23d035e1618f",
+    "title": "hermes-system-belfort",
+    "doc_id": "insert_20260616_112907_9a440493",
+    "synced_at": "2026-06-16 11:29:07"
+  },
+  "agent-notes/hermes-system-bishop.md": {
+    "hash": "6541345e98869646d4691ee485a33043",
+    "title": "hermes-system-bishop",
+    "doc_id": "insert_20260616_112909_83918aae",
+    "synced_at": "2026-06-16 11:29:09"
+  },
+  "agent-notes/hermes-system-gost.md": {
+    "hash": "b1107dbab3eb951d276f8c64f4163348",
+    "title": "hermes-system-gost",
+    "doc_id": "insert_20260616_112911_ca0af7fc",
+    "synced_at": "2026-06-16 11:29:11"
+  },
+  "agent-notes/hermes-system-hermes.md": {
+    "hash": "750ab837066eaf3e886c4b9eba74ad74",
+    "title": "hermes-system-hermes",
+    "doc_id": "insert_20260616_112913_ca596290",
+    "synced_at": "2026-06-16 11:29:13"
+  },
+  "agent-notes/hermes-system-jarvis.md": {
+    "hash": "5af2169c263dee2bbf85a8f7b9e25c3a",
+    "title": "hermes-system-jarvis",
+    "doc_id": "insert_20260616_112915_5999de63",
+    "synced_at": "2026-06-16 11:29:15"
+  },
+  "agent-notes/hermes-system-marketing.md": {
+    "hash": "f953499b7f9ce89441347560e4a0b41a",
+    "title": "hermes-system-marketing",
+    "doc_id": "insert_20260616_112917_1b471f39",
+    "synced_at": "2026-06-16 11:29:17"
+  },
+  "agent-notes/hermes-system-overview.md": {
+    "hash": "8bfd5f291058a7d5ad9aae6e74aca256",
+    "title": "hermes-system-overview",
+    "doc_id": "insert_20260616_112919_689231cb",
+    "synced_at": "2026-06-16 11:29:19"
+  },
+  "agent-notes/hermes-system-paladin.md": {
+    "hash": "08a40b1a62fe504305e606dbe9261264",
+    "title": "hermes-system-paladin",
+    "doc_id": "insert_20260616_112921_a2ceca0c",
+    "synced_at": "2026-06-16 11:29:21"
+  },
+  "agent-notes/hermes-system-shadow.md": {
+    "hash": "3d0cd03df2e90fda4e114b9d4eee41a1",
+    "title": "hermes-system-shadow",
+    "doc_id": "insert_20260616_112923_228bfcd6",
+    "synced_at": "2026-06-16 11:29:23"
+  },
+  "agent-notes/hermes-system-sinabon.md": {
+    "hash": "4c16295ded1ffd147fbb91dca659048e",
+    "title": "hermes-system-sinabon",
+    "doc_id": "insert_20260616_112925_88663c74",
+    "synced_at": "2026-06-16 11:29:25"
+  },
+  "agent-notes/hermes-system-tsilya.md": {
+    "hash": "75abd42f4e6f089443944d104e3ac07d",
+    "title": "hermes-system-tsilya",
+    "doc_id": "insert_20260616_112927_fcbf64ad",
+    "synced_at": "2026-06-16 11:29:27"
+  },
+  "agent-notes/reboot-access.md": {
+    "hash": "42c5c92837ebe7c2d4f7c35bc07df678",
+    "title": "reboot-access",
+    "doc_id": "insert_20260616_112929_7466b249",
+    "synced_at": "2026-06-16 11:29:29"
+  },
+  "agent-notes/utro-statya-16-06-venoznye-sinusy-v2.md": {
+    "hash": "d10df95223fa56f39a07de27f3f129e3",
+    "title": "utro-statya-16-06-venoznye-sinusy-v2",
+    "doc_id": "insert_20260616_112931_d6b5e175",
+    "synced_at": "2026-06-16 11:29:31"
+  },
+  "agent-notes/utro-statya-16-06-venoznye-sinusy.md": {
+    "hash": "40ecfe4d5ae5732665fc9c7344bc2e42",
+    "title": "utro-statya-16-06-venoznye-sinusy",
+    "doc_id": "insert_20260616_112933_4467c278",
+    "synced_at": "2026-06-16 11:29:33"
+  },
+  "agent-notes/utro-statya-16-06.md": {
+    "hash": "5a43870ab2f2b907de4cab445f0fa64b",
+    "title": "utro-statya-16-06",
+    "doc_id": "insert_20260616_112935_be4f74e2",
+    "synced_at": "2026-06-16 11:29:35"
+  },
+  "agent-notes/vecher-istoriya-16-06-venoznye-sinusy.md": {
+    "hash": "9f5e936a97f7e69f859111e9edf6f0a1",
+    "title": "vecher-istoriya-16-06-venoznye-sinusy",
+    "doc_id": "insert_20260616_112937_f00e3e24",
+    "synced_at": "2026-06-16 11:29:37"
+  },
+  "deploy/marketing-tools-deployment.md": {
+    "hash": "ff2389c21bb6bc0ca5a6dc589ba73d66",
+    "title": "marketing-tools-deployment",
+    "doc_id": "insert_20260616_112957_983ff0af",
+    "synced_at": "2026-06-16 11:29:57"
+  },
+  "expvseprosto-posts.md": {
+    "hash": "530f96c90e70aa678fd10bb5fc93cafc",
+    "title": "expvseprosto-posts",
+    "doc_id": "insert_20260616_112959_3638ec13",
+    "synced_at": "2026-06-16 11:29:59"
   }
 }
