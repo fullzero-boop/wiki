@@ -1,22 +1,24 @@
 # Wiki
 
+Добро пожаловать в мою Wiki.
+
 ## Агенты
-- [[Belfort]]
-- [[Bishop]]
-- [[Gost]]
-- [[Hermes]]
-- [[Jarvis]]
-- [[Paladin]]
-- [[Shadow]]
-- [[Sinabon]]
-- [[Tsilya]]
+- [[Wiki]]
+- [[Инфраструктура сервера]]
+- [[Jarvis]] — контент-креатор, лидер контент-команды
+- [[Sinabon]] — генератор афоризмов
+- [[Tsilya]] — одесский колорит
+- [[Paladin]] — контент-креатор
+- [[Shadow]] — оркестратор
+- [[Hermes]] — AI-маркетер
+- [[Belfort]] — крипто-трейдер
+- [[Gost]] — хакер-скриптер
+- [[Bishop]] — цифровой страж
 
 ## Инфраструктура
-- [[Infrastructure]]
-- [[Memory-System]]
+- [[Infrastructure]] — сервер, Docker, сеть
+- [[Projects]] — проекты команды
+- [[Проверка связи]]
 
-## Проекты
-- [[Projects]]
-
-## Отчёты
-- [[Hermes-report]]
+---
+_Репозиторий синхронизируется с LightRAG и Obsidian._
