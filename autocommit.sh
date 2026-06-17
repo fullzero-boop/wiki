@@ -2,7 +2,7 @@
 # wiki-autocommit.sh — авто-коммит и пуш изменений wiki в GitHub
 set -e
 
-cd /data/lightrag/wiki || exit 1
+cd /Users/sergejbarinov/wiki || exit 1
 
 # Настройки
 GIT_USER="fullzero-boop"
