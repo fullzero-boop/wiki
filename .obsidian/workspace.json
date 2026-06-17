@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hermes-report.md",
+                "file": "rtm-farming-analysis-2025-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hermes-report"
+              "title": "rtm-farming-analysis-2025-2026"
+            }
+          },
+          {
+            "id": "2c487d2c0363cc08",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -44,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -160,16 +170,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
     }
   },
   "active": "3e05abf6747e6dd3",
   "lastOpenFiles": [
+    "rtm-farming-analysis-2025-2026.md",
+    "osrs-botting-guide.md",
+    "index.md",
     "expvseprosto-posts.md",
     "agent-notes/hermes-system-hermes.md",
     "agent-notes/hermes-system-overview.md",
@@ -198,9 +212,6 @@
     "raw",
     "Hermes-report.md",
     "agents/Hermes-report.md",
-    "agents/Проверка связи.md",
-    "agents/Tsilya.md",
-    "agents/Sinabon.md",
     "projects",
     "infrastructure",
     "agents",
