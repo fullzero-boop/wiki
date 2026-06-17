@@ -25,3 +25,8 @@ http://172.22.0.1:18119, NO_PROXY: deepseek.com
 **Redis:** 172.22.0.2:6379
 
 **IP:** 172.22.0.4, **Сеть:** agent-net
+
+## Связанные
+- [[agent-notes/hermes-system-gost.md]]
+- [[agent-notes/hermes-strategy-gost.md]]
+- [[agent-notes/memory-sync/gost.md]]

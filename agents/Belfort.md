@@ -29,3 +29,11 @@
 - Health Monitor: ✅ запущен
 - OKX API: ✅
 - Telegram: @Belford159bot
+
+## Связанные
+- [[agent-notes/hermes-system-belfort.md]]
+- [[agent-notes/hermes-strategy-belfort.md]]
+- [[agent-notes/belfort-final-report-2026-06-15.md]]
+- [[agent-notes/belfort-infrastructure.md]]
+- [[agent-notes/belfort-portfolio-2026-06-15.md]]
+- [[agent-notes/memory-sync/belfort.md]]

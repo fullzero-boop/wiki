@@ -110,3 +110,8 @@
 3. **Связка с Paladin** ("дисциплина в трейдинге")
 4. **Связка с Jarvis** ("здоровье трейдера — не сидеть 24/7 у графика")
 5. **Premium без скама** — результаты, а не обещания
+
+## Связанные
+- [[agents/Belfort.md]]
+- [[agent-notes/hermes-system-overview.md]]
+- [[agent-notes/hermes-system-marketing.md]]

@@ -9,3 +9,12 @@
 **Бекапы:** WD Elements 458GB, full-backup.sh, cron 0 0 * * *
 
 Управляется [[Shadow]], мониторится [[Bishop]]. Все агенты ([[Jarvis]], [[Sinabon]], [[Tsilya]], [[Paladin]], [[Hermes]], [[Belfort]], [[Gost]]) работают в этой инфраструктуре.
+
+## Связанные
+- [[infrastructure/server.md]]
+- [[infrastructure/network.md]]
+- [[infrastructure/lightrag.md]]
+- [[infrastructure/redis.md]]
+- [[infrastructure/model-gateway.md]]
+- [[infrastructure/flaresolverr.md]]
+- [[infrastructure/vps-beget.md]]

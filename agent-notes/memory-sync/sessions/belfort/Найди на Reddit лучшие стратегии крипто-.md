@@ -12,4 +12,7 @@
 ## Last messages
 - **tool** (2026-06-16 07:01 UTC): {"output": "[Command timed out after 30s]", "exit_code": 124, "error": null}
 - **assistant** (2026-06-16 07:01 UTC): 
-- **tool** (2026-06-16 07:01 UTC): {"output": "<!doctype html>\n     <html>\n  <head>\n    <title>Blocked</title>\n    <style>\n      body {\n          font: small verdana, arial, helvetica, sans-serif;\n          width: 600px;\n      
+- **tool** (2026-06-16 07:01 UTC): {"output": "<!doctype html>\n     <html>\n  <head>\n    <title>Blocked</title>\n    <style>\n      body {\n          font: small verdana, arial, helvetica, sans-serif;\n          width: 600px;\n
+
+## Связанные
+- [[agent-notes/memory-sync/belfort.md]]

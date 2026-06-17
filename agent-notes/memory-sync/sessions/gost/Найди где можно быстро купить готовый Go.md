@@ -21,3 +21,6 @@
 
 ### 1. sms-activate.org
 - **Price**: Google accounts rent ~$0.10–0.30 per account (for receiving SMS verifi
+
+## Связанные
+- [[agent-notes/memory-sync/gost.md]]

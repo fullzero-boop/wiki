@@ -105,3 +105,8 @@ const { registerModules } = require('./modules/bot-core');
 const config = { botUsername: 'SmartHelper579Bot', adminId: ADMIN_ID };
 registerModules(bot, config);
 ```
+
+## Связанные
+- [[projects/smarthelper-competitor-analysis.md]]
+- [[projects/smarthelper-questionnaire.md]]
+- [[projects/shadow-saas.md]]

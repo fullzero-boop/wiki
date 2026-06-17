@@ -34,3 +34,7 @@ Shadow управляет 8 агентами (Jarvis, Sinabon, Tsilya, Paladin, 
 - Количество обработанных задач агентами
 - Время от задачи до результата
 - ROI автоматизации
+
+## Связанные
+- [[agents/Shadow.md]]
+- [[agents/Hermes.md]]

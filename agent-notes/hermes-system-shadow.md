@@ -92,3 +92,8 @@ Shadow управляет командой AI-агентов. Это SaaS-про
 2. Каждый агент — специалист (Jarvis = здоровье, Belfort = крипто)
 3. **SmartHelperBot** — входная точка, а не просто сайт
 4. Реальный рабочий продукт, а не "ещё один AI-писатель"
+
+## Связанные
+- [[agents/Shadow.md]]
+- [[agent-notes/hermes-system-overview.md]]
+- [[agent-notes/hermes-system-marketing.md]]

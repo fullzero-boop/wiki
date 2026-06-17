@@ -47,3 +47,7 @@
 - Residential прокси (1 акк = 1 IP)
 - Аккаунты OSRS (F2P или готовые Members)
 - Не 24/7 — 6-8ч бот, 4-6ч перерыв
+
+## Связанные
+- [[projects/gost-desktop.md]]
+- [[tools/account-automation-toolkit.md]]

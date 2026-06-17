@@ -113,3 +113,8 @@
 2. Философская база (стоицизм, принципы, а не "лайфхаки")
 3. Связка с Jarvis (дух + тело)
 4. Единый персонаж — не "канал про", а "канал Paladin'а"
+
+## Связанные
+- [[agents/Paladin.md]]
+- [[agent-notes/hermes-system-overview.md]]
+- [[agent-notes/hermes-system-marketing.md]]

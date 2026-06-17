@@ -21,3 +21,6 @@
 - **assistant** (2026-06-16 12:28 UTC): I'll start by searching GitHub for Hordes.io related repositories, especially Python/Node.js clients, bots, and API documentation. Then I'll look for any Discord discussions or forum posts.
 
 **Step 1:
+
+## Связанные
+- [[agent-notes/memory-sync/gost.md]]

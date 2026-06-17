@@ -20,3 +20,7 @@ Mount to container: `-v /data/shared/ssh-keys/:/root/.ssh/`
 - Always warn user (@Exp_Vse_Prosto) before rebooting
 - Check no critical jobs running first
 - Only reboot when truly needed (bad state, critical update)
+
+## Связанные
+- [[infrastructure/server.md]]
+- [[infrastructure/network.md]]

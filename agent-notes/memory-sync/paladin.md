@@ -17,3 +17,6 @@
 > **NEW** (id=5, general)
   Bybit passphrase (фраза): Bbatkavi4@
 
+## Связанные
+- [[agents/Paladin.md]]
+- [[agent-notes/hermes-system-paladin.md]]

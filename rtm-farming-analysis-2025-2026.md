@@ -32,3 +32,7 @@
 - New World (мёртвая)
 
 Полный отчёт: `/root/rtm_farming_analysis_2025_2026.md`
+
+## Связанные
+- [[projects/hermes-development.md]]
+- [[osrs-botting-guide.md]]

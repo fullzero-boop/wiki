@@ -130,3 +130,8 @@
 2. Массаж огнём — уникальная услуга, нет аналогов
 3. Комплекс: остеопрактика + акупунктура + массаж огнём (3 в 1)
 4. Контент-команда (Sinabon, Tsilya, Paladin) — создаёт экосистему вокруг Jarvis
+
+## Связанные
+- [[agents/Jarvis.md]]
+- [[agent-notes/hermes-system-overview.md]]
+- [[agent-notes/hermes-system-marketing.md]]

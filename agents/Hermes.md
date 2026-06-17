@@ -32,3 +32,10 @@
 [[Shadow]] — стратегия, [[Jarvis]] — контент, все агенты — клиенты маркетинга.
 
 **Redis:** 172.22.0.2:6379 (Agent Hub)
+
+## Связанные
+- [[agent-notes/hermes-system-hermes.md]]
+- [[agent-notes/hermes-system-marketing.md]]
+- [[agent-notes/hermes-system-overview.md]]
+- [[agent-notes/memory-sync/hermes.md]]
+- [[Hermes-report.md]]

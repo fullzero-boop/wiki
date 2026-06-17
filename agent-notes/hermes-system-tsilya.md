@@ -117,3 +117,8 @@
 3. Персонаж (Tsilya = узнаваемый голос)
 4. Короткий формат (3-5 предложений) — нет "воды"
 5. Экосистема (Jarvis, Sinabon)
+
+## Связанные
+- [[agents/Tsilya.md]]
+- [[agent-notes/hermes-system-overview.md]]
+- [[agent-notes/hermes-system-marketing.md]]

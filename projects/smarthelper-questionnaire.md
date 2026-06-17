@@ -151,3 +151,7 @@
 [🚀 Сразу Стандарт]
 [💬 Задать вопрос]
 ```
+
+## Связанные
+- [[projects/smarthelper-competitor-analysis.md]]
+- [[projects/smarthelper-upgrade-plan.md]]

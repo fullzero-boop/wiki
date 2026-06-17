@@ -5,3 +5,6 @@
 - **Category:** tests
 
 System auto-start verified
+
+## Связанные
+- [[infrastructure/server.md]]

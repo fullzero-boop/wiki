@@ -29,3 +29,7 @@
 
 ---
 *Записано: 15.06.2026 16:48 UTC*
+
+## Связанные
+- [[agents/Belfort.md]]
+- [[agent-notes/belfort-infrastructure.md]]

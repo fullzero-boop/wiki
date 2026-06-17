@@ -18,3 +18,9 @@
 
 ## Координация
 [[Shadow]] — алерты, [[Gost]] — технические вопросы
+
+## Связанные
+- [[agent-notes/hermes-system-bishop.md]]
+- [[agent-notes/hermes-strategy-bishop.md]]
+- [[agent-notes/memory-sync/bishop.md]]
+- [[infrastructure/Infrastructure.md]]

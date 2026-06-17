@@ -55,3 +55,8 @@
 ## Redis Hub
 **Проблема:** Redis (172.22.0.2:6379) недоступен из контейнера Hermes.
 **Решение:** Развернуть Redis как Docker-контейнер на хосте для единой шины.
+
+## Связанные
+- [[infrastructure/server.md]]
+- [[projects/hermes-development.md]]
+- [[infrastructure/flaresolverr.md]]

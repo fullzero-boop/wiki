@@ -23,3 +23,8 @@
 Член контент-команды [[Jarvis]].
 
 **Модель:** DeepSeek v4-pro (мышление)
+
+## Связанные
+- [[agent-notes/hermes-system-paladin.md]]
+- [[agent-notes/hermes-strategy-paladin.md]]
+- [[agent-notes/memory-sync/paladin.md]]

@@ -17,3 +17,6 @@
 - **tool** (2026-06-16 12:13 UTC): {"output": "=== gptchatbot ===\nБот №1 для доступа к GPT-4o, Claude 3, Midjourney, DALL-E 3, Suno\n\n=== gpt_bot_ai ===\nYou can view and join @gpt_bot_ai right away.\n\n=== ai_gpt_bot ===\nChatGPT\n\
 - **assistant** (2026-06-16 12:13 UTC): 
 - **tool** (2026-06-16 12:13 UTC): {"output": "[Command interrupted]", "exit_code": 130, "error": null}
+
+## Связанные
+- [[agent-notes/memory-sync/shadow.md]]

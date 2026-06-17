@@ -23,3 +23,7 @@
 Член контент-команды [[Jarvis]]. Работает с [[Tsilya]], [[Paladin]].
 
 **Модель:** DeepSeek v4-flash (экономичная)
+
+## Связанные
+- [[agent-notes/hermes-system-sinabon.md]]
+- [[agent-notes/hermes-strategy-sinabon.md]]

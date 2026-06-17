@@ -38,3 +38,6 @@
 > **NEW** (id=7, general)
   OKX API Passphrase for Belfort: Bbatkavi4@ по конфигу /root/freqtrade/config.json
 
+## Связанные
+- [[agents/Belfort.md]]
+- [[agent-notes/hermes-system-belfort.md]]

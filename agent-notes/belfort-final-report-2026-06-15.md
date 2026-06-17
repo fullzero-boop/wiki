@@ -51,3 +51,7 @@
 - Портфель: 16.2 SOL ($1,213) + $26.44 USDT
 - Бот торгует: $10 USDT на сделку, SOL/USDT
 - Ожидание: сигнала на покупку (просадка SOL до RSI<35)
+
+## Связанные
+- [[agents/Belfort.md]]
+- [[agent-notes/memory-sync/belfort.md]]

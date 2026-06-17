@@ -43,3 +43,6 @@ Output:
 - `/start` — новое меню
 - `/go deep проанализируй рынок биткоина` — глубокий анализ
 - `/go explor
+
+## Связанные
+- [[agent-notes/memory-sync/shadow.md]]

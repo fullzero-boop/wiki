@@ -119,3 +119,8 @@
 2. Единая эстетика (стиль карточек)
 3. Связка с Jarvis и Tsilya (экосистема)
 4. Не "цитаты для статуса", а настоящая глубина
+
+## Связанные
+- [[agents/Sinabon.md]]
+- [[agent-notes/hermes-system-overview.md]]
+- [[agent-notes/hermes-system-marketing.md]]

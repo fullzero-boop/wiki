@@ -87,3 +87,7 @@ SMS:      onlinesim-python-api + fivesim (доустановить)
 - Сервер: evgeniy-5 (30GB RAM, 16 ядер)
 - Отчёт: /data/hermes/github_research_report.md
 - Данные: /tmp/gh_results*.json
+
+## Связанные
+- [[infrastructure/Infrastructure.md]]
+- [[osrs-botting-guide.md]]

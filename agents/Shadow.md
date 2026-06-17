@@ -30,3 +30,8 @@
 ## Координация
 **Redis:** Agent Hub каналы: hub:announce, hub:daily-meeting, hub:strategy
 **Cron:** 0 0 * * * — бекап + ежедневные задачи
+
+## Связанные
+- [[agent-notes/hermes-system-shadow.md]]
+- [[agent-notes/hermes-strategy-shadow.md]]
+- [[agent-notes/memory-sync/shadow.md]]

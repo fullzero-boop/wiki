@@ -97,3 +97,8 @@
 - [ ] Подключить Sinabon к виральной системе
 - [ ] Определить первую CPA-кампанию (Belfort или Jarvis)
 - [ ] Подготовить дашборд метрик (единый для всей команды)
+
+## Связанные
+- [[agents/Hermes.md]]
+- [[agent-notes/hermes-system-overview.md]]
+- [[agent-notes/hermes-system-marketing.md]]

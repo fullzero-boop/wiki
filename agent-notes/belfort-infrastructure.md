@@ -35,3 +35,7 @@
 - Стратегия: `/root/freqtrade/strategies/BelfortSOLStrategy.py`
 - Логи: `/root/.hermes/health_monitor.log`
 - Wiki: `/root/wiki/agent-notes/`
+
+## Связанные
+- [[agents/Belfort.md]]
+- [[infrastructure/Infrastructure.md]]

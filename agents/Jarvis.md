@@ -30,3 +30,8 @@
 
 **Сервер:** evgeniy-5, Docker, LightRAG, DeepSeek v4-pro.
 **Wiki:** /root/wiki/agents/Jarvis.md
+
+## Связанные
+- [[agent-notes/hermes-system-jarvis.md]]
+- [[agent-notes/hermes-strategy-jarvis.md]]
+- [[agent-notes/memory-sync/jarvis.md]]

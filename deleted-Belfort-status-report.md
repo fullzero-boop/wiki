@@ -7,3 +7,7 @@
   - SOL: 3.41 free (16.20 total)
   - USDT: $11.34 free ($26.44 total)
 - Был найден дубль Freqtrade (PID 1412), убит и перезапущен.
+
+## Связанные
+- [[agents/Belfort.md]]
+- [[agent-notes/belfort-infrastructure.md]]

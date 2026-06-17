@@ -20,4 +20,7 @@
 
 ### Что сделано:
 
-1. **Поиск по GitHub:** Просканировано 100+ репозиториев через GitHub API (поиск по `freqtrade 
+1. **Поиск по GitHub:** Просканировано 100+ репозиториев через GitHub API (поиск по `freqtrade
+
+## Связанные
+- [[agent-notes/memory-sync/belfort.md]]

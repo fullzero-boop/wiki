@@ -85,3 +85,8 @@
 | Русскоязычный интерфейс | ❌ (англ) | 🔥 Полностью на русском |
 
 **Вывод:** Мы не догоняем конкурентов — мы создаём новый гибрид (AI + SMM + крипта + юр.чистота), которого на рынке нет.
+
+## Связанные
+- [[projects/smarthelper-questionnaire.md]]
+- [[projects/smarthelper-upgrade-plan.md]]
+- [[projects/shadow-saas.md]]
