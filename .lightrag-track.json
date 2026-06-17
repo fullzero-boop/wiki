@@ -286,5 +286,191 @@
     "title": "IMPORTANT You are running as a scheduled",
     "doc_id": "insert_20260617_090400_9e86f35d",
     "synced_at": "2026-06-17 09:04:00"
+  },
+  "agent-notes/memory-sync/shadow.md": {
+    "hash": "2701a3c2bff9ef5a491c12da22c4ecff",
+    "title": "shadow",
+    "doc_id": "insert_20260617_090402_a2395067",
+    "synced_at": "2026-06-17 09:04:02"
+  },
+  "agent-notes/memory-sync/tsilya.md": {
+    "hash": "8b58884b564103317f892b4e7e6ace48",
+    "title": "tsilya",
+    "doc_id": "insert_20260617_090404_35f40b00",
+    "synced_at": "2026-06-17 09:04:04"
+  },
+  "agent-notes/reboot-access.md": {
+    "hash": "42c5c92837ebe7c2d4f7c35bc07df678",
+    "title": "reboot-access",
+    "doc_id": "insert_20260617_090406_1c118277",
+    "synced_at": "2026-06-17 09:04:06"
+  },
+  "agent-notes/tests/test-healthcheck.md": {
+    "hash": "f5b36997b58ff3407693778197366db5",
+    "title": "test-healthcheck",
+    "doc_id": "insert_20260617_090408_883c67c4",
+    "synced_at": "2026-06-17 09:04:08"
+  },
+  "agent-notes/utro-statya-16-06-venoznye-sinusy-v2.md": {
+    "hash": "d10df95223fa56f39a07de27f3f129e3",
+    "title": "utro-statya-16-06-venoznye-sinusy-v2",
+    "doc_id": "insert_20260617_090410_cfc9f57f",
+    "synced_at": "2026-06-17 09:04:10"
+  },
+  "agent-notes/utro-statya-16-06-venoznye-sinusy.md": {
+    "hash": "40ecfe4d5ae5732665fc9c7344bc2e42",
+    "title": "utro-statya-16-06-venoznye-sinusy",
+    "doc_id": "insert_20260617_090412_e02a1ef1",
+    "synced_at": "2026-06-17 09:04:12"
+  },
+  "agent-notes/utro-statya-16-06.md": {
+    "hash": "5a43870ab2f2b907de4cab445f0fa64b",
+    "title": "utro-statya-16-06",
+    "doc_id": "insert_20260617_090414_db97f38c",
+    "synced_at": "2026-06-17 09:04:14"
+  },
+  "agent-notes/vecher-istoriya-16-06-venoznye-sinusy.md": {
+    "hash": "9f5e936a97f7e69f859111e9edf6f0a1",
+    "title": "vecher-istoriya-16-06-venoznye-sinusy",
+    "doc_id": "insert_20260617_090416_1979f9a4",
+    "synced_at": "2026-06-17 09:04:16"
+  },
+  "agents/Belfort.md": {
+    "hash": "6098e24476b81258ecc5e64a755cd24c",
+    "title": "Belfort",
+    "doc_id": "insert_20260617_090418_49803f03",
+    "synced_at": "2026-06-17 09:04:18"
+  },
+  "agents/Bishop.md": {
+    "hash": "67dbe8ef958c191c5522d2d12934f72c",
+    "title": "Bishop",
+    "doc_id": "insert_20260617_090420_baf2167d",
+    "synced_at": "2026-06-17 09:04:20"
+  },
+  "agents/Gost.md": {
+    "hash": "c0528faf0175d41afff440e0c890f2ee",
+    "title": "Gost",
+    "doc_id": "insert_20260617_090422_e6874d42",
+    "synced_at": "2026-06-17 09:04:22"
+  },
+  "agents/Hermes.md": {
+    "hash": "d413c38ed7fc9904dc4550c1e4beba2c",
+    "title": "Hermes",
+    "doc_id": "insert_20260617_090424_270cbc09",
+    "synced_at": "2026-06-17 09:04:24"
+  },
+  "agents/Jarvis.md": {
+    "hash": "ca732617e993ea885b4bd87e4c0a59f8",
+    "title": "Jarvis",
+    "doc_id": "insert_20260617_090426_bd72d982",
+    "synced_at": "2026-06-17 09:04:26"
+  },
+  "agents/Paladin.md": {
+    "hash": "fc464117c8856687c624b67a2df52348",
+    "title": "Paladin",
+    "doc_id": "insert_20260617_090428_46db112a",
+    "synced_at": "2026-06-17 09:04:28"
+  },
+  "agents/Shadow.md": {
+    "hash": "45503f14c5e2fb40444e0183782d53dd",
+    "title": "Shadow",
+    "doc_id": "insert_20260617_090430_8cab4247",
+    "synced_at": "2026-06-17 09:04:30"
+  },
+  "agents/Sinabon.md": {
+    "hash": "541d8393a608eeaa33f3e502a7f25a6b",
+    "title": "Sinabon",
+    "doc_id": "insert_20260617_090432_f95928d4",
+    "synced_at": "2026-06-17 09:04:32"
+  },
+  "agents/Tsilya.md": {
+    "hash": "e58da9348272bc3a00a56e62a29bec9e",
+    "title": "Tsilya",
+    "doc_id": "insert_20260617_090434_8374c355",
+    "synced_at": "2026-06-17 09:04:34"
+  },
+  "deploy/marketing-tools-deployment.md": {
+    "hash": "ff2389c21bb6bc0ca5a6dc589ba73d66",
+    "title": "marketing-tools-deployment",
+    "doc_id": "insert_20260617_090436_9fa85e33",
+    "synced_at": "2026-06-17 09:04:36"
+  },
+  "expvseprosto-posts.md": {
+    "hash": "530f96c90e70aa678fd10bb5fc93cafc",
+    "title": "expvseprosto-posts",
+    "doc_id": "insert_20260617_090438_1033c8e0",
+    "synced_at": "2026-06-17 09:04:38"
+  },
+  "infrastructure/Infrastructure.md": {
+    "hash": "0a321da2e8dc3eb3372f50c857f6cfee",
+    "title": "Infrastructure",
+    "doc_id": "insert_20260617_090440_87739a98",
+    "synced_at": "2026-06-17 09:04:40"
+  },
+  "infrastructure/Memory-System.md": {
+    "hash": "f56c89059025971fbe73eee242b4dcf9",
+    "title": "Memory-System",
+    "doc_id": "insert_20260617_090442_5d8e1df1",
+    "synced_at": "2026-06-17 09:04:42"
+  },
+  "notes/books-to-remind.md": {
+    "hash": "a6144f9f9049da5fb389af30b65768ca",
+    "title": "books-to-remind",
+    "doc_id": "insert_20260617_090444_c0847b18",
+    "synced_at": "2026-06-17 09:04:44"
+  },
+  "osrs-botting-guide.md": {
+    "hash": "6febac5e2448ac82ea7c659e4132c18a",
+    "title": "osrs-botting-guide",
+    "doc_id": "insert_20260617_090446_2e58d765",
+    "synced_at": "2026-06-17 09:04:46"
+  },
+  "projects/Projects.md": {
+    "hash": "f607851c74c749ecf7bc11539bc84213",
+    "title": "Projects",
+    "doc_id": "insert_20260617_090448_c15c47e7",
+    "synced_at": "2026-06-17 09:04:48"
+  },
+  "projects/newsletter-apology.md": {
+    "hash": "675aaa5b318b922bcb07a6109532c7c1",
+    "title": "newsletter-apology",
+    "doc_id": "insert_20260617_090450_149aa103",
+    "synced_at": "2026-06-17 09:04:50"
+  },
+  "projects/smarthelper-competitor-analysis.md": {
+    "hash": "e399a8f4cf743a5a3d71bbe2cea9872c",
+    "title": "smarthelper-competitor-analysis",
+    "doc_id": "insert_20260617_090452_fe82e8ae",
+    "synced_at": "2026-06-17 09:04:52"
+  },
+  "projects/smarthelper-questionnaire.md": {
+    "hash": "bd62f21bc530158cc198a1dcc72d1900",
+    "title": "smarthelper-questionnaire",
+    "doc_id": "insert_20260617_090454_fc74562a",
+    "synced_at": "2026-06-17 09:04:54"
+  },
+  "projects/smarthelper-upgrade-plan.md": {
+    "hash": "8e4ebad5b4039d66637e2a936b5c2366",
+    "title": "smarthelper-upgrade-plan",
+    "doc_id": "insert_20260617_090456_53f422b6",
+    "synced_at": "2026-06-17 09:04:56"
+  },
+  "reports/marketing-report-2026-06-15.md": {
+    "hash": "de904ea3d56084046993bcada03a07cd",
+    "title": "marketing-report-2026-06-15",
+    "doc_id": "insert_20260617_090458_9998a54a",
+    "synced_at": "2026-06-17 09:04:58"
+  },
+  "rtm-farming-analysis-2025-2026.md": {
+    "hash": "e98e0740fc07476b2a1bead1f2c6560e",
+    "title": "rtm-farming-analysis-2025-2026",
+    "doc_id": "insert_20260617_090500_007d6735",
+    "synced_at": "2026-06-17 09:05:00"
+  },
+  "tools/account-automation-toolkit.md": {
+    "hash": "9052549c734e2a590c6d4aec8838f7ba",
+    "title": "account-automation-toolkit",
+    "doc_id": "insert_20260617_090502_402a1766",
+    "synced_at": "2026-06-17 09:05:02"
   }
 }
