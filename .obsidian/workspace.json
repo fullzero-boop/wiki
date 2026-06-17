@@ -62,12 +62,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rtm-farming-analysis-2025-2026.md",
+                "file": "agents/Bishop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rtm-farming-analysis-2025-2026"
+              "title": "Bishop"
             }
           },
           {
@@ -231,8 +231,9 @@
   },
   "active": "3e05abf6747e6dd3",
   "lastOpenFiles": [
-    "wiki-graph.html",
+    "agents/Belfort.md",
     "rtm-farming-analysis-2025-2026.md",
+    "wiki-graph.html",
     "osrs-botting-guide.md",
     "index.md",
     "expvseprosto-posts.md",
