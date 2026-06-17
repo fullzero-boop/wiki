@@ -168,6 +168,7 @@
   "active": "ce2f372f2fbd499f",
   "lastOpenFiles": [
     "agents/Belfort.md",
+    "projects/Projects.md",
     "deleted-Belfort-status-report.md",
     "infrastructure/redis.md",
     "agents/Hermes.md",
@@ -193,7 +194,6 @@
     "agent-notes/hermes-strategy-paladin.md",
     "agent-notes/hermes-strategy-tsilya.md",
     "agent-notes/hermes-strategy-belfort.md",
-    "agent-notes/hermes-strategy-shadow.md",
     "agent-notes",
     "__pycache__/ingest.cpython-314.pyc",
     "__pycache__",
