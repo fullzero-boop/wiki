@@ -1,3 +1,5 @@
 #!/bin/bash
+# wiki-pull.sh — Force sync wiki from GitHub (handles divergent branches)
 cd "$(dirname "$0")"
-git pull origin main --ff-only 2>/dev/null
+git fetch origin main 2>/dev/null
+git reset --hard origin/main 2>/dev/null
