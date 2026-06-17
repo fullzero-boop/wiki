@@ -23,3 +23,9 @@
 Данные: биржи, DeFi, on-chain аналитика
 
 **Модель:** DeepSeek v4-flash (экономичная)
+
+## Статус (15.06.2026)
+- Freqtrade: ✅ запущен
+- Health Monitor: ✅ запущен
+- OKX API: ✅
+- Telegram: @Belford159bot

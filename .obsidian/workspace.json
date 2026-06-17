@@ -167,6 +167,8 @@
   },
   "active": "ce2f372f2fbd499f",
   "lastOpenFiles": [
+    "deleted-Belfort-status-report.md",
+    "infrastructure/redis.md",
     "agents/Hermes.md",
     "agents/Gost.md",
     "agents/Bishop.md",
@@ -192,8 +194,6 @@
     "agent-notes/hermes-strategy-tsilya.md",
     "agent-notes/hermes-strategy-belfort.md",
     "agent-notes/hermes-strategy-shadow.md",
-    "agent-notes/hermes-strategy-sinabon.md",
-    "agent-notes/hermes-strategy-gost.md",
     "agent-notes",
     "__pycache__/ingest.cpython-314.pyc",
     "__pycache__",
