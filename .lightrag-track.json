@@ -1,480 +1,290 @@
 {
-  "Hermes-report.md": {
-    "hash": "5bcd1f0f8a7dfcfc2400f265716ab005",
-    "title": "Hermes-report",
-    "doc_id": "insert_20260616_112808_1c884fa1",
-    "synced_at": "2026-06-16 11:28:08"
-  },
-  "agents/Belfort.md": {
-    "hash": "6098e24476b81258ecc5e64a755cd24c",
-    "title": "Belfort",
-    "doc_id": "insert_20260616_112939_554f3985",
-    "synced_at": "2026-06-16 11:29:39"
-  },
-  "agents/Bishop.md": {
-    "hash": "67dbe8ef958c191c5522d2d12934f72c",
-    "title": "Bishop",
-    "doc_id": "insert_20260616_112941_3f59c84b",
-    "synced_at": "2026-06-16 11:29:41"
-  },
-  "agents/Gost.md": {
-    "hash": "c0528faf0175d41afff440e0c890f2ee",
-    "title": "Gost",
-    "doc_id": "insert_20260616_112943_512f7e34",
-    "synced_at": "2026-06-16 11:29:43"
-  },
-  "agents/Hermes.md": {
-    "hash": "d413c38ed7fc9904dc4550c1e4beba2c",
-    "title": "Hermes",
-    "doc_id": "insert_20260616_112945_b61a38f5",
-    "synced_at": "2026-06-16 11:29:45"
-  },
-  "agents/Jarvis.md": {
-    "hash": "ca732617e993ea885b4bd87e4c0a59f8",
-    "title": "Jarvis",
-    "doc_id": "insert_20260616_112947_a1930a02",
-    "synced_at": "2026-06-16 11:29:47"
-  },
-  "agents/Paladin.md": {
-    "hash": "fc464117c8856687c624b67a2df52348",
-    "title": "Paladin",
-    "doc_id": "insert_20260616_112949_d9b0fb86",
-    "synced_at": "2026-06-16 11:29:49"
-  },
-  "agents/Shadow.md": {
-    "hash": "45503f14c5e2fb40444e0183782d53dd",
-    "title": "Shadow",
-    "doc_id": "insert_20260616_112951_b5aca350",
-    "synced_at": "2026-06-16 11:29:51"
-  },
-  "agents/Sinabon.md": {
-    "hash": "541d8393a608eeaa33f3e502a7f25a6b",
-    "title": "Sinabon",
-    "doc_id": "insert_20260616_112953_7ae21b99",
-    "synced_at": "2026-06-16 11:29:53"
-  },
-  "agents/Tsilya.md": {
-    "hash": "e58da9348272bc3a00a56e62a29bec9e",
-    "title": "Tsilya",
-    "doc_id": "insert_20260616_112955_342a31f9",
-    "synced_at": "2026-06-16 11:29:55"
-  },
-  "index.md": {
-    "title": "index",
-    "lightrag_doc_id": "doc-54d5fb80704e8129e113a2c111b5c59b",
-    "name": "index.md"
-  },
-  "infrastructure/Infrastructure.md": {
-    "hash": "0a321da2e8dc3eb3372f50c857f6cfee",
-    "title": "Infrastructure",
-    "doc_id": "insert_20260616_113001_a493d331",
-    "synced_at": "2026-06-16 11:30:01"
-  },
-  "infrastructure/Memory-System.md": {
-    "hash": "f56c89059025971fbe73eee242b4dcf9",
-    "title": "Memory-System",
-    "doc_id": "insert_20260616_113003_e7fd0670",
-    "synced_at": "2026-06-16 11:30:03"
-  },
-  "log.md": {
-    "title": "log",
-    "lightrag_doc_id": "doc-f95aa013e09353d0fc8e3618d6ed388a",
-    "name": "log.md"
-  },
-  "projects/Projects.md": {
-    "hash": "f607851c74c749ecf7bc11539bc84213",
-    "title": "Projects",
-    "doc_id": "insert_20260616_113009_fa33ed32",
-    "synced_at": "2026-06-16 11:30:09"
-  },
   "Belfort.md": {
     "hash": "77e89a16e706aadc608797342d31460f",
     "title": "Belfort",
-    "doc_id": "insert_20260616_112734_e9e1762c",
-    "synced_at": "2026-06-16 11:28:06"
-  },
-  "agent-notes/belfort-final-report-2026-06-15.md": {
-    "hash": "e893593ed6c98b4108f80b65882e89c4",
-    "title": "belfort-final-report-2026-06-15",
-    "doc_id": "insert_20260616_112843_1c64009e",
-    "synced_at": "2026-06-16 11:28:43"
-  },
-  "agent-notes/belfort-infrastructure.md": {
-    "hash": "1f2843da57d0315ceefa5ec13deacae9",
-    "title": "belfort-infrastructure",
-    "doc_id": "insert_20260616_112845_64c37e93",
-    "synced_at": "2026-06-16 11:28:45"
-  },
-  "agent-notes/belfort-portfolio-2026-06-15.md": {
-    "hash": "40b90827938c508b9e4760758c42769c",
-    "title": "belfort-portfolio-2026-06-15",
-    "doc_id": "insert_20260616_112847_8b19eca8",
-    "synced_at": "2026-06-16 11:28:47"
-  },
-  "agent-notes/github-token.md": {
-    "hash": "62f0e95c5605fdcc7efd22cbb7202145",
-    "title": "github-token",
-    "doc_id": "insert_20260616_112849_f4578ed1",
-    "synced_at": "2026-06-16 11:28:49"
-  },
-  "agent-notes/hermes-strategy-belfort.md": {
-    "hash": "b74c63192172a922a52b227cd3bb88e0",
-    "title": "hermes-strategy-belfort",
-    "doc_id": "insert_20260616_112851_da3978b7",
-    "synced_at": "2026-06-16 11:28:51"
-  },
-  "agent-notes/hermes-strategy-bishop.md": {
-    "hash": "c02607447a975488ae5a21a423d88952",
-    "title": "hermes-strategy-bishop",
-    "doc_id": "insert_20260616_112853_6150277a",
-    "synced_at": "2026-06-16 11:28:53"
-  },
-  "agent-notes/hermes-strategy-gost.md": {
-    "hash": "77012c4f5601875844209fe02d6178b3",
-    "title": "hermes-strategy-gost",
-    "doc_id": "insert_20260616_112855_8d2686d3",
-    "synced_at": "2026-06-16 11:28:55"
-  },
-  "agent-notes/hermes-strategy-jarvis.md": {
-    "hash": "845fc6ab0e35237df315ff5efddc1076",
-    "title": "hermes-strategy-jarvis",
-    "doc_id": "insert_20260616_112857_501c1063",
-    "synced_at": "2026-06-16 11:28:57"
-  },
-  "agent-notes/hermes-strategy-paladin.md": {
-    "hash": "48314ad60d3f3d537fe37b74a47b312f",
-    "title": "hermes-strategy-paladin",
-    "doc_id": "insert_20260616_112859_edfb8b25",
-    "synced_at": "2026-06-16 11:28:59"
-  },
-  "agent-notes/hermes-strategy-shadow.md": {
-    "hash": "f317805ce0f163144116eb5928302deb",
-    "title": "hermes-strategy-shadow",
-    "doc_id": "insert_20260616_112901_c05b5e61",
-    "synced_at": "2026-06-16 11:29:01"
-  },
-  "agent-notes/hermes-strategy-sinabon.md": {
-    "hash": "a672cc3eecd1dd0f3b0c3ab9bebc0699",
-    "title": "hermes-strategy-sinabon",
-    "doc_id": "insert_20260616_112903_72b83b5d",
-    "synced_at": "2026-06-16 11:29:03"
-  },
-  "agent-notes/hermes-strategy-tsilya.md": {
-    "hash": "7a361f07b3c8a7c42e422439f84d736e",
-    "title": "hermes-strategy-tsilya",
-    "doc_id": "insert_20260616_112905_141bd000",
-    "synced_at": "2026-06-16 11:29:05"
-  },
-  "agent-notes/hermes-system-belfort.md": {
-    "hash": "0f39a33a2d9c94054edf23d035e1618f",
-    "title": "hermes-system-belfort",
-    "doc_id": "insert_20260616_112907_9a440493",
-    "synced_at": "2026-06-16 11:29:07"
-  },
-  "agent-notes/hermes-system-bishop.md": {
-    "hash": "6541345e98869646d4691ee485a33043",
-    "title": "hermes-system-bishop",
-    "doc_id": "insert_20260616_112909_83918aae",
-    "synced_at": "2026-06-16 11:29:09"
-  },
-  "agent-notes/hermes-system-gost.md": {
-    "hash": "b1107dbab3eb951d276f8c64f4163348",
-    "title": "hermes-system-gost",
-    "doc_id": "insert_20260616_112911_ca0af7fc",
-    "synced_at": "2026-06-16 11:29:11"
-  },
-  "agent-notes/hermes-system-hermes.md": {
-    "hash": "750ab837066eaf3e886c4b9eba74ad74",
-    "title": "hermes-system-hermes",
-    "doc_id": "insert_20260616_112913_ca596290",
-    "synced_at": "2026-06-16 11:29:13"
-  },
-  "agent-notes/hermes-system-jarvis.md": {
-    "hash": "5af2169c263dee2bbf85a8f7b9e25c3a",
-    "title": "hermes-system-jarvis",
-    "doc_id": "insert_20260616_112915_5999de63",
-    "synced_at": "2026-06-16 11:29:15"
-  },
-  "agent-notes/hermes-system-marketing.md": {
-    "hash": "f953499b7f9ce89441347560e4a0b41a",
-    "title": "hermes-system-marketing",
-    "doc_id": "insert_20260616_112917_1b471f39",
-    "synced_at": "2026-06-16 11:29:17"
-  },
-  "agent-notes/hermes-system-overview.md": {
-    "hash": "8bfd5f291058a7d5ad9aae6e74aca256",
-    "title": "hermes-system-overview",
-    "doc_id": "insert_20260616_112919_689231cb",
-    "synced_at": "2026-06-16 11:29:19"
-  },
-  "agent-notes/hermes-system-paladin.md": {
-    "hash": "08a40b1a62fe504305e606dbe9261264",
-    "title": "hermes-system-paladin",
-    "doc_id": "insert_20260616_112921_a2ceca0c",
-    "synced_at": "2026-06-16 11:29:21"
-  },
-  "agent-notes/hermes-system-shadow.md": {
-    "hash": "3d0cd03df2e90fda4e114b9d4eee41a1",
-    "title": "hermes-system-shadow",
-    "doc_id": "insert_20260616_112923_228bfcd6",
-    "synced_at": "2026-06-16 11:29:23"
-  },
-  "agent-notes/hermes-system-sinabon.md": {
-    "hash": "4c16295ded1ffd147fbb91dca659048e",
-    "title": "hermes-system-sinabon",
-    "doc_id": "insert_20260616_112925_88663c74",
-    "synced_at": "2026-06-16 11:29:25"
-  },
-  "agent-notes/hermes-system-tsilya.md": {
-    "hash": "75abd42f4e6f089443944d104e3ac07d",
-    "title": "hermes-system-tsilya",
-    "doc_id": "insert_20260616_112927_fcbf64ad",
-    "synced_at": "2026-06-16 11:29:27"
-  },
-  "agent-notes/reboot-access.md": {
-    "hash": "42c5c92837ebe7c2d4f7c35bc07df678",
-    "title": "reboot-access",
-    "doc_id": "insert_20260616_112929_7466b249",
-    "synced_at": "2026-06-16 11:29:29"
-  },
-  "agent-notes/utro-statya-16-06-venoznye-sinusy-v2.md": {
-    "hash": "d10df95223fa56f39a07de27f3f129e3",
-    "title": "utro-statya-16-06-venoznye-sinusy-v2",
-    "doc_id": "insert_20260616_112931_d6b5e175",
-    "synced_at": "2026-06-16 11:29:31"
-  },
-  "agent-notes/utro-statya-16-06-venoznye-sinusy.md": {
-    "hash": "40ecfe4d5ae5732665fc9c7344bc2e42",
-    "title": "utro-statya-16-06-venoznye-sinusy",
-    "doc_id": "insert_20260616_112933_4467c278",
-    "synced_at": "2026-06-16 11:29:33"
-  },
-  "agent-notes/utro-statya-16-06.md": {
-    "hash": "5a43870ab2f2b907de4cab445f0fa64b",
-    "title": "utro-statya-16-06",
-    "doc_id": "insert_20260616_112935_be4f74e2",
-    "synced_at": "2026-06-16 11:29:35"
-  },
-  "agent-notes/vecher-istoriya-16-06-venoznye-sinusy.md": {
-    "hash": "9f5e936a97f7e69f859111e9edf6f0a1",
-    "title": "vecher-istoriya-16-06-venoznye-sinusy",
-    "doc_id": "insert_20260616_112937_f00e3e24",
-    "synced_at": "2026-06-16 11:29:37"
-  },
-  "deploy/marketing-tools-deployment.md": {
-    "hash": "ff2389c21bb6bc0ca5a6dc589ba73d66",
-    "title": "marketing-tools-deployment",
-    "doc_id": "insert_20260616_112957_983ff0af",
-    "synced_at": "2026-06-16 11:29:57"
-  },
-  "expvseprosto-posts.md": {
-    "hash": "530f96c90e70aa678fd10bb5fc93cafc",
-    "title": "expvseprosto-posts",
-    "doc_id": "insert_20260616_112959_3638ec13",
-    "synced_at": "2026-06-16 11:29:59"
-  },
-  "notes/books-to-remind.md": {
-    "hash": "a6144f9f9049da5fb389af30b65768ca",
-    "title": "books-to-remind",
-    "doc_id": "insert_20260616_113005_3b29acf3",
-    "synced_at": "2026-06-16 11:30:05"
-  },
-  "osrs-botting-guide.md": {
-    "hash": "6febac5e2448ac82ea7c659e4132c18a",
-    "title": "osrs-botting-guide",
-    "doc_id": "insert_20260616_113007_83bf9d13",
-    "synced_at": "2026-06-16 11:30:07"
-  },
-  "projects/newsletter-apology.md": {
-    "hash": "675aaa5b318b922bcb07a6109532c7c1",
-    "title": "newsletter-apology",
-    "doc_id": "insert_20260616_113011_bcd21d56",
-    "synced_at": "2026-06-16 11:30:11"
-  },
-  "projects/smarthelper-competitor-analysis.md": {
-    "hash": "e399a8f4cf743a5a3d71bbe2cea9872c",
-    "title": "smarthelper-competitor-analysis",
-    "doc_id": "insert_20260616_113013_a609577e",
-    "synced_at": "2026-06-16 11:30:13"
-  },
-  "projects/smarthelper-questionnaire.md": {
-    "hash": "bd62f21bc530158cc198a1dcc72d1900",
-    "title": "smarthelper-questionnaire",
-    "doc_id": "insert_20260616_113015_f68d67f5",
-    "synced_at": "2026-06-16 11:30:15"
-  },
-  "projects/smarthelper-upgrade-plan.md": {
-    "hash": "8e4ebad5b4039d66637e2a936b5c2366",
-    "title": "smarthelper-upgrade-plan",
-    "doc_id": "insert_20260616_113017_24505d76",
-    "synced_at": "2026-06-16 11:30:17"
-  },
-  "reports/marketing-report-2026-06-15.md": {
-    "hash": "de904ea3d56084046993bcada03a07cd",
-    "title": "marketing-report-2026-06-15",
-    "doc_id": "insert_20260616_113019_c89521f6",
-    "synced_at": "2026-06-16 11:30:19"
-  },
-  "rtm-farming-analysis-2025-2026.md": {
-    "hash": "e98e0740fc07476b2a1bead1f2c6560e",
-    "title": "rtm-farming-analysis-2025-2026",
-    "doc_id": "insert_20260616_113021_7203f70d",
-    "synced_at": "2026-06-16 11:30:21"
-  },
-  "tools/account-automation-toolkit.md": {
-    "hash": "9052549c734e2a590c6d4aec8838f7ba",
-    "title": "account-automation-toolkit",
-    "doc_id": "insert_20260616_113023_7ddcddfa",
-    "synced_at": "2026-06-16 11:30:23"
+    "doc_id": "insert_20260617_090225_0489b68f",
+    "synced_at": "2026-06-17 09:02:25"
   },
   "CLAUDE.md": {
     "hash": "dcd67772383192c716bb8892a2a77a4c",
     "title": "CLAUDE",
-    "doc_id": "insert_20260617_085838_2ddd22ac",
-    "synced_at": "2026-06-17 08:58:49"
+    "doc_id": "insert_20260617_090227_258ad21d",
+    "synced_at": "2026-06-17 09:02:27"
+  },
+  "Hermes-report.md": {
+    "hash": "5bcd1f0f8a7dfcfc2400f265716ab005",
+    "title": "Hermes-report",
+    "doc_id": "insert_20260617_090229_e4abc132",
+    "synced_at": "2026-06-17 09:02:29"
+  },
+  "agent-notes/belfort-final-report-2026-06-15.md": {
+    "hash": "e893593ed6c98b4108f80b65882e89c4",
+    "title": "belfort-final-report-2026-06-15",
+    "doc_id": "insert_20260617_090231_4059bc20",
+    "synced_at": "2026-06-17 09:02:31"
+  },
+  "agent-notes/belfort-infrastructure.md": {
+    "hash": "1f2843da57d0315ceefa5ec13deacae9",
+    "title": "belfort-infrastructure",
+    "doc_id": "insert_20260617_090233_b94dfb03",
+    "synced_at": "2026-06-17 09:02:33"
+  },
+  "agent-notes/belfort-portfolio-2026-06-15.md": {
+    "hash": "40b90827938c508b9e4760758c42769c",
+    "title": "belfort-portfolio-2026-06-15",
+    "doc_id": "insert_20260617_090235_0d95c3cc",
+    "synced_at": "2026-06-17 09:02:35"
+  },
+  "agent-notes/github-token.md": {
+    "hash": "62f0e95c5605fdcc7efd22cbb7202145",
+    "title": "github-token",
+    "doc_id": "insert_20260617_090237_9cb50bc7",
+    "synced_at": "2026-06-17 09:02:37"
+  },
+  "agent-notes/hermes-strategy-belfort.md": {
+    "hash": "b74c63192172a922a52b227cd3bb88e0",
+    "title": "hermes-strategy-belfort",
+    "doc_id": "insert_20260617_090239_aefdaa0c",
+    "synced_at": "2026-06-17 09:02:39"
+  },
+  "agent-notes/hermes-strategy-bishop.md": {
+    "hash": "c02607447a975488ae5a21a423d88952",
+    "title": "hermes-strategy-bishop",
+    "doc_id": "insert_20260617_090241_d754e6ca",
+    "synced_at": "2026-06-17 09:02:41"
+  },
+  "agent-notes/hermes-strategy-gost.md": {
+    "hash": "77012c4f5601875844209fe02d6178b3",
+    "title": "hermes-strategy-gost",
+    "doc_id": "insert_20260617_090243_d0091985",
+    "synced_at": "2026-06-17 09:02:44"
+  },
+  "agent-notes/hermes-strategy-jarvis.md": {
+    "hash": "845fc6ab0e35237df315ff5efddc1076",
+    "title": "hermes-strategy-jarvis",
+    "doc_id": "insert_20260617_090246_d9c597d5",
+    "synced_at": "2026-06-17 09:02:46"
+  },
+  "agent-notes/hermes-strategy-paladin.md": {
+    "hash": "48314ad60d3f3d537fe37b74a47b312f",
+    "title": "hermes-strategy-paladin",
+    "doc_id": "insert_20260617_090248_e76e66e1",
+    "synced_at": "2026-06-17 09:02:48"
+  },
+  "agent-notes/hermes-strategy-shadow.md": {
+    "hash": "f317805ce0f163144116eb5928302deb",
+    "title": "hermes-strategy-shadow",
+    "doc_id": "insert_20260617_090250_c68bb7c0",
+    "synced_at": "2026-06-17 09:02:50"
+  },
+  "agent-notes/hermes-strategy-sinabon.md": {
+    "hash": "a672cc3eecd1dd0f3b0c3ab9bebc0699",
+    "title": "hermes-strategy-sinabon",
+    "doc_id": "insert_20260617_090252_3bbb48fe",
+    "synced_at": "2026-06-17 09:02:52"
+  },
+  "agent-notes/hermes-strategy-tsilya.md": {
+    "hash": "7a361f07b3c8a7c42e422439f84d736e",
+    "title": "hermes-strategy-tsilya",
+    "doc_id": "insert_20260617_090254_16b7f4e4",
+    "synced_at": "2026-06-17 09:02:54"
+  },
+  "agent-notes/hermes-system-belfort.md": {
+    "hash": "0f39a33a2d9c94054edf23d035e1618f",
+    "title": "hermes-system-belfort",
+    "doc_id": "insert_20260617_090256_0a35c7a6",
+    "synced_at": "2026-06-17 09:02:56"
+  },
+  "agent-notes/hermes-system-bishop.md": {
+    "hash": "6541345e98869646d4691ee485a33043",
+    "title": "hermes-system-bishop",
+    "doc_id": "insert_20260617_090258_afb0461d",
+    "synced_at": "2026-06-17 09:02:58"
+  },
+  "agent-notes/hermes-system-gost.md": {
+    "hash": "b1107dbab3eb951d276f8c64f4163348",
+    "title": "hermes-system-gost",
+    "doc_id": "insert_20260617_090300_b5b2fa50",
+    "synced_at": "2026-06-17 09:03:00"
+  },
+  "agent-notes/hermes-system-hermes.md": {
+    "hash": "750ab837066eaf3e886c4b9eba74ad74",
+    "title": "hermes-system-hermes",
+    "doc_id": "insert_20260617_090302_4d9250de",
+    "synced_at": "2026-06-17 09:03:02"
+  },
+  "agent-notes/hermes-system-jarvis.md": {
+    "hash": "5af2169c263dee2bbf85a8f7b9e25c3a",
+    "title": "hermes-system-jarvis",
+    "doc_id": "insert_20260617_090304_8f1e4f4f",
+    "synced_at": "2026-06-17 09:03:04"
+  },
+  "agent-notes/hermes-system-marketing.md": {
+    "hash": "f953499b7f9ce89441347560e4a0b41a",
+    "title": "hermes-system-marketing",
+    "doc_id": "insert_20260617_090306_fd903279",
+    "synced_at": "2026-06-17 09:03:06"
+  },
+  "agent-notes/hermes-system-overview.md": {
+    "hash": "8bfd5f291058a7d5ad9aae6e74aca256",
+    "title": "hermes-system-overview",
+    "doc_id": "insert_20260617_090308_a9cc5b6b",
+    "synced_at": "2026-06-17 09:03:08"
+  },
+  "agent-notes/hermes-system-paladin.md": {
+    "hash": "08a40b1a62fe504305e606dbe9261264",
+    "title": "hermes-system-paladin",
+    "doc_id": "insert_20260617_090310_1328aedb",
+    "synced_at": "2026-06-17 09:03:10"
+  },
+  "agent-notes/hermes-system-shadow.md": {
+    "hash": "3d0cd03df2e90fda4e114b9d4eee41a1",
+    "title": "hermes-system-shadow",
+    "doc_id": "insert_20260617_090312_d5183cb0",
+    "synced_at": "2026-06-17 09:03:12"
+  },
+  "agent-notes/hermes-system-sinabon.md": {
+    "hash": "4c16295ded1ffd147fbb91dca659048e",
+    "title": "hermes-system-sinabon",
+    "doc_id": "insert_20260617_090314_3be8a9b4",
+    "synced_at": "2026-06-17 09:03:14"
+  },
+  "agent-notes/hermes-system-tsilya.md": {
+    "hash": "75abd42f4e6f089443944d104e3ac07d",
+    "title": "hermes-system-tsilya",
+    "doc_id": "insert_20260617_090316_90095cce",
+    "synced_at": "2026-06-17 09:03:16"
+  },
+  "agent-notes/memory-sync/README.md": {
+    "hash": "0f2aa16a66e86c2dcd15768b13435e4f",
+    "title": "README",
+    "doc_id": "insert_20260617_090318_77774f40",
+    "synced_at": "2026-06-17 09:03:18"
   },
   "agent-notes/memory-sync/belfort.md": {
     "hash": "b44fa0ad00ffd584f0db56dd5b570002",
     "title": "belfort",
-    "doc_id": "insert_20260617_090053_45a63e3f",
-    "synced_at": "2026-06-17 09:00:53"
+    "doc_id": "insert_20260617_090320_24be6021",
+    "synced_at": "2026-06-17 09:03:20"
   },
   "agent-notes/memory-sync/gost.md": {
     "hash": "53d5537442718980c97f17a39f6f1ecd",
     "title": "gost",
-    "doc_id": "insert_20260617_090055_736096d9",
-    "synced_at": "2026-06-17 09:00:55"
+    "doc_id": "insert_20260617_090322_27e610a8",
+    "synced_at": "2026-06-17 09:03:22"
   },
   "agent-notes/memory-sync/hermes.md": {
     "hash": "1eecc7779e2a16c79db240018a586bb5",
     "title": "hermes",
-    "doc_id": "insert_20260617_090057_2361af09",
-    "synced_at": "2026-06-17 09:00:57"
+    "doc_id": "insert_20260617_090324_2b76c09f",
+    "synced_at": "2026-06-17 09:03:24"
   },
   "agent-notes/memory-sync/jarvis.md": {
     "hash": "9344e33533fd95de250ebc7f44b0f4f5",
     "title": "jarvis",
-    "doc_id": "insert_20260617_090059_f83e5e6e",
-    "synced_at": "2026-06-17 09:00:59"
+    "doc_id": "insert_20260617_090326_e2af8fb4",
+    "synced_at": "2026-06-17 09:03:26"
   },
   "agent-notes/memory-sync/paladin.md": {
     "hash": "e211d4a61e18779ed5c74d06d2d8de73",
     "title": "paladin",
-    "doc_id": "insert_20260617_090101_9e853cb6",
-    "synced_at": "2026-06-17 09:01:01"
+    "doc_id": "insert_20260617_090328_65d476fe",
+    "synced_at": "2026-06-17 09:03:28"
   },
   "agent-notes/memory-sync/sessions/belfort/IMPORTANT You are running as a scheduled.md": {
     "hash": "266691402817943a07bb79d4620d4366",
     "title": "IMPORTANT You are running as a scheduled",
-    "doc_id": "insert_20260617_090103_9ff03bcf",
-    "synced_at": "2026-06-17 09:01:03"
+    "doc_id": "insert_20260617_090330_0c60f9eb",
+    "synced_at": "2026-06-17 09:03:30"
   },
   "agent-notes/memory-sync/sessions/belfort/Брат давай что у нас по рынку и залезть.md": {
     "hash": "7413614f79d1a07d8648d045a0b10bae",
     "title": "Брат давай что у нас по рынку и залезть",
-    "doc_id": "insert_20260617_090105_27cabc79",
-    "synced_at": "2026-06-17 09:01:05"
+    "doc_id": "insert_20260617_090332_b87789fb",
+    "synced_at": "2026-06-17 09:03:32"
   },
   "agent-notes/memory-sync/sessions/belfort/Найди на GitHub лучшие стратегии для Fre.md": {
     "hash": "629ff0ca06060b6fcb782485b9027d83",
     "title": "Найди на GitHub лучшие стратегии для Fre",
-    "doc_id": "insert_20260617_090107_820cacb0",
-    "synced_at": "2026-06-17 09:01:07"
+    "doc_id": "insert_20260617_090334_48fffdbe",
+    "synced_at": "2026-06-17 09:03:34"
   },
   "agent-notes/memory-sync/sessions/belfort/Найди на Reddit лучшие стратегии крипто-.md": {
     "hash": "04e7b50df1efed31da2a67cc9aacca6b",
     "title": "Найди на Reddit лучшие стратегии крипто-",
-    "doc_id": "insert_20260617_090109_231630e7",
-    "synced_at": "2026-06-17 09:01:09"
+    "doc_id": "insert_20260617_090336_40e84924",
+    "synced_at": "2026-06-17 09:03:36"
   },
   "agent-notes/memory-sync/sessions/belfort/Найди на TradingView стратегии и индикат.md": {
     "hash": "07438c7b447d5bfd6309c145d992dd4a",
     "title": "Найди на TradingView стратегии и индикат",
-    "doc_id": "insert_20260617_090111_def2284e",
-    "synced_at": "2026-06-17 09:01:11"
+    "doc_id": "insert_20260617_090338_8a165c8c",
+    "synced_at": "2026-06-17 09:03:38"
   },
   "agent-notes/memory-sync/sessions/gost/IMPORTANT The user has invoked the albio.md": {
     "hash": "da18bc0d9ed2985c39ab83dd09a1daef",
     "title": "IMPORTANT The user has invoked the albio",
-    "doc_id": "insert_20260617_090113_77730c98",
-    "synced_at": "2026-06-17 09:01:13"
+    "doc_id": "insert_20260617_090340_c129cfff",
+    "synced_at": "2026-06-17 09:03:40"
   },
   "agent-notes/memory-sync/sessions/gost/Бро у тебя игра щас не загружено у тебя.md": {
     "hash": "b7278ad9f9fd9e06337806c94e2245a3",
     "title": "Бро у тебя игра щас не загружено у тебя",
-    "doc_id": "insert_20260617_090115_1b25cd56",
-    "synced_at": "2026-06-17 09:01:15"
+    "doc_id": "insert_20260617_090342_ada015e0",
+    "synced_at": "2026-06-17 09:03:42"
   },
   "agent-notes/memory-sync/sessions/gost/Найди где можно быстро купить готовый Go.md": {
     "hash": "69e9319d623f98e75f4c595fa8c11d85",
     "title": "Найди где можно быстро купить готовый Go",
-    "doc_id": "insert_20260617_090117_5e723da7",
-    "synced_at": "2026-06-17 09:01:17"
+    "doc_id": "insert_20260617_090344_4eeab66a",
+    "synced_at": "2026-06-17 09:03:44"
   },
   "agent-notes/memory-sync/sessions/gost/Найди как работает Hordesio под капотом.md": {
     "hash": "dcbacb7cf979846c3bc823c09ecf8f06",
     "title": "Найди как работает Hordesio под капотом",
-    "doc_id": "insert_20260617_090119_434e87bc",
-    "synced_at": "2026-06-17 09:01:19"
+    "doc_id": "insert_20260617_090346_cb03280b",
+    "synced_at": "2026-06-17 09:03:46"
   },
   "agent-notes/memory-sync/sessions/gost/У тебя доступ к обсидиан и рак системе е.md": {
     "hash": "bdb1068cf6711c3cbbb1b8b6ad1813eb",
     "title": "У тебя доступ к обсидиан и рак системе е",
-    "doc_id": "insert_20260617_090121_ec45339b",
-    "synced_at": "2026-06-17 09:01:21"
+    "doc_id": "insert_20260617_090348_86a97194",
+    "synced_at": "2026-06-17 09:03:48"
   },
   "agent-notes/memory-sync/sessions/jarvis/Бро утренний пост пришлю я почитаю.md": {
     "hash": "42e8b43b8996dc2e888c3ae8fed91566",
     "title": "Бро утренний пост пришлю я почитаю",
-    "doc_id": "insert_20260617_090123_9a7beed3",
-    "synced_at": "2026-06-17 09:01:23"
+    "doc_id": "insert_20260617_090350_264e6027",
+    "synced_at": "2026-06-17 09:03:50"
   },
   "agent-notes/memory-sync/sessions/shadow/Replying to Бро всё проверил  нет GitHub.md": {
     "hash": "8bc409bdec545b0f7bf2fef4ab8e4d06",
     "title": "Replying to Бро всё проверил  нет GitHub",
-    "doc_id": "insert_20260617_090125_9353691c",
-    "synced_at": "2026-06-17 09:01:25"
+    "doc_id": "insert_20260617_090352_186cb68b",
+    "synced_at": "2026-06-17 09:03:52"
   },
   "agent-notes/memory-sync/sessions/shadow/Search for Telegram bots that are simila.md": {
     "hash": "7447e3928e82a14a120b2aa745cd9cc7",
     "title": "Search for Telegram bots that are simila",
-    "doc_id": "insert_20260617_090127_bcb3d26f",
-    "synced_at": "2026-06-17 09:01:27"
+    "doc_id": "insert_20260617_090354_41440e7e",
+    "synced_at": "2026-06-17 09:03:54"
   },
   "agent-notes/memory-sync/sessions/shadow/Исследовать маркетинговые воронки и UIX.md": {
     "hash": "a51be854837cd387eed31ff4be7ec110",
     "title": "Исследовать маркетинговые воронки и UIX",
-    "doc_id": "insert_20260617_090129_6d30e98d",
-    "synced_at": "2026-06-17 09:01:29"
+    "doc_id": "insert_20260617_090356_576dd48b",
+    "synced_at": "2026-06-17 09:03:56"
   },
   "agent-notes/memory-sync/sessions/shadow/Исследовать топ-5 конкурентов для AI-про.md": {
     "hash": "5e1a718800bf6f017aea7900bec2fa9f",
     "title": "Исследовать топ-5 конкурентов для AI-про",
-    "doc_id": "insert_20260617_090131_b2a9695a",
-    "synced_at": "2026-06-17 09:01:31"
+    "doc_id": "insert_20260617_090358_c1717cc2",
+    "synced_at": "2026-06-17 09:03:58"
   },
   "agent-notes/memory-sync/sessions/tsilya/IMPORTANT You are running as a scheduled.md": {
     "hash": "3cd51b162b41f6314f3e3fdd627f84c9",
     "title": "IMPORTANT You are running as a scheduled",
-    "doc_id": "insert_20260617_090133_4e1a0e5a",
-    "synced_at": "2026-06-17 09:01:33"
-  },
-  "agent-notes/memory-sync/shadow.md": {
-    "hash": "2701a3c2bff9ef5a491c12da22c4ecff",
-    "title": "shadow",
-    "doc_id": "insert_20260617_090135_bcfb28d0",
-    "synced_at": "2026-06-17 09:01:35"
-  },
-  "agent-notes/memory-sync/tsilya.md": {
-    "hash": "8b58884b564103317f892b4e7e6ace48",
-    "title": "tsilya",
-    "doc_id": "insert_20260617_090137_02074ae6",
-    "synced_at": "2026-06-17 09:01:37"
-  },
-  "agent-notes/tests/test-healthcheck.md": {
-    "hash": "f5b36997b58ff3407693778197366db5",
-    "title": "test-healthcheck",
-    "doc_id": "insert_20260617_090139_b921fb07",
-    "synced_at": "2026-06-17 09:01:39"
+    "doc_id": "insert_20260617_090400_9e86f35d",
+    "synced_at": "2026-06-17 09:04:00"
   }
 }
