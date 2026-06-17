@@ -268,3 +268,6 @@ Traceback (most recent call last):
     deleted = [k for k in track if k not in existing]
                           ^^^^^
 UnboundLocalError: cannot access local variable 'track' where it is not associated with a value
+[2026-06-17 08:58:38] Syncing: CLAUDE.md (title=CLAUDE)
+[2026-06-17 08:58:49]   OK: doc_id=insert_20260617_0858
+[2026-06-17 08:58:51] Syncing: agent-notes/memory-sync/README.md (title=README)
