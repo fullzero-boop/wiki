@@ -27,6 +27,7 @@ def file_hash(path):
     return hashlib.md5(Path(path).read_bytes()).hexdigest()
 
 def sync():
+    track = load_track()
     # Clean tracker: remove entries for deleted files
     existing = {str(p.relative_to(WIKI_DIR)) for p in WIKI_DIR.rglob("*.md") if ".git" not in str(p)}
     deleted = [k for k in track if k not in existing]
@@ -35,7 +36,6 @@ def sync():
         del track[k]
     if deleted:
         save_track(track)
-    track = load_track()
     synced = 0
     
     for md_file in sorted(WIKI_DIR.rglob("*.md")):
