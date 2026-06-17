@@ -8,6 +8,55 @@
         "type": "tabs",
         "children": [
           {
+            "id": "ce2f372f2fbd499f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {
+                "collapseFilter": false,
+                "search": "",
+                "showTags": true,
+                "showAttachments": false,
+                "showOrphans": true,
+                "showArrow": true,
+                "showLocalGraph": true,
+                "localJumps": 2,
+                "colorGroups": [
+                  {
+                    "query": "path:agents",
+                    "color": {
+                      "a": 1,
+                      "rgb": 4342338
+                    }
+                  },
+                  {
+                    "query": "path:infrastructure",
+                    "color": {
+                      "a": 1,
+                      "rgb": 16728385
+                    }
+                  },
+                  {
+                    "query": "path:tools",
+                    "color": {
+                      "a": 1,
+                      "rgb": 11042539
+                    }
+                  },
+                  {
+                    "query": "path:projects",
+                    "color": {
+                      "a": 1,
+                      "rgb": 11042539
+                    }
+                  }
+                ]
+              },
+              "icon": "lucide-share-2",
+              "title": "Graph View"
+            }
+          },
+          {
             "id": "3e05abf6747e6dd3",
             "type": "leaf",
             "state": {
@@ -31,7 +80,8 @@
               "title": "Новая вкладка"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,6 +231,7 @@
   },
   "active": "3e05abf6747e6dd3",
   "lastOpenFiles": [
+    "wiki-graph.html",
     "rtm-farming-analysis-2025-2026.md",
     "osrs-botting-guide.md",
     "index.md",
@@ -211,7 +262,6 @@
     "wiki-autosync.sh",
     "raw",
     "Hermes-report.md",
-    "agents/Hermes-report.md",
     "projects",
     "infrastructure",
     "agents",
