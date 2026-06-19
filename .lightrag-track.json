@@ -467,12 +467,6 @@
     "doc_id": "insert_20260619_191204_1a429f70",
     "synced_at": "2026-06-19 19:12:04"
   },
-  "agent-notes/memory-sync/sessions/tsilya/IMPORTANT You are running as a scheduled.md": {
-    "hash": "3cd51b162b41f6314f3e3fdd627f84c9",
-    "title": "IMPORTANT You are running as a scheduled",
-    "doc_id": "insert_20260619_210015_06f2103a",
-    "synced_at": "2026-06-19 21:00:15"
-  },
   "agent-notes/memory-sync/README.md": {
     "hash": "cd7f8497ded65e794678faa216aca76d",
     "title": "README",
@@ -496,5 +490,17 @@
     "title": "Найти топ-5 реальных торговых тактикстра",
     "doc_id": "insert_20260619_211011_f21aa0b8",
     "synced_at": "2026-06-19 21:10:11"
+  },
+  "agent-notes/memory-sync/sessions/belfort/Собрать топ-5 реальных торговых тактикст.md": {
+    "hash": "63196994894ad70602683401859578c6",
+    "title": "Собрать топ-5 реальных торговых тактикст",
+    "doc_id": "insert_20260619_211012_d30cb81b",
+    "synced_at": "2026-06-19 21:10:12"
+  },
+  "agent-notes/memory-sync/sessions/tsilya/IMPORTANT You are running as a scheduled.md": {
+    "hash": "3cd51b162b41f6314f3e3fdd627f84c9",
+    "title": "IMPORTANT You are running as a scheduled",
+    "doc_id": "insert_20260619_211014_a08206d6",
+    "synced_at": "2026-06-19 21:10:14"
   }
 }
