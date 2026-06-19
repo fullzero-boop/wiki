@@ -155,42 +155,6 @@
     "doc_id": "insert_20260617_090316_90095cce",
     "synced_at": "2026-06-17 09:03:16"
   },
-  "agent-notes/memory-sync/README.md": {
-    "hash": "0f2aa16a66e86c2dcd15768b13435e4f",
-    "title": "README",
-    "doc_id": "insert_20260617_090318_77774f40",
-    "synced_at": "2026-06-17 09:03:18"
-  },
-  "agent-notes/memory-sync/belfort.md": {
-    "hash": "b44fa0ad00ffd584f0db56dd5b570002",
-    "title": "belfort",
-    "doc_id": "insert_20260617_090320_24be6021",
-    "synced_at": "2026-06-17 09:03:20"
-  },
-  "agent-notes/memory-sync/gost.md": {
-    "hash": "53d5537442718980c97f17a39f6f1ecd",
-    "title": "gost",
-    "doc_id": "insert_20260617_090322_27e610a8",
-    "synced_at": "2026-06-17 09:03:22"
-  },
-  "agent-notes/memory-sync/hermes.md": {
-    "hash": "1eecc7779e2a16c79db240018a586bb5",
-    "title": "hermes",
-    "doc_id": "insert_20260617_090324_2b76c09f",
-    "synced_at": "2026-06-17 09:03:24"
-  },
-  "agent-notes/memory-sync/jarvis.md": {
-    "hash": "9344e33533fd95de250ebc7f44b0f4f5",
-    "title": "jarvis",
-    "doc_id": "insert_20260617_090326_e2af8fb4",
-    "synced_at": "2026-06-17 09:03:26"
-  },
-  "agent-notes/memory-sync/paladin.md": {
-    "hash": "e211d4a61e18779ed5c74d06d2d8de73",
-    "title": "paladin",
-    "doc_id": "insert_20260617_090328_65d476fe",
-    "synced_at": "2026-06-17 09:03:28"
-  },
   "agent-notes/memory-sync/sessions/belfort/IMPORTANT You are running as a scheduled.md": {
     "hash": "266691402817943a07bb79d4620d4366",
     "title": "IMPORTANT You are running as a scheduled",
@@ -280,24 +244,6 @@
     "title": "Исследовать топ-5 конкурентов для AI-про",
     "doc_id": "insert_20260617_090358_c1717cc2",
     "synced_at": "2026-06-17 09:03:58"
-  },
-  "agent-notes/memory-sync/sessions/tsilya/IMPORTANT You are running as a scheduled.md": {
-    "hash": "3cd51b162b41f6314f3e3fdd627f84c9",
-    "title": "IMPORTANT You are running as a scheduled",
-    "doc_id": "insert_20260617_090400_9e86f35d",
-    "synced_at": "2026-06-17 09:04:00"
-  },
-  "agent-notes/memory-sync/shadow.md": {
-    "hash": "2701a3c2bff9ef5a491c12da22c4ecff",
-    "title": "shadow",
-    "doc_id": "insert_20260617_090402_a2395067",
-    "synced_at": "2026-06-17 09:04:02"
-  },
-  "agent-notes/memory-sync/tsilya.md": {
-    "hash": "8b58884b564103317f892b4e7e6ace48",
-    "title": "tsilya",
-    "doc_id": "insert_20260617_090404_35f40b00",
-    "synced_at": "2026-06-17 09:04:04"
   },
   "agent-notes/reboot-access.md": {
     "hash": "42c5c92837ebe7c2d4f7c35bc07df678",
@@ -472,5 +418,89 @@
     "title": "account-automation-toolkit",
     "doc_id": "insert_20260617_090502_402a1766",
     "synced_at": "2026-06-17 09:05:02"
+  },
+  "agent-notes/memory-sync/sessions/belfort/Бро как у нас процессы.md": {
+    "hash": "fa46e60945b97200e8107f5a9323f483",
+    "title": "Бро как у нас процессы",
+    "doc_id": "insert_20260619_185503_9b7a1a0e",
+    "synced_at": "2026-06-19 18:55:03"
+  },
+  "agent-notes/memory-sync/sessions/belfort/Брат как рынок.md": {
+    "hash": "096c169e4443d22edca9b97154e2f659",
+    "title": "Брат как рынок",
+    "doc_id": "insert_20260619_165519_a4515572",
+    "synced_at": "2026-06-19 16:55:21"
+  },
+  "agent-notes/memory-sync/sessions/belfort/Собрать топ-5 реальных торговых тактикст.md": {
+    "hash": "63196994894ad70602683401859578c6",
+    "title": "Собрать топ-5 реальных торговых тактикст",
+    "doc_id": "insert_20260619_165522_8bf2f60f",
+    "synced_at": "2026-06-19 16:55:25"
+  },
+  "agent-notes/memory-sync/sessions/belfort/Найти топ-5 реальных торговых тактикстра.md": {
+    "hash": "658a986a9dcd22e1e987831b6a7cb97e",
+    "title": "Найти топ-5 реальных торговых тактикстра",
+    "doc_id": "insert_20260619_165526_92a51ab0",
+    "synced_at": "2026-06-19 16:55:30"
+  },
+  "agent-notes/memory-sync/belfort.md": {
+    "hash": "c6d061fb9ca20da51e73c81eab421fe5",
+    "title": "belfort",
+    "doc_id": "insert_20260619_170024_5fd23ed0",
+    "synced_at": "2026-06-19 17:00:27"
+  },
+  "agent-notes/memory-sync/gost.md": {
+    "hash": "fb1f624d47c172416445e5351435ee60",
+    "title": "gost",
+    "doc_id": "insert_20260619_170028_0fad3033",
+    "synced_at": "2026-06-19 17:00:32"
+  },
+  "agent-notes/memory-sync/hermes.md": {
+    "hash": "f09deec7064bc26cfdb6ad484055f7a5",
+    "title": "hermes",
+    "doc_id": "insert_20260619_170034_6b7c9a31",
+    "synced_at": "2026-06-19 17:00:37"
+  },
+  "agent-notes/memory-sync/jarvis.md": {
+    "hash": "9609d20e342991558c62f25e9ef1e4cb",
+    "title": "jarvis",
+    "doc_id": "insert_20260619_170039_fc3121d2",
+    "synced_at": "2026-06-19 17:00:42"
+  },
+  "agent-notes/memory-sync/paladin.md": {
+    "hash": "4b0bd785a85339ac2ee6162b2c81631a",
+    "title": "paladin",
+    "doc_id": "insert_20260619_170044_0c5e7c27",
+    "synced_at": "2026-06-19 17:00:47"
+  },
+  "agent-notes/memory-sync/shadow.md": {
+    "hash": "1ac0197efbadb570e8135a57ff2e6242",
+    "title": "shadow",
+    "doc_id": "insert_20260619_170053_690f47b4",
+    "synced_at": "2026-06-19 17:00:57"
+  },
+  "agent-notes/memory-sync/tsilya.md": {
+    "hash": "f93e70dbd1ab216635fca802b84ec26a",
+    "title": "tsilya",
+    "doc_id": "insert_20260619_170058_8ba49c78",
+    "synced_at": "2026-06-19 17:01:02"
+  },
+  "agent-notes/memory-sync/README.md": {
+    "hash": "946eefafa4862dd86e94e3cb7284c23e",
+    "title": "README",
+    "doc_id": "insert_20260619_190604_0fea56f1",
+    "synced_at": "2026-06-19 19:06:04"
+  },
+  "agent-notes/memory-sync/sessions/tsilya/IMPORTANT You are running as a scheduled.md": {
+    "hash": "94114594d49f352514de3549778f087f",
+    "title": "IMPORTANT You are running as a scheduled",
+    "doc_id": "insert_20260619_190606_3477fed3",
+    "synced_at": "2026-06-19 19:06:06"
+  },
+  "test-note-from-bot.md": {
+    "hash": "139557bb382ba4eeb8d0a4c281c5d563",
+    "title": "test-note-from-bot",
+    "doc_id": "insert_20260619_190719_b6fd9b99",
+    "synced_at": "2026-06-19 19:07:19"
   }
 }
