@@ -623,3 +623,13 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-06-19 19:08:40]   OK: doc_id=insert_20260619_190840_078cf082
 [2026-06-19 19:08:42] Syncing: agent-notes/hermes-system-tsilya.md (title=hermes-system-tsilya)
 [2026-06-19 19:08:43]   OK: doc_id=insert_20260619_190843_a0b97424
+[2026-06-19 19:08:45] Syncing: agent-notes/memory-sync/sessions/belfort/Брат давай что у нас по рынку и залезть.md (title=Брат давай что у нас по рынку и залезть)
+[2026-06-19 19:08:45]   OK: doc_id=insert_20260619_190845_a56d62b7
+[2026-06-19 19:08:47] Syncing: agent-notes/memory-sync/sessions/belfort/Найди на GitHub лучшие стратегии для Fre.md (title=Найди на GitHub лучшие стратегии для Fre)
+[2026-06-19 19:08:47]   OK: doc_id=insert_20260619_190847_8cf861b8
+[2026-06-19 19:08:49] Syncing: agent-notes/memory-sync/sessions/belfort/Найди на Reddit лучшие стратегии крипто-.md (title=Найди на Reddit лучшие стратегии крипто-)
+[2026-06-19 19:08:49]   OK: doc_id=insert_20260619_190849_4b5eac2a
+[2026-06-19 19:08:51] Syncing: agent-notes/memory-sync/sessions/belfort/Найди на TradingView стратегии и индикат.md (title=Найди на TradingView стратегии и индикат)
+[2026-06-19 19:08:51]   OK: doc_id=insert_20260619_190851_b65c6e88
+[2026-06-19 19:08:54] Syncing: agent-notes/memory-sync/sessions/belfort/IMPORTANT You are running as a scheduled.md (title=IMPORTANT You are running as a scheduled)
+[2026-06-19 19:08:54]   OK: doc_id=insert_20260619_190854_98e2fbe1
