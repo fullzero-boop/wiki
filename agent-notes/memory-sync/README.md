@@ -1,4 +1,4 @@
-# 🧠 Agent Memory Sync — 2026-06-17 10:55 UTC
+# 🧠 Agent Memory Sync — 2026-06-19 19:15 UTC
 
 Автоматическая синхронизация памяти агентов в общий wiki/Obsidian.
 
@@ -6,7 +6,7 @@
 
 ## Агенты
 
-- [Belfort](belfort.md) — 7 фактов
+- [Belfort](belfort.md) — 10 фактов
 - [Gost](gost.md) — 46 фактов
 - [Hermes](hermes.md) — 13 фактов
 - [Jarvis](jarvis.md) — 29 фактов
@@ -29,7 +29,3 @@
 - **jarvis** (id=27, general): DM с Евгением: только по делу. Никаких извинений, рефлексии, анализа своих действий, пояснений.
 - **jarvis** (id=26, general): DM с Евгением: только по делу. Без извинений, без рефлексии, без анализа своих действий, без пояснений. Сказано — сделан...
 - **jarvis** (id=25, user_pref): Евгений Сергеевич Sapozhkov. Специализация: акупунктура + остеопрактика. Владелец канала @expvseprosto.
-
-## Связанные
-- [[agents/Hermes.md]]
-- [[agent-notes/hermes-system-overview.md]]
