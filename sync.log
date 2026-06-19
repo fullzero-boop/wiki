@@ -814,3 +814,17 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-06-19 21:01:46]   OK: doc_id=insert_20260619_2101
 [2026-06-19 21:01:48] Syncing: agents/Shadow.md (title=Shadow)
 [2026-06-19 21:01:48]   OK: doc_id=insert_20260619_2101
+[2026-06-19 21:02:05] Syncing: osrs-botting-guide.md (title=osrs-botting-guide)
+[2026-06-19 21:02:05]   OK: doc_id=insert_20260619_2102
+[2026-06-19 21:02:07] Syncing: projects/Projects.md (title=Projects)
+[2026-06-19 21:02:07]   OK: doc_id=insert_20260619_2102
+[2026-06-19 21:02:09] Syncing: projects/newsletter-apology.md (title=newsletter-apology)
+[2026-06-19 21:02:09]   OK: doc_id=insert_20260619_2102
+[2026-06-19 21:02:11] Syncing: projects/smarthelper-competitor-analysis.md (title=smarthelper-competitor-analysis)
+[2026-06-19 21:02:11]   OK: doc_id=insert_20260619_2102
+[2026-06-19 21:02:13] Syncing: projects/smarthelper-questionnaire.md (title=smarthelper-questionnaire)
+[2026-06-19 21:02:13]   OK: doc_id=insert_20260619_2102
+[2026-06-19 21:02:15] Syncing: projects/smarthelper-upgrade-plan.md (title=smarthelper-upgrade-plan)
+[2026-06-19 21:02:15]   OK: doc_id=insert_20260619_2102
+[2026-06-19 21:02:17] Syncing: reports/marketing-report-2026-06-15.md (title=marketing-report-2026-06-15)
+[2026-06-19 21:02:18]   OK: doc_id=insert_20260619_2102
