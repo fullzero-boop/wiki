@@ -461,46 +461,46 @@
     "doc_id": "insert_20260619_170058_8ba49c78",
     "synced_at": "2026-06-19 17:01:02"
   },
-  "agent-notes/memory-sync/README.md": {
-    "hash": "6a8768a4e59c19f84bc0dc9017ff1c04",
-    "title": "README",
-    "doc_id": "insert_20260619_191506_306cf858",
-    "synced_at": "2026-06-19 19:15:06"
-  },
-  "agent-notes/memory-sync/sessions/belfort/Брат как рынок.md": {
-    "hash": "096c169e4443d22edca9b97154e2f659",
-    "title": "Брат как рынок",
-    "doc_id": "insert_20260619_191010_cf5388ad",
-    "synced_at": "2026-06-19 19:10:10"
-  },
-  "agent-notes/memory-sync/sessions/belfort/Бро как у нас процессы.md": {
-    "hash": "fa46e60945b97200e8107f5a9323f483",
-    "title": "Бро как у нас процессы",
-    "doc_id": "insert_20260619_191011_45b1bf44",
-    "synced_at": "2026-06-19 19:10:11"
-  },
-  "agent-notes/memory-sync/sessions/belfort/Найти топ-5 реальных торговых тактикстра.md": {
-    "hash": "658a986a9dcd22e1e987831b6a7cb97e",
-    "title": "Найти топ-5 реальных торговых тактикстра",
-    "doc_id": "insert_20260619_191013_a5c4845a",
-    "synced_at": "2026-06-19 19:10:13"
-  },
-  "agent-notes/memory-sync/sessions/belfort/Собрать топ-5 реальных торговых тактикст.md": {
-    "hash": "63196994894ad70602683401859578c6",
-    "title": "Собрать топ-5 реальных торговых тактикст",
-    "doc_id": "insert_20260619_191015_4c7334a6",
-    "synced_at": "2026-06-19 19:10:15"
-  },
-  "agent-notes/memory-sync/sessions/tsilya/IMPORTANT You are running as a scheduled.md": {
-    "hash": "3cd51b162b41f6314f3e3fdd627f84c9",
-    "title": "IMPORTANT You are running as a scheduled",
-    "doc_id": "insert_20260619_191502_5c75afbd",
-    "synced_at": "2026-06-19 19:15:02"
-  },
   "test-note-from-bot.md": {
     "hash": "139557bb382ba4eeb8d0a4c281c5d563",
     "title": "test-note-from-bot",
     "doc_id": "insert_20260619_191204_1a429f70",
     "synced_at": "2026-06-19 19:12:04"
+  },
+  "agent-notes/memory-sync/README.md": {
+    "hash": "6a8768a4e59c19f84bc0dc9017ff1c04",
+    "title": "README",
+    "doc_id": "insert_20260619_192008_afb1498b",
+    "synced_at": "2026-06-19 19:20:08"
+  },
+  "agent-notes/memory-sync/sessions/belfort/Брат как рынок.md": {
+    "hash": "096c169e4443d22edca9b97154e2f659",
+    "title": "Брат как рынок",
+    "doc_id": "insert_20260619_192009_2302bf3d",
+    "synced_at": "2026-06-19 19:20:09"
+  },
+  "agent-notes/memory-sync/sessions/belfort/Бро как у нас процессы.md": {
+    "hash": "fa46e60945b97200e8107f5a9323f483",
+    "title": "Бро как у нас процессы",
+    "doc_id": "insert_20260619_192011_fbbb9051",
+    "synced_at": "2026-06-19 19:20:11"
+  },
+  "agent-notes/memory-sync/sessions/belfort/Найти топ-5 реальных торговых тактикстра.md": {
+    "hash": "658a986a9dcd22e1e987831b6a7cb97e",
+    "title": "Найти топ-5 реальных торговых тактикстра",
+    "doc_id": "insert_20260619_192012_c1c1affb",
+    "synced_at": "2026-06-19 19:20:12"
+  },
+  "agent-notes/memory-sync/sessions/belfort/Собрать топ-5 реальных торговых тактикст.md": {
+    "hash": "63196994894ad70602683401859578c6",
+    "title": "Собрать топ-5 реальных торговых тактикст",
+    "doc_id": "insert_20260619_192014_a345a000",
+    "synced_at": "2026-06-19 19:20:14"
+  },
+  "agent-notes/memory-sync/sessions/tsilya/IMPORTANT You are running as a scheduled.md": {
+    "hash": "3cd51b162b41f6314f3e3fdd627f84c9",
+    "title": "IMPORTANT You are running as a scheduled",
+    "doc_id": "insert_20260619_192016_0cec8ecd",
+    "synced_at": "2026-06-19 19:20:16"
   }
 }
