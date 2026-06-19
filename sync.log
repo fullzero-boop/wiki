@@ -693,3 +693,20 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-06-19 19:09:56]   OK: doc_id=insert_20260619_190956_6d07e87b
 [2026-06-19 19:09:58] Syncing: infrastructure/Infrastructure.md (title=Infrastructure)
 [2026-06-19 19:09:58]   OK: doc_id=insert_20260619_190958_763a616f
+[2026-06-19 19:10:05] Syncing: projects/newsletter-apology.md (title=newsletter-apology)
+[2026-06-19 19:10:05]   OK: doc_id=insert_20260619_191005_92888240
+[2026-06-19 19:10:07] Syncing: projects/Projects.md (title=Projects)
+[2026-06-19 19:10:07]   OK: doc_id=insert_20260619_191007_b5b58112
+[2026-06-19 19:10:09] Syncing: projects/smarthelper-competitor-analysis.md (title=smarthelper-competitor-analysis)
+[2026-06-19 19:10:09]   OK: doc_id=insert_20260619_191009_58455aee
+[2026-06-19 19:10:11] Syncing: projects/smarthelper-questionnaire.md (title=smarthelper-questionnaire)
+[2026-06-19 19:10:11]   OK: doc_id=insert_20260619_191011_367b895b
+[2026-06-19 19:10:13] Syncing: projects/smarthelper-upgrade-plan.md (title=smarthelper-upgrade-plan)
+[2026-06-19 19:10:13]   OK: doc_id=insert_20260619_191013_d80b88bc
+[2026-06-19 19:10:15] Syncing: reports/marketing-report-2026-06-15.md (title=marketing-report-2026-06-15)
+[2026-06-19 19:10:15]   OK: doc_id=insert_20260619_191015_fefb77ac
+[2026-06-19 19:10:17] Syncing: rtm-farming-analysis-2025-2026.md (title=rtm-farming-analysis-2025-2026)
+[2026-06-19 19:10:18]   OK: doc_id=insert_20260619_191018_baf01358
+[2026-06-19 19:10:20] Syncing: tools/account-automation-toolkit.md (title=account-automation-toolkit)
+[2026-06-19 19:10:20]   OK: doc_id=insert_20260619_191020_14e19eeb
+[2026-06-19 19:10:22] Sync complete
