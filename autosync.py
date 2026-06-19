@@ -27,19 +27,24 @@ logging.basicConfig(
 log = logging.getLogger("autosync")
 
 
+EXCLUDE_FILES = {".autosync-state.json", ".autosync.lock", "autosync.py"}
+
 def get_file_hashes(base_dir):
-    """Build a dict of {relative_path: (mtime, size)} for all non-git files."""
+    """Build a dict of {relative_path: (mtime, size)} for all non-git files.
+    Excludes autosync's own files to avoid self-triggering."""
     state = {}
     for root, dirs, files in os.walk(base_dir):
         # Skip .git
         if ".git" in root:
             continue
         for f in files:
+            if f in EXCLUDE_FILES:
+                continue
             path = os.path.join(root, f)
             try:
                 st = os.stat(path)
                 rel = os.path.relpath(path, base_dir)
-                state[rel] = (st.st_mtime, st.st_size)
+                state[rel] = [st.st_mtime, st.st_size]
             except OSError:
                 pass
     return state
@@ -100,24 +105,25 @@ def watch():
 
         if not first_run and current != previous:
             now = time.time()
+            if last_change == 0:
+                log.info("Changes detected")
             last_change = now
-            log.info("Changes detected")
-
-        previous = current
-
-        # Save state periodically
-        try:
-            with open(STATE_FILE, "w") as f:
-                json.dump(current, f)
-        except Exception:
-            pass
 
         # Push if cooldown elapsed
         if last_change > 0:
             elapsed = time.time() - last_change
             if elapsed >= COOLDOWN:
-                push_pending()
-                last_change = 0
+                if push_pending():
+                    previous = current
+                    last_change = 0
+
+        # Save state periodically (after push or unchanged)
+        if last_change == 0:
+            try:
+                with open(STATE_FILE, "w") as f:
+                    json.dump(current, f)
+            except Exception:
+                pass
 
         first_run = False
         time.sleep(POLL_INTERVAL)
