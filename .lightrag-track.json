@@ -461,12 +461,6 @@
     "doc_id": "insert_20260619_170058_8ba49c78",
     "synced_at": "2026-06-19 17:01:02"
   },
-  "test-note-from-bot.md": {
-    "hash": "139557bb382ba4eeb8d0a4c281c5d563",
-    "title": "test-note-from-bot",
-    "doc_id": "insert_20260619_190719_b6fd9b99",
-    "synced_at": "2026-06-19 19:07:19"
-  },
   "agent-notes/memory-sync/README.md": {
     "hash": "946eefafa4862dd86e94e3cb7284c23e",
     "title": "README",
@@ -503,10 +497,10 @@
     "doc_id": "insert_20260619_191016_f7eee213",
     "synced_at": "2026-06-19 19:10:16"
   },
-  "bot-memory-test.md": {
-    "hash": "c252df7dc35fdba3929826701f230e0a",
-    "title": "bot-memory-test",
-    "doc_id": "insert_20260619_191030_6778a2dd",
-    "synced_at": "2026-06-19 19:10:30"
+  "test-note-from-bot.md": {
+    "hash": "139557bb382ba4eeb8d0a4c281c5d563",
+    "title": "test-note-from-bot",
+    "doc_id": "insert_20260619_191204_1a429f70",
+    "synced_at": "2026-06-19 19:12:04"
   }
 }
