@@ -12,6 +12,10 @@ Thumbs.db
 *.swp
 *.swo
 
+# Autosync
+.autosync*
+
 # Temp
 *.tmp
 *.bak
+__pycache__/
