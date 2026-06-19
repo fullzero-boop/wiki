@@ -104,10 +104,9 @@ def watch():
         current = get_file_hashes(WIKI_DIR)
 
         if not first_run and current != previous:
-            now = time.time()
             if last_change == 0:
                 log.info("Changes detected")
-            last_change = now
+                last_change = time.time()
 
         # Push if cooldown elapsed
         if last_change > 0:

@@ -167,6 +167,7 @@
   },
   "active": "ce2f372f2fbd499f",
   "lastOpenFiles": [
+    "test-sync-test.md",
     "test-autosync.md",
     "autosync.py",
     "agents/Belfort.md",
@@ -194,7 +195,6 @@
     "agent-notes/hermes-system-marketing.md",
     "agent-notes/hermes-strategy-bishop.md",
     "agent-notes/hermes-strategy-paladin.md",
-    "agent-notes/hermes-strategy-tsilya.md",
     "agent-notes",
     "__pycache__/ingest.cpython-314.pyc",
     "__pycache__",
