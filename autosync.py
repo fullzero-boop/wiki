@@ -63,13 +63,31 @@ def git(*args):
     return result
 
 
+def pull_first():
+    """Pull latest from GitHub before pushing."""
+    result = git("pull", "origin", "main", "--ff-only")
+    if result.returncode != 0:
+        log.warning(f"Pull failed: {result.stderr.strip()}")
+    else:
+        stdout = result.stdout.strip()
+        if stdout and stdout != "Already up to date.":
+            log.info(f"Pull: {stdout[:60]}...")
+    return result
+
+
 def push_pending():
+    # Сначала pull, потом push (двусторонняя синхронизация)
     status = git("status", "--porcelain")
     if not status.stdout.strip():
+        # Нет локальных изменений, но может быть удалённые (боты писали)
+        pull_first()
         return False
 
     changed = status.stdout.strip().split("\n")
     log.info(f"Changes detected ({len(changed)} files)")
+
+    # Pull перед push — чтобы минимизировать конфликты
+    pull_first()
 
     git("add", "-A")
     commit = git("commit", "-m", f"autosync: {len(changed)} file(s)")
@@ -81,7 +99,14 @@ def push_pending():
         log.info(f"Pushed {len(changed)} file(s) ✅")
         return True
     else:
-        log.warning(f"Push failed")
+        log.warning(f"Push failed, retrying after pull...")
+        # Если push не удался — возможно новые изменения на GitHub, перетягиваем
+        pull_first()
+        push = git("push", "origin", "main")
+        if push.returncode == 0:
+            log.info(f"Pushed {len(changed)} file(s) ✅ (retry)")
+            return True
+        log.warning(f"Push failed again")
         return False
 
 
