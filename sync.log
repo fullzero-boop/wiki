@@ -1080,3 +1080,6 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-06-20 03:02:19]   OK: doc_id=insert_20260620_0302
 [2026-06-20 03:02:21] Syncing: rtm-farming-analysis-2025-2026.md (title=rtm-farming-analysis-2025-2026)
 [2026-06-20 03:02:21]   OK: doc_id=insert_20260620_0302
+[2026-06-20 03:02:23] Syncing: tools/account-automation-toolkit.md (title=account-automation-toolkit)
+[2026-06-20 03:02:23]   OK: doc_id=insert_20260620_0302
+[2026-06-20 03:02:25] Sync complete: 70 files synced
