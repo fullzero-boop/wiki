@@ -30,94 +30,94 @@
     "synced_at": "2026-06-20 06:00:09"
   },
   "agent-notes/github-token.md": {
-    "hash": "62f0e95c5605fdcc7efd22cbb7202145",
+    "hash": "e47b7af98772cd4b33444f22da52990c",
     "title": "github-token",
-    "doc_id": "insert_20260617_090237_9cb50bc7",
-    "synced_at": "2026-06-17 09:02:37"
+    "doc_id": "insert_20260620_060011_e29a579e",
+    "synced_at": "2026-06-20 06:00:11"
   },
   "agent-notes/hermes-strategy-belfort.md": {
-    "hash": "b74c63192172a922a52b227cd3bb88e0",
+    "hash": "1c0cc40a59fb690498bd65b848302fc4",
     "title": "hermes-strategy-belfort",
-    "doc_id": "insert_20260617_090239_aefdaa0c",
-    "synced_at": "2026-06-17 09:02:39"
+    "doc_id": "insert_20260620_060013_a607098d",
+    "synced_at": "2026-06-20 06:00:13"
   },
   "agent-notes/hermes-strategy-bishop.md": {
-    "hash": "c02607447a975488ae5a21a423d88952",
+    "hash": "faffecf65ec4e30e25e7b09c26cd3682",
     "title": "hermes-strategy-bishop",
-    "doc_id": "insert_20260617_090241_d754e6ca",
-    "synced_at": "2026-06-17 09:02:41"
+    "doc_id": "insert_20260620_060015_d98d55ba",
+    "synced_at": "2026-06-20 06:00:15"
   },
   "agent-notes/hermes-strategy-gost.md": {
-    "hash": "77012c4f5601875844209fe02d6178b3",
+    "hash": "cee9a184743c7d649e35d4c3ba98a52f",
     "title": "hermes-strategy-gost",
-    "doc_id": "insert_20260617_090243_d0091985",
-    "synced_at": "2026-06-17 09:02:44"
+    "doc_id": "insert_20260620_060017_90b8df7c",
+    "synced_at": "2026-06-20 06:00:17"
   },
   "agent-notes/hermes-strategy-jarvis.md": {
-    "hash": "845fc6ab0e35237df315ff5efddc1076",
+    "hash": "1f0d1de81cc1adf397ca91a9c0f55ebe",
     "title": "hermes-strategy-jarvis",
-    "doc_id": "insert_20260617_090246_d9c597d5",
-    "synced_at": "2026-06-17 09:02:46"
+    "doc_id": "insert_20260620_060019_c22a1b99",
+    "synced_at": "2026-06-20 06:00:19"
   },
   "agent-notes/hermes-strategy-paladin.md": {
-    "hash": "48314ad60d3f3d537fe37b74a47b312f",
+    "hash": "0d1cb14f303ca92917c816c0f9db181d",
     "title": "hermes-strategy-paladin",
-    "doc_id": "insert_20260617_090248_e76e66e1",
-    "synced_at": "2026-06-17 09:02:48"
+    "doc_id": "insert_20260620_060021_2d53feae",
+    "synced_at": "2026-06-20 06:00:21"
   },
   "agent-notes/hermes-strategy-shadow.md": {
-    "hash": "f317805ce0f163144116eb5928302deb",
+    "hash": "3d68a88c415066fc78ba4397587a9c65",
     "title": "hermes-strategy-shadow",
-    "doc_id": "insert_20260617_090250_c68bb7c0",
-    "synced_at": "2026-06-17 09:02:50"
+    "doc_id": "insert_20260620_060023_86e46d00",
+    "synced_at": "2026-06-20 06:00:24"
   },
   "agent-notes/hermes-strategy-sinabon.md": {
-    "hash": "a672cc3eecd1dd0f3b0c3ab9bebc0699",
+    "hash": "4006507f889ed446ca13748a8af907aa",
     "title": "hermes-strategy-sinabon",
-    "doc_id": "insert_20260617_090252_3bbb48fe",
-    "synced_at": "2026-06-17 09:02:52"
+    "doc_id": "insert_20260620_060026_ef849c88",
+    "synced_at": "2026-06-20 06:00:26"
   },
   "agent-notes/hermes-strategy-tsilya.md": {
-    "hash": "7a361f07b3c8a7c42e422439f84d736e",
+    "hash": "36ea11f755c330d7f2e648ef48231426",
     "title": "hermes-strategy-tsilya",
-    "doc_id": "insert_20260617_090254_16b7f4e4",
-    "synced_at": "2026-06-17 09:02:54"
+    "doc_id": "insert_20260620_060028_2ff5bb33",
+    "synced_at": "2026-06-20 06:00:28"
   },
   "agent-notes/hermes-system-belfort.md": {
-    "hash": "0f39a33a2d9c94054edf23d035e1618f",
+    "hash": "7504ff91f2a12bff7b978fe9972299e7",
     "title": "hermes-system-belfort",
-    "doc_id": "insert_20260617_090256_0a35c7a6",
-    "synced_at": "2026-06-17 09:02:56"
+    "doc_id": "insert_20260620_060030_29d5c1ab",
+    "synced_at": "2026-06-20 06:00:30"
   },
   "agent-notes/hermes-system-bishop.md": {
-    "hash": "6541345e98869646d4691ee485a33043",
+    "hash": "9a9b91f80bd1ab6ee0882d7a3e7fa745",
     "title": "hermes-system-bishop",
-    "doc_id": "insert_20260617_090258_afb0461d",
-    "synced_at": "2026-06-17 09:02:58"
+    "doc_id": "insert_20260620_060032_c3c7722d",
+    "synced_at": "2026-06-20 06:00:32"
   },
   "agent-notes/hermes-system-gost.md": {
-    "hash": "b1107dbab3eb951d276f8c64f4163348",
+    "hash": "bdcca317e8303cc183a1602d55eeb748",
     "title": "hermes-system-gost",
-    "doc_id": "insert_20260617_090300_b5b2fa50",
-    "synced_at": "2026-06-17 09:03:00"
+    "doc_id": "insert_20260620_060034_31dfb5f8",
+    "synced_at": "2026-06-20 06:00:34"
   },
   "agent-notes/hermes-system-hermes.md": {
-    "hash": "750ab837066eaf3e886c4b9eba74ad74",
+    "hash": "9a8c4262af9ef8fbb6bd1e25898a60e1",
     "title": "hermes-system-hermes",
-    "doc_id": "insert_20260617_090302_4d9250de",
-    "synced_at": "2026-06-17 09:03:02"
+    "doc_id": "insert_20260620_060036_92437242",
+    "synced_at": "2026-06-20 06:00:36"
   },
   "agent-notes/hermes-system-jarvis.md": {
-    "hash": "5af2169c263dee2bbf85a8f7b9e25c3a",
+    "hash": "0c6e4c09746712bb026d2198bee7c97f",
     "title": "hermes-system-jarvis",
-    "doc_id": "insert_20260617_090304_8f1e4f4f",
-    "synced_at": "2026-06-17 09:03:04"
+    "doc_id": "insert_20260620_060038_ac86a5ab",
+    "synced_at": "2026-06-20 06:00:38"
   },
   "agent-notes/hermes-system-marketing.md": {
-    "hash": "f953499b7f9ce89441347560e4a0b41a",
+    "hash": "e23e2d2b08f2b9f08cbe3e9740a97140",
     "title": "hermes-system-marketing",
-    "doc_id": "insert_20260617_090306_fd903279",
-    "synced_at": "2026-06-17 09:03:06"
+    "doc_id": "insert_20260620_060040_c4a4a66c",
+    "synced_at": "2026-06-20 06:00:40"
   },
   "agent-notes/hermes-system-overview.md": {
     "hash": "8bfd5f291058a7d5ad9aae6e74aca256",
