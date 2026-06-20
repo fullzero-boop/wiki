@@ -419,48 +419,6 @@
     "doc_id": "insert_20260617_090502_402a1766",
     "synced_at": "2026-06-17 09:05:02"
   },
-  "agent-notes/memory-sync/belfort.md": {
-    "hash": "c6d061fb9ca20da51e73c81eab421fe5",
-    "title": "belfort",
-    "doc_id": "insert_20260619_170024_5fd23ed0",
-    "synced_at": "2026-06-19 17:00:27"
-  },
-  "agent-notes/memory-sync/gost.md": {
-    "hash": "fb1f624d47c172416445e5351435ee60",
-    "title": "gost",
-    "doc_id": "insert_20260619_170028_0fad3033",
-    "synced_at": "2026-06-19 17:00:32"
-  },
-  "agent-notes/memory-sync/hermes.md": {
-    "hash": "f09deec7064bc26cfdb6ad484055f7a5",
-    "title": "hermes",
-    "doc_id": "insert_20260619_170034_6b7c9a31",
-    "synced_at": "2026-06-19 17:00:37"
-  },
-  "agent-notes/memory-sync/jarvis.md": {
-    "hash": "9609d20e342991558c62f25e9ef1e4cb",
-    "title": "jarvis",
-    "doc_id": "insert_20260619_170039_fc3121d2",
-    "synced_at": "2026-06-19 17:00:42"
-  },
-  "agent-notes/memory-sync/paladin.md": {
-    "hash": "4b0bd785a85339ac2ee6162b2c81631a",
-    "title": "paladin",
-    "doc_id": "insert_20260619_170044_0c5e7c27",
-    "synced_at": "2026-06-19 17:00:47"
-  },
-  "agent-notes/memory-sync/shadow.md": {
-    "hash": "1ac0197efbadb570e8135a57ff2e6242",
-    "title": "shadow",
-    "doc_id": "insert_20260619_170053_690f47b4",
-    "synced_at": "2026-06-19 17:00:57"
-  },
-  "agent-notes/memory-sync/tsilya.md": {
-    "hash": "f93e70dbd1ab216635fca802b84ec26a",
-    "title": "tsilya",
-    "doc_id": "insert_20260619_170058_8ba49c78",
-    "synced_at": "2026-06-19 17:01:02"
-  },
   "test-note-from-bot.md": {
     "hash": "139557bb382ba4eeb8d0a4c281c5d563",
     "title": "test-note-from-bot",
@@ -498,9 +456,51 @@
     "synced_at": "2026-06-20 03:01:08"
   },
   "agent-notes/memory-sync/README.md": {
-    "hash": "1b077e5e4d5726695c6bf3c299b80668",
+    "hash": "200fe9d7c1a7bdfa5d7315d6384d6629",
     "title": "README",
-    "doc_id": "insert_20260620_100041_f89597a2",
-    "synced_at": "2026-06-20 10:00:41"
+    "doc_id": "insert_20260620_101012_940d63a9",
+    "synced_at": "2026-06-20 10:10:13"
+  },
+  "agent-notes/memory-sync/belfort.md": {
+    "hash": "c6d061fb9ca20da51e73c81eab421fe5",
+    "title": "belfort",
+    "doc_id": "insert_20260620_101014_6a398fa9",
+    "synced_at": "2026-06-20 10:10:15"
+  },
+  "agent-notes/memory-sync/gost.md": {
+    "hash": "fb1f624d47c172416445e5351435ee60",
+    "title": "gost",
+    "doc_id": "insert_20260620_101016_abe412bc",
+    "synced_at": "2026-06-20 10:10:17"
+  },
+  "agent-notes/memory-sync/hermes.md": {
+    "hash": "f09deec7064bc26cfdb6ad484055f7a5",
+    "title": "hermes",
+    "doc_id": "insert_20260620_101019_d2fd9823",
+    "synced_at": "2026-06-20 10:10:19"
+  },
+  "agent-notes/memory-sync/jarvis.md": {
+    "hash": "9609d20e342991558c62f25e9ef1e4cb",
+    "title": "jarvis",
+    "doc_id": "insert_20260620_101021_a9465f5b",
+    "synced_at": "2026-06-20 10:10:22"
+  },
+  "agent-notes/memory-sync/paladin.md": {
+    "hash": "4b0bd785a85339ac2ee6162b2c81631a",
+    "title": "paladin",
+    "doc_id": "insert_20260620_101023_aa8d1755",
+    "synced_at": "2026-06-20 10:10:24"
+  },
+  "agent-notes/memory-sync/shadow.md": {
+    "hash": "1ac0197efbadb570e8135a57ff2e6242",
+    "title": "shadow",
+    "doc_id": "insert_20260620_101025_ea7e24ad",
+    "synced_at": "2026-06-20 10:10:26"
+  },
+  "agent-notes/memory-sync/tsilya.md": {
+    "hash": "f93e70dbd1ab216635fca802b84ec26a",
+    "title": "tsilya",
+    "doc_id": "insert_20260620_101027_b9f7d86c",
+    "synced_at": "2026-06-20 10:10:28"
   }
 }
