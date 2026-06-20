@@ -1300,3 +1300,13 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-06-20 09:01:40]   OK: doc_id=insert_20260620_0901
 [2026-06-20 09:01:42] Syncing: agents/Gost.md (title=Gost)
 [2026-06-20 09:01:42]   OK: doc_id=insert_20260620_0901
+[2026-06-20 09:02:05] Syncing: notes/books-to-remind.md (title=books-to-remind)
+[2026-06-20 09:02:05]   OK: doc_id=insert_20260620_0902
+[2026-06-20 09:02:07] Syncing: osrs-botting-guide.md (title=osrs-botting-guide)
+[2026-06-20 09:02:07]   OK: doc_id=insert_20260620_0902
+[2026-06-20 09:02:09] Syncing: projects/Projects.md (title=Projects)
+[2026-06-20 09:02:09]   OK: doc_id=insert_20260620_0902
+[2026-06-20 09:02:11] Syncing: projects/newsletter-apology.md (title=newsletter-apology)
+[2026-06-20 09:02:11]   OK: doc_id=insert_20260620_0902
+[2026-06-20 09:02:13] Syncing: projects/smarthelper-competitor-analysis.md (title=smarthelper-competitor-analysis)
+[2026-06-20 09:02:13]   OK: doc_id=insert_20260620_0902

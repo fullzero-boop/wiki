@@ -294,58 +294,58 @@
     "synced_at": "2026-06-20 09:01:42"
   },
   "agents/Hermes.md": {
-    "hash": "d413c38ed7fc9904dc4550c1e4beba2c",
+    "hash": "add375eef92147d9f79f73e56ae5d017",
     "title": "Hermes",
-    "doc_id": "insert_20260617_090424_270cbc09",
-    "synced_at": "2026-06-17 09:04:24"
+    "doc_id": "insert_20260620_090144_b44b8a98",
+    "synced_at": "2026-06-20 09:01:44"
   },
   "agents/Jarvis.md": {
-    "hash": "ca732617e993ea885b4bd87e4c0a59f8",
+    "hash": "3ca7d396dfe3eeaac1b6dbab59f92d96",
     "title": "Jarvis",
-    "doc_id": "insert_20260617_090426_bd72d982",
-    "synced_at": "2026-06-17 09:04:26"
+    "doc_id": "insert_20260620_090146_d09082c5",
+    "synced_at": "2026-06-20 09:01:46"
   },
   "agents/Paladin.md": {
-    "hash": "fc464117c8856687c624b67a2df52348",
+    "hash": "09bcae85915cd3f5f4e1e316d3da8488",
     "title": "Paladin",
-    "doc_id": "insert_20260617_090428_46db112a",
-    "synced_at": "2026-06-17 09:04:28"
+    "doc_id": "insert_20260620_090148_dca3a061",
+    "synced_at": "2026-06-20 09:01:49"
   },
   "agents/Shadow.md": {
-    "hash": "45503f14c5e2fb40444e0183782d53dd",
+    "hash": "881a5092717709f9ef7f0dd2ebe3ed09",
     "title": "Shadow",
-    "doc_id": "insert_20260617_090430_8cab4247",
-    "synced_at": "2026-06-17 09:04:30"
+    "doc_id": "insert_20260620_090151_45f51e41",
+    "synced_at": "2026-06-20 09:01:51"
   },
   "agents/Sinabon.md": {
-    "hash": "541d8393a608eeaa33f3e502a7f25a6b",
+    "hash": "e5fb983cfdf41bfe60b181c4782cbd1e",
     "title": "Sinabon",
-    "doc_id": "insert_20260617_090432_f95928d4",
-    "synced_at": "2026-06-17 09:04:32"
+    "doc_id": "insert_20260620_090153_f3bad138",
+    "synced_at": "2026-06-20 09:01:53"
   },
   "agents/Tsilya.md": {
-    "hash": "e58da9348272bc3a00a56e62a29bec9e",
+    "hash": "8ba46ab37e7834db650959a17a6bd42a",
     "title": "Tsilya",
-    "doc_id": "insert_20260617_090434_8374c355",
-    "synced_at": "2026-06-17 09:04:34"
+    "doc_id": "insert_20260620_090155_5e11e60d",
+    "synced_at": "2026-06-20 09:01:55"
   },
   "deploy/marketing-tools-deployment.md": {
-    "hash": "ff2389c21bb6bc0ca5a6dc589ba73d66",
+    "hash": "75cc73a3d6408f5ae07d183a89bb2ab4",
     "title": "marketing-tools-deployment",
-    "doc_id": "insert_20260617_090436_9fa85e33",
-    "synced_at": "2026-06-17 09:04:36"
+    "doc_id": "insert_20260620_090159_a1753539",
+    "synced_at": "2026-06-20 09:01:59"
   },
   "expvseprosto-posts.md": {
-    "hash": "530f96c90e70aa678fd10bb5fc93cafc",
+    "hash": "baa0cf719df60a010b950b8c35ea3435",
     "title": "expvseprosto-posts",
-    "doc_id": "insert_20260617_090438_1033c8e0",
-    "synced_at": "2026-06-17 09:04:38"
+    "doc_id": "insert_20260620_090201_d131acef",
+    "synced_at": "2026-06-20 09:02:01"
   },
   "infrastructure/Infrastructure.md": {
-    "hash": "0a321da2e8dc3eb3372f50c857f6cfee",
+    "hash": "7adbdaa3cc085541ff013ce8d9126281",
     "title": "Infrastructure",
-    "doc_id": "insert_20260617_090440_87739a98",
-    "synced_at": "2026-06-17 09:04:40"
+    "doc_id": "insert_20260620_090203_a304459e",
+    "synced_at": "2026-06-20 09:02:03"
   },
   "infrastructure/Memory-System.md": {
     "hash": "f56c89059025971fbe73eee242b4dcf9",
@@ -354,34 +354,34 @@
     "synced_at": "2026-06-17 09:04:42"
   },
   "notes/books-to-remind.md": {
-    "hash": "a6144f9f9049da5fb389af30b65768ca",
+    "hash": "9a94e505de27e3494df06037dcd26089",
     "title": "books-to-remind",
-    "doc_id": "insert_20260617_090444_c0847b18",
-    "synced_at": "2026-06-17 09:04:44"
+    "doc_id": "insert_20260620_090205_22df0f9c",
+    "synced_at": "2026-06-20 09:02:05"
   },
   "osrs-botting-guide.md": {
-    "hash": "6febac5e2448ac82ea7c659e4132c18a",
+    "hash": "b1792fac5a82e3f2627f22127b94ca14",
     "title": "osrs-botting-guide",
-    "doc_id": "insert_20260617_090446_2e58d765",
-    "synced_at": "2026-06-17 09:04:46"
+    "doc_id": "insert_20260620_090207_a0453660",
+    "synced_at": "2026-06-20 09:02:07"
   },
   "projects/Projects.md": {
-    "hash": "f607851c74c749ecf7bc11539bc84213",
+    "hash": "3942aec9c4ed5d75787fa740e0629cbb",
     "title": "Projects",
-    "doc_id": "insert_20260617_090448_c15c47e7",
-    "synced_at": "2026-06-17 09:04:48"
+    "doc_id": "insert_20260620_090209_b5f75ef8",
+    "synced_at": "2026-06-20 09:02:09"
   },
   "projects/newsletter-apology.md": {
-    "hash": "675aaa5b318b922bcb07a6109532c7c1",
+    "hash": "f57a21b7abe6f86757e5de56ab046521",
     "title": "newsletter-apology",
-    "doc_id": "insert_20260617_090450_149aa103",
-    "synced_at": "2026-06-17 09:04:50"
+    "doc_id": "insert_20260620_090211_adf393c3",
+    "synced_at": "2026-06-20 09:02:11"
   },
   "projects/smarthelper-competitor-analysis.md": {
-    "hash": "e399a8f4cf743a5a3d71bbe2cea9872c",
+    "hash": "09a1fb306d2f790dc5fa6bd441e21ad7",
     "title": "smarthelper-competitor-analysis",
-    "doc_id": "insert_20260617_090452_fe82e8ae",
-    "synced_at": "2026-06-17 09:04:52"
+    "doc_id": "insert_20260620_090213_3c84e093",
+    "synced_at": "2026-06-20 09:02:13"
   },
   "projects/smarthelper-questionnaire.md": {
     "hash": "bd62f21bc530158cc198a1dcc72d1900",
@@ -502,5 +502,11 @@
     "title": "albion-bot-cron-report",
     "doc_id": "insert_20260620_090003_7438169f",
     "synced_at": "2026-06-20 09:00:03"
+  },
+  "deleted-Belfort-status-report.md": {
+    "hash": "94bad2663468161de408cc11c9b7d919",
+    "title": "deleted-Belfort-status-report",
+    "doc_id": "insert_20260620_090157_7383cebc",
+    "synced_at": "2026-06-20 09:01:57"
   }
 }
