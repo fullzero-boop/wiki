@@ -1202,3 +1202,9 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-06-20 06:02:23] Syncing: tools/account-automation-toolkit.md (title=account-automation-toolkit)
 [2026-06-20 06:02:23]   OK: doc_id=insert_20260620_0602
 [2026-06-20 06:02:25] Sync complete: 70 files synced
+[2026-06-20 09:00:03] Syncing: agent-notes/2026-06-18/albion-bot-cron-report.md (title=albion-bot-cron-report)
+[2026-06-20 09:00:03]   OK: doc_id=insert_20260620_0900
+[2026-06-20 09:00:05] Syncing: agent-notes/belfort-final-report-2026-06-15.md (title=belfort-final-report-2026-06-15)
+[2026-06-20 09:00:05]   OK: doc_id=insert_20260620_0900
+[2026-06-20 09:00:07] Syncing: agent-notes/belfort-infrastructure.md (title=belfort-infrastructure)
+[2026-06-20 09:00:08]   OK: doc_id=insert_20260620_0900
