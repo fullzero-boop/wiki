@@ -318,34 +318,34 @@
     "synced_at": "2026-06-20 03:01:50"
   },
   "agents/Sinabon.md": {
-    "hash": "541d8393a608eeaa33f3e502a7f25a6b",
+    "hash": "e5fb983cfdf41bfe60b181c4782cbd1e",
     "title": "Sinabon",
-    "doc_id": "insert_20260617_090432_f95928d4",
-    "synced_at": "2026-06-17 09:04:32"
+    "doc_id": "insert_20260620_030152_067a5fdb",
+    "synced_at": "2026-06-20 03:01:52"
   },
   "agents/Tsilya.md": {
-    "hash": "e58da9348272bc3a00a56e62a29bec9e",
+    "hash": "8ba46ab37e7834db650959a17a6bd42a",
     "title": "Tsilya",
-    "doc_id": "insert_20260617_090434_8374c355",
-    "synced_at": "2026-06-17 09:04:34"
+    "doc_id": "insert_20260620_030154_33b0834c",
+    "synced_at": "2026-06-20 03:01:54"
   },
   "deploy/marketing-tools-deployment.md": {
-    "hash": "ff2389c21bb6bc0ca5a6dc589ba73d66",
+    "hash": "75cc73a3d6408f5ae07d183a89bb2ab4",
     "title": "marketing-tools-deployment",
-    "doc_id": "insert_20260617_090436_9fa85e33",
-    "synced_at": "2026-06-17 09:04:36"
+    "doc_id": "insert_20260620_030158_1e2cb4b0",
+    "synced_at": "2026-06-20 03:01:59"
   },
   "expvseprosto-posts.md": {
-    "hash": "530f96c90e70aa678fd10bb5fc93cafc",
+    "hash": "baa0cf719df60a010b950b8c35ea3435",
     "title": "expvseprosto-posts",
-    "doc_id": "insert_20260617_090438_1033c8e0",
-    "synced_at": "2026-06-17 09:04:38"
+    "doc_id": "insert_20260620_030201_00ca0b67",
+    "synced_at": "2026-06-20 03:02:01"
   },
   "infrastructure/Infrastructure.md": {
-    "hash": "0a321da2e8dc3eb3372f50c857f6cfee",
+    "hash": "7adbdaa3cc085541ff013ce8d9126281",
     "title": "Infrastructure",
-    "doc_id": "insert_20260617_090440_87739a98",
-    "synced_at": "2026-06-17 09:04:40"
+    "doc_id": "insert_20260620_030203_990a8134",
+    "synced_at": "2026-06-20 03:02:03"
   },
   "infrastructure/Memory-System.md": {
     "hash": "f56c89059025971fbe73eee242b4dcf9",
@@ -354,58 +354,58 @@
     "synced_at": "2026-06-17 09:04:42"
   },
   "notes/books-to-remind.md": {
-    "hash": "a6144f9f9049da5fb389af30b65768ca",
+    "hash": "9a94e505de27e3494df06037dcd26089",
     "title": "books-to-remind",
-    "doc_id": "insert_20260617_090444_c0847b18",
-    "synced_at": "2026-06-17 09:04:44"
+    "doc_id": "insert_20260620_030205_10e647e7",
+    "synced_at": "2026-06-20 03:02:05"
   },
   "osrs-botting-guide.md": {
-    "hash": "6febac5e2448ac82ea7c659e4132c18a",
+    "hash": "b1792fac5a82e3f2627f22127b94ca14",
     "title": "osrs-botting-guide",
-    "doc_id": "insert_20260617_090446_2e58d765",
-    "synced_at": "2026-06-17 09:04:46"
+    "doc_id": "insert_20260620_030207_016b4a27",
+    "synced_at": "2026-06-20 03:02:07"
   },
   "projects/Projects.md": {
-    "hash": "f607851c74c749ecf7bc11539bc84213",
+    "hash": "3942aec9c4ed5d75787fa740e0629cbb",
     "title": "Projects",
-    "doc_id": "insert_20260617_090448_c15c47e7",
-    "synced_at": "2026-06-17 09:04:48"
+    "doc_id": "insert_20260620_030209_881a2df2",
+    "synced_at": "2026-06-20 03:02:09"
   },
   "projects/newsletter-apology.md": {
-    "hash": "675aaa5b318b922bcb07a6109532c7c1",
+    "hash": "f57a21b7abe6f86757e5de56ab046521",
     "title": "newsletter-apology",
-    "doc_id": "insert_20260617_090450_149aa103",
-    "synced_at": "2026-06-17 09:04:50"
+    "doc_id": "insert_20260620_030211_a219cc3f",
+    "synced_at": "2026-06-20 03:02:11"
   },
   "projects/smarthelper-competitor-analysis.md": {
-    "hash": "e399a8f4cf743a5a3d71bbe2cea9872c",
+    "hash": "09a1fb306d2f790dc5fa6bd441e21ad7",
     "title": "smarthelper-competitor-analysis",
-    "doc_id": "insert_20260617_090452_fe82e8ae",
-    "synced_at": "2026-06-17 09:04:52"
+    "doc_id": "insert_20260620_030213_385e86f0",
+    "synced_at": "2026-06-20 03:02:13"
   },
   "projects/smarthelper-questionnaire.md": {
-    "hash": "bd62f21bc530158cc198a1dcc72d1900",
+    "hash": "69d9efb1296d52357ee9428ac41c428f",
     "title": "smarthelper-questionnaire",
-    "doc_id": "insert_20260617_090454_fc74562a",
-    "synced_at": "2026-06-17 09:04:54"
+    "doc_id": "insert_20260620_030215_eb075ef6",
+    "synced_at": "2026-06-20 03:02:15"
   },
   "projects/smarthelper-upgrade-plan.md": {
-    "hash": "8e4ebad5b4039d66637e2a936b5c2366",
+    "hash": "779835315d88795d216fe3b85c5625c7",
     "title": "smarthelper-upgrade-plan",
-    "doc_id": "insert_20260617_090456_53f422b6",
-    "synced_at": "2026-06-17 09:04:56"
+    "doc_id": "insert_20260620_030217_4c0c2dc0",
+    "synced_at": "2026-06-20 03:02:17"
   },
   "reports/marketing-report-2026-06-15.md": {
-    "hash": "de904ea3d56084046993bcada03a07cd",
+    "hash": "6dde85deb7c4d0e6fba5b52db3d104e4",
     "title": "marketing-report-2026-06-15",
-    "doc_id": "insert_20260617_090458_9998a54a",
-    "synced_at": "2026-06-17 09:04:58"
+    "doc_id": "insert_20260620_030219_c5b5329e",
+    "synced_at": "2026-06-20 03:02:19"
   },
   "rtm-farming-analysis-2025-2026.md": {
-    "hash": "e98e0740fc07476b2a1bead1f2c6560e",
+    "hash": "2aea03ccc13dfe24b528948e0e77848f",
     "title": "rtm-farming-analysis-2025-2026",
-    "doc_id": "insert_20260617_090500_007d6735",
-    "synced_at": "2026-06-17 09:05:00"
+    "doc_id": "insert_20260620_030221_1e12a404",
+    "synced_at": "2026-06-20 03:02:21"
   },
   "tools/account-automation-toolkit.md": {
     "hash": "9052549c734e2a590c6d4aec8838f7ba",
@@ -502,5 +502,11 @@
     "title": "albion-bot-cron-report",
     "doc_id": "insert_20260620_030003_24ef0c9b",
     "synced_at": "2026-06-20 03:00:03"
+  },
+  "deleted-Belfort-status-report.md": {
+    "hash": "94bad2663468161de408cc11c9b7d919",
+    "title": "deleted-Belfort-status-report",
+    "doc_id": "insert_20260620_030156_2a0993f5",
+    "synced_at": "2026-06-20 03:01:56"
   }
 }
