@@ -467,12 +467,6 @@
     "doc_id": "insert_20260619_191204_1a429f70",
     "synced_at": "2026-06-19 19:12:04"
   },
-  "agent-notes/memory-sync/README.md": {
-    "hash": "ccc9b4e8454e1bf85394576102845def",
-    "title": "README",
-    "doc_id": "insert_20260620_015106_397fdc9c",
-    "synced_at": "2026-06-20 01:51:06"
-  },
   "agent-notes/memory-sync/sessions/belfort/Брат как рынок.md": {
     "hash": "096c169e4443d22edca9b97154e2f659",
     "title": "Брат как рынок",
@@ -502,5 +496,11 @@
     "title": "IMPORTANT You are running as a scheduled",
     "doc_id": "insert_20260620_015113_2d6a0939",
     "synced_at": "2026-06-20 01:51:14"
+  },
+  "agent-notes/memory-sync/README.md": {
+    "hash": "2836edb1b92ba3d613bddf75993c3863",
+    "title": "README",
+    "doc_id": "insert_20260620_020502_58e46f3f",
+    "synced_at": "2026-06-20 02:05:26"
   }
 }
