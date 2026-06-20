@@ -467,12 +467,6 @@
     "doc_id": "insert_20260619_191204_1a429f70",
     "synced_at": "2026-06-19 19:12:04"
   },
-  "agent-notes/memory-sync/sessions/tsilya/IMPORTANT You are running as a scheduled.md": {
-    "hash": "3cd51b162b41f6314f3e3fdd627f84c9",
-    "title": "IMPORTANT You are running as a scheduled",
-    "doc_id": "insert_20260620_010117_b8b1082d",
-    "synced_at": "2026-06-20 01:01:17"
-  },
   "agent-notes/memory-sync/README.md": {
     "hash": "a36075fd4a74fad05c085e024084153f",
     "title": "README",
@@ -502,5 +496,11 @@
     "title": "Собрать топ-5 реальных торговых тактикст",
     "doc_id": "insert_20260620_011115_435f7265",
     "synced_at": "2026-06-20 01:11:15"
+  },
+  "agent-notes/memory-sync/sessions/tsilya/IMPORTANT You are running as a scheduled.md": {
+    "hash": "3cd51b162b41f6314f3e3fdd627f84c9",
+    "title": "IMPORTANT You are running as a scheduled",
+    "doc_id": "insert_20260620_011117_fa5b788c",
+    "synced_at": "2026-06-20 01:11:17"
   }
 }
