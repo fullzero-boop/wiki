@@ -1193,3 +1193,12 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-06-20 06:02:13]   OK: doc_id=insert_20260620_0602
 [2026-06-20 06:02:15] Syncing: projects/smarthelper-questionnaire.md (title=smarthelper-questionnaire)
 [2026-06-20 06:02:15]   OK: doc_id=insert_20260620_0602
+[2026-06-20 06:02:17] Syncing: projects/smarthelper-upgrade-plan.md (title=smarthelper-upgrade-plan)
+[2026-06-20 06:02:17]   OK: doc_id=insert_20260620_0602
+[2026-06-20 06:02:19] Syncing: reports/marketing-report-2026-06-15.md (title=marketing-report-2026-06-15)
+[2026-06-20 06:02:19]   OK: doc_id=insert_20260620_0602
+[2026-06-20 06:02:21] Syncing: rtm-farming-analysis-2025-2026.md (title=rtm-farming-analysis-2025-2026)
+[2026-06-20 06:02:21]   OK: doc_id=insert_20260620_0602
+[2026-06-20 06:02:23] Syncing: tools/account-automation-toolkit.md (title=account-automation-toolkit)
+[2026-06-20 06:02:23]   OK: doc_id=insert_20260620_0602
+[2026-06-20 06:02:25] Sync complete: 70 files synced
