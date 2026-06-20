@@ -833,3 +833,17 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-06-19 21:02:22] Syncing: tools/account-automation-toolkit.md (title=account-automation-toolkit)
 [2026-06-19 21:02:22]   OK: doc_id=insert_20260619_2102
 [2026-06-19 21:02:24] Sync complete: 69 files synced
+[2026-06-20 00:00:03] Syncing: agent-notes/2026-06-18/albion-bot-cron-report.md (title=albion-bot-cron-report)
+[2026-06-20 00:00:03]   OK: doc_id=insert_20260620_0000
+[2026-06-20 00:00:05] Syncing: agent-notes/belfort-final-report-2026-06-15.md (title=belfort-final-report-2026-06-15)
+[2026-06-20 00:00:05]   OK: doc_id=insert_20260620_0000
+[2026-06-20 00:00:07] Syncing: agent-notes/belfort-infrastructure.md (title=belfort-infrastructure)
+[2026-06-20 00:00:07]   OK: doc_id=insert_20260620_0000
+[2026-06-20 00:00:09] Syncing: agent-notes/belfort-portfolio-2026-06-15.md (title=belfort-portfolio-2026-06-15)
+[2026-06-20 00:00:09]   OK: doc_id=insert_20260620_0000
+[2026-06-20 00:00:11] Syncing: agent-notes/github-token.md (title=github-token)
+[2026-06-20 00:00:11]   OK: doc_id=insert_20260620_0000
+[2026-06-20 00:00:13] Syncing: agent-notes/hermes-strategy-belfort.md (title=hermes-strategy-belfort)
+[2026-06-20 00:00:13]   OK: doc_id=insert_20260620_0000
+[2026-06-20 00:00:15] Syncing: agent-notes/hermes-strategy-bishop.md (title=hermes-strategy-bishop)
+[2026-06-20 00:00:15]   OK: doc_id=insert_20260620_0000
