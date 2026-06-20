@@ -1,10 +1,4 @@
 {
-  "Belfort.md": {
-    "hash": "77e89a16e706aadc608797342d31460f",
-    "title": "Belfort",
-    "doc_id": "insert_20260617_090225_0489b68f",
-    "synced_at": "2026-06-17 09:02:25"
-  },
   "CLAUDE.md": {
     "hash": "dcd67772383192c716bb8892a2a77a4c",
     "title": "CLAUDE",
@@ -12,28 +6,28 @@
     "synced_at": "2026-06-17 09:02:27"
   },
   "Hermes-report.md": {
-    "hash": "5bcd1f0f8a7dfcfc2400f265716ab005",
+    "hash": "04e1a7e6bc3cb471e6c276be53b3e367",
     "title": "Hermes-report",
-    "doc_id": "insert_20260617_090229_e4abc132",
-    "synced_at": "2026-06-17 09:02:29"
+    "doc_id": "insert_20260620_060001_f5133bc5",
+    "synced_at": "2026-06-20 06:00:01"
   },
   "agent-notes/belfort-final-report-2026-06-15.md": {
-    "hash": "e893593ed6c98b4108f80b65882e89c4",
+    "hash": "7ed18f744e195762ff027ea10f935180",
     "title": "belfort-final-report-2026-06-15",
-    "doc_id": "insert_20260617_090231_4059bc20",
-    "synced_at": "2026-06-17 09:02:31"
+    "doc_id": "insert_20260620_060005_63dffce8",
+    "synced_at": "2026-06-20 06:00:05"
   },
   "agent-notes/belfort-infrastructure.md": {
-    "hash": "1f2843da57d0315ceefa5ec13deacae9",
+    "hash": "a9be28e5b36c210a4e870db3c3fe932f",
     "title": "belfort-infrastructure",
-    "doc_id": "insert_20260617_090233_b94dfb03",
-    "synced_at": "2026-06-17 09:02:33"
+    "doc_id": "insert_20260620_060007_b24ce03f",
+    "synced_at": "2026-06-20 06:00:07"
   },
   "agent-notes/belfort-portfolio-2026-06-15.md": {
-    "hash": "40b90827938c508b9e4760758c42769c",
+    "hash": "833d26f5ccb99379598ce3c26703ec52",
     "title": "belfort-portfolio-2026-06-15",
-    "doc_id": "insert_20260617_090235_0d95c3cc",
-    "synced_at": "2026-06-17 09:02:35"
+    "doc_id": "insert_20260620_060009_96708fe0",
+    "synced_at": "2026-06-20 06:00:09"
   },
   "agent-notes/github-token.md": {
     "hash": "62f0e95c5605fdcc7efd22cbb7202145",
@@ -502,5 +496,11 @@
     "title": "README",
     "doc_id": "insert_20260620_055048_5cde3710",
     "synced_at": "2026-06-20 05:50:48"
+  },
+  "agent-notes/2026-06-18/albion-bot-cron-report.md": {
+    "hash": "09f831b2a97f05e297b5e934454b0e76",
+    "title": "albion-bot-cron-report",
+    "doc_id": "insert_20260620_060003_f55c1461",
+    "synced_at": "2026-06-20 06:00:03"
   }
 }
