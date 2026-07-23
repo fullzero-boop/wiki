@@ -167,6 +167,7 @@
   },
   "active": "ce2f372f2fbd499f",
   "lastOpenFiles": [
+    "infrastructure/Infrastructure.md",
     "bot-memory-test.md",
     "vnc-access.html",
     "test-note-from-bot.md",
@@ -196,7 +197,6 @@
     "agent-notes/hermes-system-overview.md",
     "agent-notes/hermes-system-bishop.md",
     "agent-notes/hermes-system-gost.md",
-    "agent-notes/hermes-system-belfort.md",
     "agent-notes",
     "__pycache__/ingest.cpython-314.pyc",
     "__pycache__",
