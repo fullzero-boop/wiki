@@ -11,10 +11,14 @@
             "id": "ce2f372f2fbd499f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "agent-notes/memory-sync/sessions/belfort/Собрать топ-5 реальных торговых тактикст.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Собрать топ-5 реальных торговых тактикст"
             }
           }
         ]
