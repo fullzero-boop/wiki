@@ -1607,3 +1607,16 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-08-05 21:08:52]   OK: doc_id=insert_20260805_2108
 [2026-08-05 21:08:54] Syncing: projects/smarthelper-upgrade-plan.md (title=smarthelper-upgrade-plan)
 [2026-08-05 21:08:55]   OK: doc_id=insert_20260805_2108
+[2026-08-05 21:08:57] Syncing: reports/marketing-report-2026-06-15.md (title=marketing-report-2026-06-15)
+[2026-08-05 21:08:57]   OK: doc_id=insert_20260805_2108
+[2026-08-05 21:08:59] Syncing: rtm-farming-analysis-2025-2026.md (title=rtm-farming-analysis-2025-2026)
+[2026-08-05 21:09:00]   OK: doc_id=insert_20260805_2108
+[2026-08-05 21:09:02] Syncing: test-note-from-bot.md (title=test-note-from-bot)
+[2026-08-05 21:09:03]   OK: doc_id=insert_20260805_2109
+[2026-08-05 21:09:05] Syncing: tools/account-automation-toolkit.md (title=account-automation-toolkit)
+[2026-08-05 21:09:05]   OK: doc_id=insert_20260805_2109
+[2026-08-05 21:09:07] Syncing: Без названия.md (title=Без названия)
+[2026-08-05 21:09:08]   OK: doc_id=insert_20260805_2109
+[2026-08-05 21:09:10] Syncing: Добро пожаловать.md (title=Добро пожаловать)
+[2026-08-05 21:09:10]   OK: doc_id=insert_20260805_2109
+[2026-08-05 21:09:12] Sync complete: 162 files synced
