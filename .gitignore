@@ -19,3 +19,4 @@ Thumbs.db
 *.tmp
 *.bak
 __pycache__/
+.lightrag-track.json
