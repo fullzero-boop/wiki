@@ -1,0 +1,177 @@
+#!/usr/bin/env python3
+"""Self-learning v2: consolidate conversations + autonomous web research per bot topic"""
+import httpx, json, asyncio, os, datetime, re, random
+
+OLLAMA = "http://localhost:11434"
+LIGHTRAG = "http://localhost:18888" 
+MEMORY = "http://127.0.0.1:8005"
+MODEL = "qwen3:4b"
+WIKI_DIR = "/data/lightrag/wiki"
+
+# ─── Topics for autonomous web research per bot ──────────────
+BOT_TOPICS = {
+    "sinabon": ["мудрые цитаты", "афоризмы о жизни", "философские мысли", "inspirational quotes wisdom"],
+    "tsilya": ["одесский юмор", "еврейские анекдоты", "одесские истории", "житейская мудрость"],
+    "paladin": ["мужская психология", "сила духа", "мотивация", "мужские ценности"],
+    "shadow": ["продуктивность", "системное мышление", "стратегия", "оркестрация процессов"],
+    "hermes": ["маркетинг тренды 2026", "digital маркетинг", "аналитика рынка", "стратегия продвижения"],
+    "gost": ["хакинг этичный", "автоматизация скрипты", "кибербезопасность", "bash python automation"],
+    "belfort": ["crypto news today", "bitcoin analysis", "рынок криптовалют", "trading strategies 2026"],
+    "jarvis": ["создание контента", "копирайтинг", "блогинг", "content strategy 2026"],
+}
+
+async def web_search(query: str, max_results: int = 5) -> list:
+    """Search DuckDuckGo for articles on topic"""
+    results = []
+    try:
+        async with httpx.AsyncClient(timeout=15.0, follow_redirects=True, proxy="socks5://100.83.112.11:1080") as c:
+            r = await c.get("https://lite.duckduckgo.com/lite/", params={"q": query})
+            # Extract links and titles
+            urls = re.findall(r'<a[^>]*href="(https?://[^"]+)"[^>]*>([^<]+)', r.text)
+            seen = set()
+            for url, title in urls[:max_results]:
+                t = re.sub(r"<[^>]+>", "", title).strip()
+                if t and url not in seen and "duckduckgo" not in url:
+                    seen.add(url)
+                    results.append({"title": t[:100], "url": url[:150]})
+    except Exception as e:
+        print(f"  search err: {e}")
+    return results
+
+async def fetch_and_summarize(url: str, title: str, agent: str) -> str:
+    """Fetch a page and ask LLM to summarize it into a fact"""
+    try:
+        async with httpx.AsyncClient(timeout=15.0, follow_redirects=True, proxy="socks5://100.83.112.11:1080") as c:
+            r = await c.get(url)
+            text = r.text[:4000]  # First 4K chars
+        
+        prompt = f"""Extract 1-2 key facts from this article as a JSON list.
+Format: [{{"fact": "short fact", "type": "knowledge"}}]
+Article title: {title[:100]}
+Content: {text[:2000]}"""
+        
+        async with httpx.AsyncClient(timeout=30) as c:
+            r = await c.post(f"{OLLAMA}/api/chat", json={
+                "model": MODEL,
+                "messages": [
+                    {"role": "system", "content": "Reply ONLY with valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                "stream": False,
+                "options": {"num_predict": 256, "temperature": 0.1}
+            })
+            raw = r.json().get("message", {}).get("content", "[]")
+            match = re.search(r"\[.*\]", raw, re.DOTALL)
+            if match:
+                facts = json.loads(match.group())
+                for fact in facts:
+                    fact["agent"] = agent
+                    fact["source"] = url[:100]
+                return facts
+    except Exception as e:
+        print(f"  fetch err: {e}")
+    return []
+
+async def save_facts(facts: list):
+    """Save web-mined facts to LightRAG"""
+    for f in facts:
+        fact_text = f.get("fact", "")
+        agent = f.get("agent", "unknown")
+        source = f.get("source", "")
+        if not fact_text:
+            continue
+        tagged = f"[web/{agent}] {fact_text} (source: {source})"
+        try:
+            async with httpx.AsyncClient(timeout=30) as c:
+                r = await c.post(f"{LIGHTRAG}/insert", json={"text": tagged[:5000]})
+                print(f"  ✅ [{agent}] {fact_text[:60]}... -> {r.status_code}")
+        except Exception as e:
+            print(f"  save err: {e}")
+        await asyncio.sleep(0.3)
+
+async def research_bot_topics():
+    """Main research loop: for each bot, search web + save facts"""
+    print(f"\n=== Web Research at {datetime.datetime.now()} ===")
+    for agent, queries in BOT_TOPICS.items():
+        # Pick 2 random queries per bot per run
+        selected = random.sample(queries, min(2, len(queries)))
+        for query in selected:
+            print(f"  [{agent}] Searching: {query}")
+            results = await web_search(query, max_results=3)
+            for r in results:
+                print(f"    Found: {r['title'][:50]}...")
+                facts = await fetch_and_summarize(r["url"], r["title"], agent)
+                if facts:
+                    await save_facts(facts)
+            await asyncio.sleep(1)
+
+async def consolidate_conversations():
+    """Original consolidation logic"""
+    print(f"\n=== Consolidating conversations at {datetime.datetime.now()} ===")
+    try:
+        async with httpx.AsyncClient(timeout=10) as c:
+            r = await c.get(f"{MEMORY}/conversations/recent?minutes=360&limit=100")
+            if r.status_code == 200:
+                convos = r.json().get("conversations", [])
+                print(f"  Got {len(convos)} conversations")
+                # Group by agent
+                by_agent = {}
+                for c in convos:
+                    agent = c.get("agent", "unknown")
+                    by_agent.setdefault(agent, []).append(c)
+                
+                for agent, chats in by_agent.items():
+                    recent = chats[-20:]
+                    text = "\n".join([
+                        f"User: {cc.get('user_message','')[:200]}\n{agent}: {cc.get('bot_response','')[:200]}"
+                        for cc in recent if cc.get("user_message") and cc.get("bot_response")
+                    ])
+                    if not text.strip():
+                        continue
+                    
+                    prompt = f"Extract 1-2 key facts from {agent}'s conversations as JSON list.\nConversations:\n{text[:2000]}"
+                    try:
+                        async with httpx.AsyncClient(timeout=30) as c:
+                            r = await c.post(f"{OLLAMA}/api/chat", json={
+                                "model": MODEL,
+                                "messages": [
+                                    {"role": "system", "content": "Reply ONLY with valid JSON: [{\"fact\":\"...\",\"type\":\"knowledge\"}]"},
+                                    {"role": "user", "content": prompt}
+                                ],
+                                "stream": False,
+                                "options": {"num_predict": 256, "temperature": 0.1}
+                            })
+                            raw = r.json().get("message", {}).get("content", "[]")
+                            match = re.search(r"\[.*\]", raw, re.DOTALL)
+                            if match:
+                                facts = json.loads(match.group())
+                                for f in facts:
+                                    f["agent"] = agent
+                                if facts:
+                                    await save_facts(facts)
+                    except Exception as e:
+                        print(f"  consolidate {agent}: {e}")
+    except Exception as e:
+        print(f"consolidate err: {e}")
+    
+    # Write summary to Obsidian
+    date = datetime.datetime.now().strftime("%Y-%m-%d")
+    dir_path = os.path.join(WIKI_DIR, "conversations", "_consolidated")
+    os.makedirs(dir_path, exist_ok=True)
+    path = os.path.join(dir_path, f"{date}.md")
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(f"\n## Self-learning run: {datetime.datetime.now()}\n")
+
+async def main():
+    print(f"=== Self-learning v2 start at {datetime.datetime.now()} ===")
+    
+    # Phase 1: Web research (каждый бот ищет по своей теме)
+    await research_bot_topics()
+    
+    # Phase 2: Consolidate conversations 
+    await consolidate_conversations()
+    
+    print(f"\n=== Self-learning v2 done at {datetime.datetime.now()} ===")
+
+if __name__ == "__main__":
+    asyncio.run(main())
