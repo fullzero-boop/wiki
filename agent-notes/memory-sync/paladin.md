@@ -1,4 +1,4 @@
-# Paladin — Memory (2026-06-16 15:16 UTC)
+# Paladin — Memory (2026-08-09 13:15 UTC)
 
 Всего фактов: 5
 
@@ -17,6 +17,3 @@
 > **NEW** (id=5, general)
   Bybit passphrase (фраза): Bbatkavi4@
 
-## Связанные
-- [[agents/Paladin.md]]
-- [[agent-notes/hermes-system-paladin.md]]

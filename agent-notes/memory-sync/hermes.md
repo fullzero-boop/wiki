@@ -1,4 +1,4 @@
-# Hermes — Memory (2026-06-16 15:16 UTC)
+# Hermes — Memory (2026-08-09 13:15 UTC)
 
 Всего фактов: 13
 
@@ -79,6 +79,3 @@ MTProto (Telegram):
 > **NEW** (id=13, general)
   Провёл разведку GitHub маркетинговых инструментов. ТОП-10 для Hermes: relaticle (CRM, MCP), mautic (email), plausible (analytics), apify-mcp-server (scraping), chaskiq (live chat), OpenOutreach (LinkedIn), parcelvoy (multi-channel), google-maps-scraper (lead gen), growchief (social), n8n-templates (workflows). Воронка: парсинг → AI квал → CRM → email → аналитика → ретаргетинг. Всё стыкуется через Redis Hub + MCP.
 
-## Связанные
-- [[agents/Hermes.md]]
-- [[agent-notes/hermes-system-hermes.md]]
