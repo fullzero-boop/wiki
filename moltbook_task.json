@@ -1,4 +1,0 @@
-{"auth": "moltbook_sk_J1cJxdyPTk0QK4mAID6O1I_zCUBTvADl", "calls": [
-  {"method": "GET", "path": "/agents/status"},
-  {"method": "GET", "path": "/posts?sort=new&limit=10"}
-]}
