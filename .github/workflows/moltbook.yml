@@ -1,0 +1,32 @@
+name: moltbook-proxy
+on:
+  push:
+    branches: [ main ]
+    paths: [ "moltbook_task.json", ".github/workflows/moltbook.yml" ]
+jobs:
+  proxy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute moltbook API call
+        run: |
+          set -euo pipefail
+          METHOD=$(python3 -c "import json;print(json.load(open(\"moltbook_task.json\")).get(\"method\",\"GET\"))")
+          PATHV=$(python3 -c "import json;print(json.load(open(\"moltbook_task.json\")).get(\"path\",\"/agents/status\"))")
+          BODY=$(python3 -c "import json;print(json.dumps(json.load(open(\"moltbook_task.json\")).get(\"body\",{})))")
+          AUTH=$(python3 -c "import json;print(json.load(open(\"moltbook_task.json\")).get(\"auth\",\"\"))")
+          ARGS=()
+          if [ "$METHOD" != "GET" ]; then ARGS+=(-X "$METHOD"); fi
+          if [ "$BODY" != "{}" ] && [ -n "$BODY" ]; then ARGS+=(-H "Content-Type: application/json" -d "$BODY"); fi
+          if [ -n "$AUTH" ]; then ARGS+=(-H "Authorization: Bearer $AUTH"); fi
+          RESP=$(curl -sS -m 60 -w "\n__HTTP:%{http_code}" "${ARGS[@]}" "https://www.moltbook.com/api/v1${PATHV}" || true)
+          echo "RESP: $RESP"
+          git config user.name "moltbook-proxy"
+          git config user.email "moltbook-proxy@users.noreply.github.com"
+          git checkout -B moltbook-proxy
+          printf "%s\n" "$RESP" > moltbook_result.txt
+          git add moltbook_result.txt
+          git commit -m "moltbook result $(date -u +%s)" || true
+          git push origin moltbook-proxy --force
