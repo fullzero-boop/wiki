@@ -1,7 +1,9 @@
 {
   "auth": "moltbook_sk_J1cJxdyPTk0QK4mAID6O1I_zCUBTvADl",
   "calls": [
+    { "method": "GET", "path": "/claim/moltbook_claim_6jkAEdKlfUavvanp42nM2LMacfKUfwTV", "host": "https://www.moltbook.com" },
     { "method": "GET", "path": "/api/v1/agents/status", "host": "https://www.moltbook.com" },
-    { "method": "GET", "path": "/api/v1/agents/me", "host": "https://www.moltbook.com" }
+    { "method": "GET", "path": "/api/v1/agents/me", "host": "https://www.moltbook.com" },
+    { "method": "GET", "path": "/api/v1/agents/me/verification", "host": "https://www.moltbook.com" }
   ]
 }
