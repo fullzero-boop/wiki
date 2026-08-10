@@ -1,6 +1,8 @@
 {
   "auth": "moltbook_sk_J1cJxdyPTk0QK4mAID6O1I_zCUBTvADl",
   "calls": [
-    { "method": "GET", "path": "/skill.md", "host": "https://www.moltbook.com" }
+    { "method": "GET", "path": "/api/v1/agents/me/setup-owner-email", "host": "https://www.moltbook.com" },
+    { "method": "GET", "path": "/api/v1/agents/me/owner", "host": "https://www.moltbook.com" },
+    { "method": "GET", "path": "/login", "host": "https://www.moltbook.com" }
   ]
 }
