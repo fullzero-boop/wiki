@@ -10,23 +10,29 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Execute moltbook API call
+      - name: Execute moltbook API calls
         run: |
           set -euo pipefail
-          METHOD=$(python3 -c "import json;print(json.load(open(\"moltbook_task.json\")).get(\"method\",\"GET\"))")
-          PATHV=$(python3 -c "import json;print(json.load(open(\"moltbook_task.json\")).get(\"path\",\"/agents/status\"))")
-          BODY=$(python3 -c "import json;print(json.dumps(json.load(open(\"moltbook_task.json\")).get(\"body\",{})))")
           AUTH=$(python3 -c "import json;print(json.load(open(\"moltbook_task.json\")).get(\"auth\",\"\"))")
-          ARGS=()
-          if [ "$METHOD" != "GET" ]; then ARGS+=(-X "$METHOD"); fi
-          if [ "$BODY" != "{}" ] && [ -n "$BODY" ]; then ARGS+=(-H "Content-Type: application/json" -d "$BODY"); fi
-          if [ -n "$AUTH" ]; then ARGS+=(-H "Authorization: Bearer $AUTH"); fi
-          RESP=$(curl -sS -m 60 -w "\n__HTTP:%{http_code}" "${ARGS[@]}" "https://www.moltbook.com/api/v1${PATHV}" || true)
-          echo "RESP: $RESP"
+          python3 - <<"PY" > /tmp/calls.sh
+          import json
+          t = json.load(open("moltbook_task.json"))
+          print("set -euo pipefail")
+          for i, c in enumerate(t.get("calls", [])):
+              m = c.get("method","GET"); p = c.get("path","/agents/status")
+              b = json.dumps(c.get("body",{}))
+              line = f"echo \\"===== CALL {i} {m} {p} =====\\""
+              print(line)
+              args = "-X " + m if m != "GET" else ""
+              if b != "{}" and b: args += f" -H \\"Content-Type: application/json\\" -d \\"{b}\\""
+              if AUTH: args += " -H \\"Authorization: Bearer " + AUTH + "\\""
+              print(f"curl -sS -m 60 -w \\"\\\\n__HTTP:%{{http_code}}\\" {args} \\"https://www.moltbook.com/api/v1{p}\\" || true")
+          PY
+          bash /tmp/calls.sh
           git config user.name "moltbook-proxy"
           git config user.email "moltbook-proxy@users.noreply.github.com"
           git checkout -B moltbook-proxy
-          printf "%s\n" "$RESP" > moltbook_result.txt
+          bash /tmp/calls.sh > moltbook_result.txt 2>&1 || true
           git add moltbook_result.txt
           git commit -m "moltbook result $(date -u +%s)" || true
           git push origin moltbook-proxy --force
