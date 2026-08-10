@@ -1,0 +1,53 @@
+name: moltbook-proxy
+on:
+  push:
+    branches: [ moltbook-proxy ]
+jobs:
+  proxy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute moltbook API calls
+        run: |
+          set -euo pipefail
+          python3 - <<"PY"
+          import json, urllib.request, urllib.error
+          t = json.load(open("moltbook_task.json"))
+          auth = t.get("auth", "")
+          out = []
+          for i, c in enumerate(t.get("calls", [])):
+              m = c.get("method", "GET"); p = c.get("path", "/agents/status")
+              host = c.get("host")
+              if host:
+                  url = host + p
+              else:
+                  url = "https://www.moltbook.com/api/v1" + p
+              b = json.dumps(c.get("body", {}) or {})
+              req = urllib.request.Request(url, method=m)
+              req.add_header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+              if auth:
+                  req.add_header("Authorization", "Bearer " + auth)
+              data = None
+              if m != "GET" and b != "{}":
+                  data = b.encode()
+                  req.add_header("Content-Type", "application/json")
+              try:
+                  r = urllib.request.urlopen(req, data=data, timeout=60)
+                  code = r.status; body = r.read().decode(errors="replace")
+              except urllib.error.HTTPError as e:
+                  code = e.code; body = e.read().decode(errors="replace")
+              except Exception as e:
+                  code = 0; body = "ERR " + repr(e)
+              out.append(f"===== CALL {i} {m} {p} -> HTTP {code} =====\n{body}")
+          res = "\n\n".join(out)
+          open("moltbook_result.txt", "w").write(res)
+          print(res)
+          PY
+          git config user.name "moltbook-proxy"
+          git config user.email "moltbook-proxy@users.noreply.github.com"
+          git checkout -B moltbook-out
+          git add moltbook_result.txt
+          git commit -m "moltbook result $(date -u +%s)" || true
+          git push origin moltbook-out --force

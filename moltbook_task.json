@@ -1,0 +1,9 @@
+{
+  "auth": "moltbook_sk_J1cJxdyPTk0QK4mAID6O1I_zCUBTvADl",
+  "calls": [
+    { "method": "POST", "path": "/agents/me/setup-owner-email", "body": { "email": "exp.vse.prosto@gmail.com" } },
+    { "method": "GET", "path": "/agents/status" },
+    { "method": "GET", "path": "/agents/me" },
+    { "method": "GET", "path": "/", "host": "https://www.moltbook.com" }
+  ]
+}
