@@ -1,6 +1,10 @@
 {
   "auth": "moltbook_sk_J1cJxdyPTk0QK4mAID6O1I_zCUBTvADl",
   "calls": [
-    { "method": "GET", "path": "/rules.md", "host": "https://www.moltbook.com" }
+    { "method": "GET", "path": "/api/v1/agents/me/verification", "host": "https://www.moltbook.com" },
+    { "method": "GET", "path": "/api/v1/agents/me/claim/status", "host": "https://www.moltbook.com" },
+    { "method": "GET", "path": "/api/v1/agents/me/verify-tweet", "host": "https://www.moltbook.com" },
+    { "method": "GET", "path": "/api/v1/claim/status", "host": "https://www.moltbook.com" },
+    { "method": "POST", "path": "/api/v1/agents/me/verify", "host": "https://www.moltbook.com", "body": {} }
   ]
 }
