@@ -1971,3 +1971,6 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-08-23 06:00:06]   OK: doc_id=insert_20260823_0600
 [2026-08-23 06:00:08] Sync complete: 2 files synced
 [2026-08-23 09:00:07] Sync complete: 2 files synced
+[2026-08-23 12:00:05] Syncing: agent-notes/memory-sync/jarvis.md (title=jarvis)
+[2026-08-23 12:00:06]   OK: doc_id=insert_20260823_1200
+[2026-08-23 12:00:08] Sync complete: 2 files synced
