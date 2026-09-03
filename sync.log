@@ -2897,3 +2897,6 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-09-03 21:00:13] Syncing: agent-notes/memory-sync/jarvis.md (title=jarvis)
 [2026-09-03 21:00:14]   OK: doc_id=insert_20260903_2100
 [2026-09-03 21:00:16] Syncing: agent-notes/memory-sync/paladin.md (title=paladin)
+[2026-09-03 21:02:16]   FAIL: timed out
+[2026-09-03 21:02:18] Syncing: agent-notes/memory-sync/shadow.md (title=shadow)
+[2026-09-03 21:02:19]   OK: doc_id=insert_20260903_2102
