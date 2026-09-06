@@ -3234,3 +3234,5 @@ UnboundLocalError: cannot access local variable 'track' where it is not associat
 [2026-09-06 21:00:20] Syncing: agent-notes/memory-sync/shadow.md (title=shadow)
 [2026-09-06 21:00:22]   OK: doc_id=insert_20260906_2100
 [2026-09-06 21:00:24] Syncing: agent-notes/memory-sync/tsilya.md (title=tsilya)
+[2026-09-06 21:00:25]   OK: doc_id=insert_20260906_2100
+[2026-09-06 21:00:27] Sync complete: 7 files synced
